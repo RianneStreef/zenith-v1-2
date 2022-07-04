@@ -9,7 +9,7 @@ import intakeInfo from "../content/intake";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
-import Services from "../components/Services";
+import USP from "../components/USP";
 import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
@@ -34,7 +34,7 @@ const IndexPage = function (props) {
       <div className="header-placeholder" />
       <Hero language={language} languageToUse={languageToUse} />
       <Intro language={language} languageToUse={languageToUse} />
-      <Services language={language} languageToUse={languageToUse} />
+      <USP language={language} languageToUse={languageToUse} />
       <Contact language={language} languageToUse={languageToUse} />
       <a
         href="https://zenith-skishop.notresphere.com/location-materiel"

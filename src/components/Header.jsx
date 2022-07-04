@@ -34,7 +34,7 @@ const Header = (props) => {
           <Link to="/" className="nav-link">
             Zenith Ski Shop
           </Link>
-          <Link to="/#bootfitting" className="nav-link">
+          <Link to="/bootfitting" className="nav-link">
             {languageToUse.bootfitting}
           </Link>
           <Link to="/#services" className="nav-link">
