@@ -1,0 +1,123 @@
+/* font : https://fonts.google.com/specimen/IBM+Plex+Sans
+
+Titre en bold 700
+paragraphe en regular 400
+
+COULEUR HEX: ffda0a */
+
+:root {
+  --color-highlight: #ffe921;
+  --color-shadow: #eaeaea;
+  --color-text: #fff;
+  --color-background: #000;
+  --color-background-light: rgb(59, 58, 58);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: "Roboto";
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  width: 30px;
+  margin: 20px;
+}
+
+.flag {
+  width: 25px;
+  margin: 5px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.invisible-button {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  margin: 10px;
+}
+
+.header-placeholder {
+  height: 80px;
+}
+
+.book-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  padding: 20px;
+  text-decoration: none;
+}
+
+.book-link:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
