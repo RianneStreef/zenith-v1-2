@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-bootfitting-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/bootfitting.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/index.jsx")),
   "component---src-pages-legal-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/legal.jsx")),
+  "component---src-pages-modjo-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/modjo.jsx")),
   "component---src-pages-rip-n-wud-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/rip-n-wud.jsx")),
   "component---src-pages-success-jsx": preferDefault(require("/Users/rianne/Desktop/zenith-v1-2/src/pages/success.jsx"))
 }

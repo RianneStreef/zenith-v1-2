@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import { content } from "../content/languages";
 
@@ -32,6 +33,7 @@ const USP = (props) => {
           alt="bootfitting"
           className="usp-intro-image"
         />
+        <Link to="/bootfitting">{languageToUse.moreInfo}</Link>
       </div>
       <div className="usp-intro modjo-intro">
         <div className="usp-intro-text">
@@ -50,6 +52,7 @@ const USP = (props) => {
           alt="ski modjo"
           className="usp-intro-image"
         />
+        <Link to="/modjo">{languageToUse.moreInfo}</Link>
       </div>
       <div className="usp-intro rip-n-wud-intro">
         <div className="usp-intro-text">
@@ -68,6 +71,7 @@ const USP = (props) => {
           alt="Rip 'n Wood"
           className="usp-intro-image"
         />
+        <Link to="/rip-n-wud">{languageToUse.moreInfo}</Link>
       </div>
     </div>
   );

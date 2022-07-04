@@ -14,6 +14,8 @@ export const english = {
   modjo: "Ski Modjo",
   ripNWud: "Rip 'n Wud",
 
+  moreInfo: "More information",
+
   contact: "Contact",
   contactIntro: "Contact intro",
   name: "Name",
