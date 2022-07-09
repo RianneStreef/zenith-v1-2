@@ -4204,6 +4204,7 @@ exports.components = {
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx */ "./src/pages/bootfitting.jsx")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx */ "./src/pages/index.jsx")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx */ "./src/pages/legal.jsx")),
+  "component---src-pages-modjo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-modjo-jsx */ "component---src-pages-modjo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/modjo.jsx */ "./src/pages/modjo.jsx")),
   "component---src-pages-rip-n-wud-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-rip-n-wud-jsx */ "component---src-pages-rip-n-wud-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/rip-n-wud.jsx */ "./src/pages/rip-n-wud.jsx")),
   "component---src-pages-success-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-success-jsx */ "component---src-pages-success-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/success.jsx */ "./src/pages/success.jsx"))
 };
@@ -6112,15 +6113,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/Footer.css */ "./src/styles/Footer.css");
-/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _images_LOGO_VER_White_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/LOGO-VER-White.svg */ "./src/images/LOGO-VER-White.svg");
+/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/Footer.css */ "./src/styles/Footer.css");
+/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Footer_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 
 
 
-const Footer = () => {
+
+
+
+const Footer = props => {
+  let {
+    language,
+    languageToUse
+  } = props;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.french;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer"
-  }, "Footer");
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "footer-links"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/bootfitting"
+  }, "Bootfitting")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/modjo"
+  }, "Ski Modjo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/rip-n-wud"
+  }, "Rip 'n Wud")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/services"
+  }, languageToUse.services)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://zenith-skishop.notresphere.com/location-materiel",
+    target: "blank"
+  }, languageToUse.book))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, languageToUse.partners), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.valthorens.com/"
+  }, languageToUse.siteValThorens)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.immobilier-valthorens.fr/",
+    target: "blank"
+  }, "MaCle Immo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.agencelacime.com/",
+    target: "blank"
+  }, "Agence la Cime")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.alpineimmo.com/",
+    target: "blank"
+  }, "Alpine Immo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.ski-cool.com/",
+    target: "blank"
+  }, "Ski Cool")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://libre-envol.com/",
+    target: "blank"
+  }, languageToUse.valthoFromSky)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "footer-logo",
+    src: _images_LOGO_VER_White_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: ""
+  }));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
@@ -6189,7 +6235,7 @@ const Header = props => {
     to: "/",
     className: "nav-link"
   }, "Zenith Ski Shop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/#bootfitting",
+    to: "/bootfitting",
     className: "nav-link"
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/#services",
@@ -6491,6 +6537,7 @@ const english = {
   underTitle: "Bootfitter de père en fils depuis 1985",
   modjo: "Ski Modjo",
   ripNWud: "Rip 'n Wud",
+  moreInfo: "More information",
   contact: "Contact",
   contactIntro: "Contact intro",
   name: "Name",
@@ -6524,12 +6571,20 @@ const french = {
   underTitle: "Bootfitter de père en fils depuis 1985",
   modjo: "Ski Modjo",
   ripNWud: "Rip 'n Wud",
+  moreInfo: "Plus d'informations",
   contact: "Contact",
   contactIntro: "Contact intro",
   name: "Name",
   email: "Email",
   message: "Message",
   send: "Send",
+  address: "Adresse",
+  addressContent: "Immeuble Le Zénith Place Caron Val Thorens, 73440 Les Belleville, France",
+  tel: "Numéro",
+  telContent: "00 33 (0)4 79 00 05 28",
+  partners: "Partenaires",
+  siteValThorens: "Le site officiel de Val Thorens",
+  valthoFromSky: "Val Thorens vu du ciel",
   thanks: "Thank you for your message!"
 };
 
@@ -14279,6 +14334,21 @@ var isPropValid = /* #__PURE__ */(0,_emotion_memoize__WEBPACK_IMPORTED_MODULE_0_
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isPropValid);
 
+
+/***/ }),
+
+/***/ "./src/images/LOGO-VER-White.svg":
+/*!***************************************!*\
+  !*** ./src/images/LOGO-VER-White.svg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/LOGO-VER-White-b3382232ca6f1adbd7ad4118df2030d9.svg");
 
 /***/ }),
 

@@ -84,7 +84,7 @@ const Navbar = (props) => {
             {languageToUse.bootfitting}
           </Link>
           <Link
-            to="/#services"
+            to="/services"
             className="nav-link"
             onClick={() => setOpen(!open)}
           >

@@ -37,7 +37,7 @@ const Header = (props) => {
           <Link to="/bootfitting" className="nav-link">
             {languageToUse.bootfitting}
           </Link>
-          <Link to="/#services" className="nav-link">
+          <Link to="/services" className="nav-link">
             {languageToUse.services}
           </Link>
           <a

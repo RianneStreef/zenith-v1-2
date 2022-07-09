@@ -20,13 +20,7 @@ const USP = (props) => {
       <div className="usp-intro bootfitting-intro">
         <div className="bootfitting-intro-text">
           <h2>{languageToUse.bootfitting}</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et
-            faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt
-            ullamcorper augue, et faucibus dolor lacinia nec.
-          </p>
+          <p>{languageToUse.Usp1Text}</p>
         </div>
         <img
           src={bootfittingIntroImage}
@@ -39,13 +33,7 @@ const USP = (props) => {
         <div className="usp-intro-text">
           <h2>{languageToUse.modjo}</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et
-            faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt
-            ullamcorper augue, et faucibus dolor lacinia nec.
-          </p>
+          <p>{languageToUse.Usp2Text}</p>
         </div>
         <img
           src={modjoIntroImage}
@@ -58,13 +46,7 @@ const USP = (props) => {
         <div className="usp-intro-text">
           <h2>{languageToUse.ripNWud}</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et
-            faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt
-            ullamcorper augue, et faucibus dolor lacinia nec.
-          </p>
+          <p>{languageToUse.Usp3Text}</p>
         </div>
         <img
           src={ripNWudIntroImage}
