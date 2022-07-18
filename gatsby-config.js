@@ -24,6 +24,7 @@ module.exports = {
       },
       __key: "pages",
     },
+
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -39,6 +40,12 @@ module.exports = {
       resolve: "gatsby-plugin-layout",
       options: {
         component: require.resolve("./src/components/Layout.jsx"),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/favicon.ico",
       },
     },
   ],

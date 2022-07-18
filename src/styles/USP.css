@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  min-height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 .usp-intro {

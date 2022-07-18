@@ -1,3 +1,4 @@
 .explanation {
-  padding: 40px;
+  height: calc(100vh - 290px);
+  padding: 40px 100px;
 }
