@@ -1,0 +1,12 @@
+.insta {
+  background-image: url("../images/hero-insta.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: none;
+  height: calc(100vh - 90px);
+  padding: 100px;
+}
+
+.insta-feed {
+  margin: auto;
+}

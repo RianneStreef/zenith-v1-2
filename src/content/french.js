@@ -9,6 +9,7 @@ export const french = {
   services: "Services",
   book: "Reserver",
 
+  heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
 
   modjo: "Ski Modjo",
@@ -18,11 +19,18 @@ export const french = {
 
   introTitle1: "BIENVENUE SUR LE SITE ZENITH SKI SHOP",
   introTitle2: "LOCATION SKI / SNOWBOARD VAL THORENS",
-  introText1:
-    "Le magasin Zenith Ski Shop à Val Thorens est le spécialiste du bootfitting (nous adaptons vos chaussures de skis en fonction de votre morphologie) depuis plus de 30 ans dans Les 3 Vallées. Seul magasin encore indépendant à Val Thorens, nous mettons l'accent sur le service et la qualité pour rendre votre séjour toujours plus agréable.",
-  introText2:
-    "Zenith Ski Shop, c'est aussi la vente, la location et l'entretien de vos skis et snowboards.",
+  introText1: "Le magasin ",
+  introText1B: "Zenith Ski Shop à Val Thorens",
+  introText2: " est le ",
+  introText2B: "spécialiste du bootfitting ",
   introText3:
+    " nous adaptons vos chaussures de skis en fonction de votre morphologie) depuis plus de 30 ans dans Les 3 Vallées. ",
+  introText3b: "Seul magasin encore indépendant",
+  introText4:
+    " à Val Thorens, nous mettons l'accent sur le service et la qualité pour rendre votre séjour toujours plus agréable.",
+  introText5:
+    "Zenith Ski Shop, c'est aussi la vente, la location et l'entretien de vos skis et snowboards.",
+  introText6:
     "Toute l'équipe de Zenith Ski Shop à Val Thorens vous souhaite une bonne glisse et un agréable séjour dans la meilleure station de ski de France.",
 
   contact: "Contact",
@@ -39,11 +47,22 @@ export const french = {
   telContent: "00 33 (0)4 79 00 05 28",
 
   Usp1Text:
-    "Nous avons tous les pieds différents, naturellement ou par accident, or les chaussures de ski sont fabriquées en paires identiques et selon les critères de chaque marque. Il est logique de devoir les aménager pour obtenir le meilleur confort en skiant.",
+    "Le bootfitting c’est notre spécialité! Les pieds sont tous différents, il est normal de devoir aménager les chaussures pour un confort optimal en skiant.",
   Usp2Text:
-    "La genouillère bionique dédiée à la pratique du ski est arrivée. Oubliez vos douleurs articulaires et la fatigue. Skiez sans effort avec l'exosquelette du skieur.",
+    "La genouillère bionique dédiée à la pratique du ski est arrivée. Oubliez vos douleurs articulaires et la fatigue. Skiez sans effort avec l'exosquelette.",
   Usp3Text:
-    "Véritables skis en bois, fait main, garantis 5 ans. Conçus en Haute Savoie. Pour skieur expérimenté, stock limité ou sur commande.",
+    "Adaptations de vos chaussures, entretien skis et snowboards, solutions de confort (semelles et gants chauffants, verres polarisés,...)",
+
+  ourServices: "Nos services",
+
+  explanationTitle: "ZENITH SKI SHOP - LOCATION SKIS ET SNOWBOARDS",
+
+  explanationText1:
+    "Pour la location de skis / snowboard / chaussures nous vous proposons l’équipement correspondant à votre besoin et à votre niveau. Notre parc de location est actualisé chaque année. Nos chaussures de location sont séchées et aseptisées après chaque sortie et, si nécessaire, nous personnalisons celles que vous louez.",
+  explanationText2:
+    "Vous pouvez changer de glisse pendant votre séjour et si vous résidez loin des pistes, nous pouvons garder vos skis le soir après votre journée de glisse. Pour faciliter toujours plus votre séjour et ne pas gaspiller de temps lors de votre arrivée à Val Thorens, nous vous offrons la possibilité d’effectuer la location de votre matériel en ligne.",
+  explanationText3:
+    "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
 
   bootfittingIntro1:
     "We have all different feet, naturally or by accident, or ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing. First we help you to buy your ski boots based on the anatomy of your feet we know analyze: feet long and thin, short and stocky, flat or arched, inactive, footballer, dancer, runner. Then, after the first ride you give us your impressions and we refine the settings together.",

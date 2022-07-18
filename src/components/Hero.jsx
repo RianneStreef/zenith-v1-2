@@ -4,7 +4,7 @@ import { content } from "../content/languages";
 
 import "../styles/Hero.css";
 
-import logo from "../images/icon.png";
+import logoHero from "../images/logo-hero.svg";
 
 const Hero = (props) => {
   let { language, languageToUse } = props;
@@ -16,8 +16,9 @@ const Hero = (props) => {
   return (
     <div className="hero">
       <div className="hero-content-container">
-        <img src={logo} alt="logo" className="hero-logo" />
-        <h1 className="hero-title">{languageToUse.underTitle}</h1>
+        <img src={logoHero} alt="logo" className="hero-logo" />
+        <h1 className="hero-title">{languageToUse.heroTitle}</h1>
+        <h2 className="hero-title">{languageToUse.underTitle}</h2>
       </div>
     </div>
   );

@@ -3,23 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  min-height: 100vh;
 }
 
 .usp-intro {
-  background-color: var(--color-background-light);
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 20px;
+  margin: 0 30px;
+  color: var(--color-text-gray);
+}
+
+.usp-link {
+  background-color: #000;
+  color: var(--color-highlight);
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .usp-intro-image {
-  width: 100%;
+  width: 200px;
+  margin: auto;
+}
+
+.usp-intro-text {
+  width: 200px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .usp {
     flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: center;
   }
 }

@@ -1,24 +1,31 @@
 .intro {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-background-light);
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-title {
+  color: var(--color-highlight);
+  font-size: 50px;
 }
 
 .intro-text {
   padding: 20px;
 }
 
-.intro-image {
-  margin: 20px;
+.intro-text-p {
+  font-size: 20px;
+}
+
+.intro-text-p span {
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .intro {
     flex-direction: row;
     margin: 20px;
-  }
-
-  .intro > * {
-    width: 50%;
   }
 }

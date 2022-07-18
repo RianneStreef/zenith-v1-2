@@ -1,19 +1,19 @@
 var plugins = [{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/rianne/Desktop/zenith-v1-2/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/rianne/Desktop/zenith-v1-2/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-google-gtag',
-      plugin: require('/Users/rianne/Desktop/zenith-v1-2/node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js'),
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-google-gtag/gatsby-ssr.js'),
       options: {"plugins":[],"trackingIds":["G-CN0JQ68GS4"],"pluginConfig":{"head":true},"enableWebVitalsTracking":true,"respectDNT":true},
     },{
       name: 'gatsby-plugin-layout',
-      plugin: require('/Users/rianne/Desktop/zenith-v1-2/node_modules/gatsby-plugin-layout/gatsby-ssr.js'),
-      options: {"plugins":[],"component":"/Users/rianne/Desktop/zenith-v1-2/src/components/Layout.jsx"},
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-layout/gatsby-ssr.js'),
+      options: {"plugins":[],"component":"/Users/rianne/Desktop/Zenith/zenith-v1-2/src/components/Layout.jsx"},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

@@ -192,7 +192,7 @@ const Intro = props => {
     className: "intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "intro-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec. Phasellus feugiat ac tortor sit amet aliquam. Ut finibus lorem sed fringilla blandit. Sed odio nisi, efficitur quis placerat sit amet, blandit in sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac tristique dui. Aliquam iaculis sem tincidunt, finibus mauris vitae, pharetra nulla. Mauris quis urna quis justo tempus elementum vitae non nulla. Nulla sodales elit id augue rhoncus, a viverra eros volutpat. Aenean vel varius nisl, sit amet rhoncus justo. Phasellus imperdiet sem ac ante porttitor, ac feugiat ipsum lacinia. Sed ac lacinia est. Ut et efficitur ex, vitae ultricies lectus. Pellentesque eget est erat. Curabitur vel sodales nisi. Aenean tincidunt nulla eu dapibus congue. Pellentesque vel placerat nisi. Sed non dui feugiat, tincidunt turpis sed, molestie eros. In commodo felis vel nisi vestibulum laoreet id vel arcu. Sed sit amet ante eget massa posuere suscipit. Quisque maximus hendrerit blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Vivamus porttitor diam eu odio dictum, non ornare libero dapibus.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.introTitle1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.introTitle2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.introText1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.introText2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.introText3)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_introImage_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "",
     className: "intro-image"
@@ -244,7 +244,7 @@ const USP = props => {
     className: "usp-intro bootfitting-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-intro-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.Usp1Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "bootfitting",
     className: "usp-intro-image"
@@ -254,7 +254,7 @@ const USP = props => {
     className: "usp-intro modjo-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "usp-intro-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.modjo), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.modjo), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.Usp2Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "ski modjo",
     className: "usp-intro-image"
@@ -264,7 +264,7 @@ const USP = props => {
     className: "usp-intro rip-n-wud-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "usp-intro-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.ripNWud), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum condimentum aliquam. Proin tincidunt ullamcorper augue, et faucibus dolor lacinia nec.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.ripNWud), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.Usp3Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "Rip 'n Wood",
     className: "usp-intro-image"
@@ -459,7 +459,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-eb4a6f2b5474ffb3a9abb5e09ee33cf6.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-ce1fe99a0055a092e60a785b6f6d3042.png");
 
 /***/ }),
 

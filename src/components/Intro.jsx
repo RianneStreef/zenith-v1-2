@@ -3,8 +3,6 @@ import { content } from "../content/languages";
 
 import "../styles/Intro.css";
 
-import introImage from "../images/introImage.jpg";
-
 const Intro = (props) => {
   let { language, languageToUse } = props;
 
@@ -14,13 +12,20 @@ const Intro = (props) => {
   return (
     <div className="intro">
       <div className="intro-text">
-        <h2>{languageToUse.introTitle1}</h2>
-        <h2>{languageToUse.introTitle2}</h2>
-        <p>{languageToUse.introText1}</p>
-        <p>{languageToUse.introText2}</p>
-        <p>{languageToUse.introText3}</p>
+        <h2 className="intro-title">{languageToUse.introTitle1}</h2>
+        <h2 className="intro-title">{languageToUse.introTitle2}</h2>
+        <p className="intro-text-p">
+          <span>{languageToUse.introText1}</span>
+          <span className="bold">{languageToUse.introText1B}</span>
+          <span>{languageToUse.introText2}</span>
+          <span className="bold">{languageToUse.introText2B}</span>
+          <span>{languageToUse.introText3}</span>
+          <span className="bold">{languageToUse.introText3B}</span>
+          <span>{languageToUse.introText4}</span>
+        </p>
+        <p className="intro-text-p">{languageToUse.introText5}</p>
+        <p className="intro-text-p bold">{languageToUse.introText6}</p>
       </div>
-      <img src={introImage} alt="" className="intro-image" />
     </div>
   );
 };

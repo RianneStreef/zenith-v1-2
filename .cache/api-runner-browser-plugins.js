@@ -6,7 +6,7 @@ module.exports = [{
       options: {"plugins":[],"trackingIds":["G-CN0JQ68GS4"],"pluginConfig":{"head":true},"enableWebVitalsTracking":true,"respectDNT":true},
     },{
       plugin: require('../node_modules/gatsby-plugin-layout/gatsby-browser.js'),
-      options: {"plugins":[],"component":"/Users/rianne/Desktop/zenith-v1-2/src/components/Layout.jsx"},
+      options: {"plugins":[],"component":"/Users/rianne/Desktop/Zenith/zenith-v1-2/src/components/Layout.jsx"},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},

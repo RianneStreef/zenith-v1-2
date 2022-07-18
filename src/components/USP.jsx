@@ -18,42 +18,33 @@ const USP = (props) => {
   return (
     <div className="usp">
       <div className="usp-intro bootfitting-intro">
-        <div className="bootfitting-intro-text">
-          <h2>{languageToUse.bootfitting}</h2>
-          <p>{languageToUse.Usp1Text}</p>
-        </div>
-        <img
-          src={bootfittingIntroImage}
-          alt="bootfitting"
-          className="usp-intro-image"
-        />
-        <Link to="/bootfitting">{languageToUse.moreInfo}</Link>
+        <Link to="/bootfitting">
+          <img
+            src={bootfittingIntroImage}
+            alt="bootfitting"
+            className="usp-intro-image"
+          />
+          <h3 className="usp-link">{languageToUse.bootfitting}</h3>
+        </Link>
+        <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
       </div>
       <div className="usp-intro modjo-intro">
-        <div className="usp-intro-text">
-          <h2>{languageToUse.modjo}</h2>
-
-          <p>{languageToUse.Usp2Text}</p>
-        </div>
-        <img
-          src={modjoIntroImage}
-          alt="ski modjo"
-          className="usp-intro-image"
-        />
-        <Link to="/modjo">{languageToUse.moreInfo}</Link>
+        <Link to="/modjo">
+          <img
+            src={modjoIntroImage}
+            alt="ski modjo"
+            className="usp-intro-image"
+          />
+          <h3 className="usp-link">{languageToUse.modjo}</h3>
+        </Link>
+        <p className="usp-intro-text">{languageToUse.Usp2Text}</p>
       </div>
-      <div className="usp-intro rip-n-wud-intro">
-        <div className="usp-intro-text">
-          <h2>{languageToUse.ripNWud}</h2>
-
-          <p>{languageToUse.Usp3Text}</p>
-        </div>
-        <img
-          src={ripNWudIntroImage}
-          alt="Rip 'n Wood"
-          className="usp-intro-image"
-        />
-        <Link to="/rip-n-wud">{languageToUse.moreInfo}</Link>
+      <div className="usp-intro services-intro">
+        <Link to="/services">
+          <img src={ripNWudIntroImage} alt="" className="usp-intro-image" />
+          <h3 className="usp-link">{languageToUse.ourServices}</h3>
+        </Link>
+        <p className="usp-intro-text">{languageToUse.Usp3Text}</p>
       </div>
     </div>
   );

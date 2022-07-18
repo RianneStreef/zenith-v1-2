@@ -10,7 +10,8 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 import USP from "../components/USP";
-import Contact from "../components/Contact";
+import Insta from "../components/Insta";
+import Explanation from "../components/Explanation";
 
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
@@ -30,12 +31,18 @@ const IndexPage = function (props) {
         <meta name="description" content={languageToUse.metaDescription} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
+        <script
+          src="https://cdn2.woxo.tech/a.js#60ca0c172d51e300159c2b7c"
+          async
+          data-usrc
+        ></script>
       </Helmet>
       <div className="header-placeholder" />
       <Hero language={language} languageToUse={languageToUse} />
       <Intro language={language} languageToUse={languageToUse} />
       <USP language={language} languageToUse={languageToUse} />
-      <Contact language={language} languageToUse={languageToUse} />
+      <Insta />
+      <Explanation language={language} languageToUse={languageToUse} />
       <a
         href="https://zenith-skishop.notresphere.com/location-materiel"
         target="blank"
