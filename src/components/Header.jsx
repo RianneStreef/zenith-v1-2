@@ -40,6 +40,9 @@ const Header = (props) => {
           <Link to="/services" className="nav-link">
             {languageToUse.services}
           </Link>
+          <Link to="/contact" className="nav-link">
+            {languageToUse.contact}
+          </Link>
           <a
             href="https://zenith-skishop.notresphere.com/location-materiel"
             target="blank"

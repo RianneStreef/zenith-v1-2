@@ -5,10 +5,10 @@
   align-items: flex-start;
   background-image: url("../images/hero.jpg");
   background-size: cover;
-  background-position: 100% 100%;
+  background-position: 75% 100%;
   background-repeat: none;
   width: 100vw;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
 }
 .hero-content-container {
   display: flex;
@@ -27,4 +27,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .hero {
+    background-position: 100% 100%;
+  }
 }

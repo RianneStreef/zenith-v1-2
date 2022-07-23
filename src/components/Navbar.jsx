@@ -19,13 +19,13 @@ const Ul = styled.ul`
 
   li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     padding-right: 25px;
     margin: 10px 0;
-    font-family: "Source Sans Pro Bold";
+    font-family: "IBM Plex Mono light Italic"
     font-size: 20px;
     a {
       color: #fff;
@@ -89,6 +89,13 @@ const Navbar = (props) => {
             onClick={() => setOpen(!open)}
           >
             {languageToUse.services}
+          </Link>
+          <Link
+            to="/contact"
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
+            {languageToUse.contact}
           </Link>
           <a
             href="https://zenith-skishop.notresphere.com/location-materiel"

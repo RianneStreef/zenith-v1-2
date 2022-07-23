@@ -1,4 +1,19 @@
 .explanation {
-  height: calc(100vh - 290px);
-  padding: 40px 100px;
+  min-height: calc(100vh - 290px);
+  padding: 20px;
+}
+
+.explanation-text {
+  font-size: 15px;
+  line-height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .explanation {
+    padding: 40px 100px;
+  }
+
+  .explanation-text {
+    font-size: 25px;
+  }
 }

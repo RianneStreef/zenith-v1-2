@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
 }
 
 .usp-intro {
@@ -24,6 +24,7 @@
   width: 200px;
   text-decoration: none;
   text-align: center;
+  font-family: "Futura";
 }
 
 .usp-intro-image {
@@ -34,6 +35,7 @@
 .usp-intro-text {
   width: 200px;
   text-align: center;
+  font-family: "IBM Plex Mono light Italic";
 }
 
 @media only screen and (min-width: 768px) {

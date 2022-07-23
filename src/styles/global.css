@@ -7,10 +7,24 @@
   --color-background-light: rgb(59, 58, 58);
 }
 
+/* Futura for p 
+ titles en IBM Mono Bold
+IBM Plex Mono light Italic menu et usp 
+*/
+
 @font-face {
-  font-family: "IBM Plex Sans";
-  src: local("IBM Plex Sans"),
-    url(../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf) format("truetype");
+  font-family: "Futura";
+  src: local("Futura"), url(../fonts/futura/futur.ttf) format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Mono Bold";
+  src: local("IBM Plex Mono Bold"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Mono light Italic";
+  src: local("IBM Plex Mono light Italic"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-LightItalic.ttf) format("truetype");
 }
 
 html {
@@ -40,19 +54,20 @@ h1 {
   font-size: 2.2rem;
   font-weight: 700;
   margin: 0;
+  font-family: "IBM Plex Mono Bold";
 }
 
 h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0;
+  font-family: "IBM Plex Mono Bold";
 }
 
 p {
   margin: 0;
   padding: 0;
-  /* line-height: 25px;
-  font-weight: 400; */
+  font-family: "Futura";
   color: var(--color-text-gray);
 }
 
@@ -108,12 +123,14 @@ ul {
 .book-link {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 0;
   z-index: 999;
   color: var(--color-text);
   background-color: var(--color-background);
   padding: 20px;
   text-decoration: none;
+  width: 120px;
+  font-family: "Futura";
 }
 
 .book-link:visited {
