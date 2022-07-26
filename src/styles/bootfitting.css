@@ -1,0 +1,67 @@
+.bootfitting h1 {
+  color: var(--color-highlight);
+}
+
+.bootfitting-problems h3 {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-family: "IBM Plex Mono Bold";
+}
+
+.bootfitting-problem p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.bootfitting-problems-container {
+  background-color: #fff;
+}
+
+.bootfitting-problems {
+  display: flex;
+  flex-direction: column;
+}
+
+.bootfitting-problem-image {
+  background-color: #000;
+  width: 100%;
+}
+
+.bootfitting-under-title {
+  background-image: url("../images/hero-insta.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: none;
+}
+
+.bootfitting-under-title {
+  color: var(--color-highlight);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-family: "IBM Plex Mono Bold";
+  padding: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bootfitting-intro,
+  .bootfitting-title,
+  .bootfitting-problems {
+    padding: 50px;
+  }
+
+  .bootfitting-problems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .bootfitting-problem {
+    width: 25%;
+    margin: 30px;
+  }
+}

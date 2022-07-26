@@ -4202,6 +4202,7 @@ exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsx */ "component---src-pages-404-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx */ "./src/pages/404.jsx")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx */ "./src/pages/bootfitting.jsx")),
+  "component---src-pages-contact-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-contact-jsx */ "component---src-pages-contact-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/contact.jsx */ "./src/pages/contact.jsx")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx */ "./src/pages/index.jsx")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx */ "./src/pages/legal.jsx")),
   "component---src-pages-modjo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-modjo-jsx */ "component---src-pages-modjo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/modjo.jsx */ "./src/pages/modjo.jsx")),
@@ -4259,13 +4260,13 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr.js */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "icon": "src/images/favicon.ico",
+    "icon": "src/images/icon.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "ac46415e82dba44d92b47c6a5990793b"
+    "cacheDigest": "7a0519d8cc75a5be550a07416407d3de"
   }
 }];
 /* global plugins */
@@ -6525,7 +6526,10 @@ const Header = props => {
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/services",
     className: "nav-link"
-  }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/contact",
+    className: "nav-link"
+  }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
     className: "nav-link"
@@ -6666,13 +6670,13 @@ const Ul = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].ul`
 
   li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     padding-right: 25px;
     margin: 10px 0;
-    font-family: "Source Sans Pro Bold";
+    font-family: "IBM Plex Mono light Italic"
     font-size: 20px;
     a {
       color: #fff;
@@ -6739,7 +6743,11 @@ const Navbar = props => {
     to: "/services",
     className: "nav-link",
     onClick: () => setOpen(!open)
-  }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/contact",
+    className: "nav-link",
+    onClick: () => setOpen(!open)
+  }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
     className: "nav-link",

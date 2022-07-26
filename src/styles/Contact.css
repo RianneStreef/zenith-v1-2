@@ -1,5 +1,5 @@
 .contact {
-  background-color: var(--color-background-light);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -7,6 +7,7 @@
 .contact-blocks {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .contact-blocks > * {
@@ -17,29 +18,45 @@
 }
 
 .contact-info {
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  color: #000;
 }
 
-input,
-textarea {
-  width: 90%;
-  margin: auto;
-  color: var(--color-text);
-  background-color: var(--color-background-light);
-  border: none;
-  border-bottom: 1px solid var(--color-text);
+.contact-info > * {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.contact-info a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 30px;
+  margin: 10px;
+}
+
+.iframe-google {
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .contact {
-    margin: 20px;
+    padding: 50px;
   }
   .contact-blocks {
     flex-direction: row;
   }
 
   .contact-blocks > * {
-    width: 30%;
+    width: 50%;
   }
 }

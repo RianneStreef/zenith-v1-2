@@ -19,11 +19,12 @@
 }
 
 .hero-logo {
-  width: 100%;
+  width: 60%;
 }
 
 .hero-title {
   text-align: center;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {

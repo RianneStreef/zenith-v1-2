@@ -12,6 +12,7 @@ import Intro from "../components/Intro";
 import USP from "../components/USP";
 import Insta from "../components/Insta";
 import Explanation from "../components/Explanation";
+import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
@@ -43,6 +44,7 @@ const IndexPage = function (props) {
       <USP language={language} languageToUse={languageToUse} />
       <Insta />
       <Explanation language={language} languageToUse={languageToUse} />
+      <Contact language={language} languageToUse={languageToUse} />
       <a
         href="https://zenith-skishop.notresphere.com/location-materiel"
         target="blank"

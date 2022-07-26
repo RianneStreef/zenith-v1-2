@@ -38,7 +38,7 @@ const BootfittingPage = function (props) {
       </Helmet>
       <div className="header-placeholder" />
 
-      <h1>Bootfitting</h1>
+      <h1 className="bootfitting-title">{languageToUse.bootfittingTitle}</h1>
       <div className="bootfitting-intro">
         <div className="bootfitting-intro-text">
           <p>{languageToUse.bootfittingIntro1}</p>
@@ -50,57 +50,98 @@ const BootfittingPage = function (props) {
           </ul>
           <p>{languageToUse.bootfittingIntro3}</p>
         </div>
-        <img src={bootfittingIntroImage} alt="Bootfitting" />
       </div>
-      <h2>{languageToUse.bootfittingProblemTitle}</h2>
-      <div className="bootfitting-problems">
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem1Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem1Title}</h3>
-          <p>{languageToUse.bootfittingProblem1Text}</p>
+      <div className="bootfitting-problems-container">
+        <h2 className="bootfitting-title">
+          {languageToUse.bootfittingProblemTitle}
+        </h2>
+        <div className="bootfitting-problems">
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem1Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem1Title}</h3>
+            <p>{languageToUse.bootfittingProblem1Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem2Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem2Title}</h3>
+            <p>{languageToUse.bootfittingProblem2Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem3Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem3Title}</h3>
+            <p>{languageToUse.bootfittingProblem3Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem4Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem4Title}</h3>
+            <p>{languageToUse.bootfittingProblem4Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem5Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem5Title}</h3>
+            <p>{languageToUse.bootfittingProblem5Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem6Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem6Title}</h3>
+            <p>{languageToUse.bootfittingProblem6Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem7Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem7Title}</h3>
+            <p>{languageToUse.bootfittingProblem7Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem8Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem8Title}</h3>
+            <p>{languageToUse.bootfittingProblem8Text}</p>
+          </div>
+          <div className="bootfitting-problem">
+            <img
+              src={bootfittingProblem9Image}
+              alt=""
+              className="bootfitting-problem-image"
+            />
+            <h3>{languageToUse.bootfittingProblem9Title}</h3>
+            <p>{languageToUse.bootfittingProblem9Text}</p>
+          </div>
         </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem2Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem2Title}</h3>
-          <p>{languageToUse.bootfittingProblem2Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem3Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem3Title}</h3>
-          <p>{languageToUse.bootfittingProblem3Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem4Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem4Title}</h3>
-          <p>{languageToUse.bootfittingProblem4Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem5Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem5Title}</h3>
-          <p>{languageToUse.bootfittingProblem5Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem6Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem6Title}</h3>
-          <p>{languageToUse.bootfittingProblem6Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem7Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem7Title}</h3>
-          <p>{languageToUse.bootfittingProblem7Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem8Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem8Title}</h3>
-          <p>{languageToUse.bootfittingProblem8Text}</p>
-        </div>
-        <div className="bootfitting-problem">
-          <img src={bootfittingProblem9Image} alt="" />
-          <h3>{languageToUse.bootfittingProblem9Title}</h3>
-          <p>{languageToUse.bootfittingProblem9Text}</p>
-        </div>
+        <h3 className="bootfitting-under-title">
+          {languageToUse.bootfittingUnderTitle}
+        </h3>
       </div>
-      <h3>{languageToUse.bootfittingUnderTitle}</h3>
     </div>
   );
 };

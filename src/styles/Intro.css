@@ -4,20 +4,13 @@
   min-height: calc(100vh - 90px);
   flex-direction: column;
   justify-content: center;
-}
-
-.intro-title {
-  color: var(--color-highlight);
-  font-size: 25px;
-}
-
-.intro-text {
-  padding: 20px;
+  margin: 20px;
 }
 
 .intro-text-p {
   font-size: 15px;
   line-height: 40px;
+  margin-top: 20px;
 }
 
 .intro-text-p span {
@@ -27,15 +20,13 @@
 @media only screen and (min-width: 768px) {
   .intro {
     flex-direction: row;
-    margin: 20px;
+    margin: 50px;
   }
   .intro-title {
     font-size: 50px;
-    margin: 0 20px;
   }
   .intro-text-p {
     font-size: 25px;
-    margin: 20px;
     line-height: 40px;
   }
 

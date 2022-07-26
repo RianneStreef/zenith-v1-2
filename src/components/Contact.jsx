@@ -4,7 +4,9 @@ import "../styles/Contact.css";
 
 import { content } from "../content/languages";
 
-// zenith-skishop@wanadoo.fr
+import location from "../images/location.svg";
+import telephone from "../images/phone.svg";
+import email from "../images/at.svg";
 
 const Contact = (props) => {
   let { language, languageToUse } = props;
@@ -16,72 +18,10 @@ const Contact = (props) => {
     <div className="contact" id="contact">
       <div className="header-placeholder" />
 
-      <h3>{languageToUse.contact}</h3>
+      <h2>{languageToUse.contactTitle}</h2>
+      <p className="explanation-text">{languageToUse.contactIntro1}</p>
+      <p className="explanation-text">{languageToUse.contactIntro2}</p>
       <div className="contact-blocks">
-        <div className="contact-card">
-          <div className="form-container">
-            <form
-              className="contact-form"
-              name="contact"
-              method="post"
-              data-netlify="true"
-              action="/success"
-              netlify-honeypot="bot-field"
-            >
-              <input
-                className="contact-input"
-                type="hidden"
-                name="contact"
-                value="contact"
-              />
-              <p className="hidden">
-                <label>
-                  Don’t fill this out if you’re human:{" "}
-                  <input name="bot-field" />
-                </label>
-              </p>
-              <input type="hidden" name="form-name" value="contact" />
-              <p className="form-items">
-                <label htmlFor="name">{languageToUse.name}:</label> <br />
-                <input
-                  className="input"
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                />
-              </p>
-              <p className="form-items">
-                <label htmlFor="email">{languageToUse.email}:</label> <br />
-                <input
-                  className="input"
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                />
-              </p>
-              <p className="form-items">
-                <label htmlFor="message">{languageToUse.message}:</label> <br />
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="8"
-                  required
-                ></textarea>
-              </p>
-              <div className="center-button-container">
-                <button
-                  className="custom-button"
-                  type="submit"
-                  value="Submit message"
-                >
-                  {languageToUse.send}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
         <div className="google-map-iframe">
           <iframe
             className="iframe-google"
@@ -91,11 +31,25 @@ const Contact = (props) => {
         </div>
         <div className="contact-info">
           <p>
-            {languageToUse.address}:{languageToUse.addressContent}
+            <img src={location} alt="" className="contact-icon" />
+            {languageToUse.addressContent1}
+            <br />
+            {languageToUse.addressContent2}
+            <br />
+            {languageToUse.addressContent3}
+            <br />
+            {languageToUse.addressContent4}
+            <br />
           </p>
           <p>
-            {languageToUse.tel}:
+            <img src={telephone} alt="" className="contact-icon" />
             <a href="tel:0033479000528"> {languageToUse.telContent}</a>
+          </p>
+          <p>
+            <img src={email} alt="" className="contact-icon" />
+            <a href="mailto:zenith-skishop@wanadoo.fr">
+              zenith-skishop@wanadoo.fr
+            </a>
           </p>
         </div>
       </div>

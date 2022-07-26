@@ -6,8 +6,9 @@ export const french = {
   metaKeywords: "French  keywords",
 
   bootfitting: "Bootfitting",
-  services: "Services",
-  book: "Reserver",
+  services: "le Service Zenith",
+  book: "Location en ligne",
+  contact: "Contact",
 
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
@@ -25,7 +26,7 @@ export const french = {
   introText2B: "spécialiste du bootfitting ",
   introText3:
     " nous adaptons vos chaussures de skis en fonction de votre morphologie) depuis plus de 30 ans dans Les 3 Vallées. ",
-  introText3b: "Seul magasin encore indépendant",
+  introText3B: "Seul magasin encore indépendant",
   introText4:
     " à Val Thorens, nous mettons l'accent sur le service et la qualité pour rendre votre séjour toujours plus agréable.",
   introText5:
@@ -33,18 +34,22 @@ export const french = {
   introText6:
     "Toute l'équipe de Zenith Ski Shop à Val Thorens vous souhaite une bonne glisse et un agréable séjour dans la meilleure station de ski de France.",
 
-  contact: "Contact",
-  contactIntro: "Contact intro",
+  contactTitle: "ZENITH SKI SHOP À VAL THORENS",
+  contactIntro1:
+    "Zenith Ski Shop est situé au centre de la station de Val Thorens, sous l’office de tourisme, place Caron. Très facile d’accès, d’un côté par la route ou de l’autre en ski.",
+  contactIntro2:
+    "Nous vous accueillons tous les jours de 8h30 à 19h00 non-stop.",
   name: "Name",
   email: "Email",
   message: "Message",
   send: "Send",
 
-  address: "Adresse",
-  addressContent:
-    "Immeuble Le Zénith Place Caron Val Thorens, 73440 Les Belleville, France",
-  tel: "Numéro",
-  telContent: "00 33 (0)4 79 00 05 28",
+  addressContent1: "Zenith Ski Shop",
+  addressContent2: "Immeuble Le Zénith",
+  addressContent3: "Place Caron Val Thorens",
+  addressContent4: "73440 Les Belleville",
+
+  telContent: "+ 33 (0)4 79 00 05 28",
 
   Usp1Text:
     "Le bootfitting c’est notre spécialité! Les pieds sont tous différents, il est normal de devoir aménager les chaussures pour un confort optimal en skiant.",
@@ -64,18 +69,23 @@ export const french = {
   explanationText3:
     "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
 
+  bootfittingTitle: "LE BOOTFITTING, C’EST NOTRE SPÉCIALITÉ",
+
   bootfittingIntro1:
-    "We have all different feet, naturally or by accident, or ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing. First we help you to buy your ski boots based on the anatomy of your feet we know analyze: feet long and thin, short and stocky, flat or arched, inactive, footballer, dancer, runner. Then, after the first ride you give us your impressions and we refine the settings together.",
+    "Nous avons tous les pieds différents, naturellement ou par accident, or les chaussures de ski sont fabriquées en paires identiques et selon les critères de chaque marque. Il est logique de devoir les aménager pour obtenir le meilleur confort en skiant.",
 
   bootfittingIntro2:
-    "To avoid suffering in your shoes it is important to bring together the following elements:",
-  bootfittingIntroLi1: "- Suitable footwear",
-  bootfittingIntroLi2:
-    "- Specific soles to facilitate the alignment of the body and the stability of the foot",
-  bootfittingIntroLi3: "- Efficient, comfortable and breathable socks",
-
+    "Tout d’abord nous vous aidons à acheter vos chaussures de ski en fonction de l’anatomie de vos pieds que nous savons analyser : pieds longs et fins, courts et trapus, plats ou cambrés, d’inactif, de footballeur, de danseuse, de coureur. Ensuite, après les premières descentes vous nous donnez vos impressions et nous affinons les réglages ensemble.",
   bootfittingIntro3:
-    "If you already have your equipment and you are suffering, we will be able to bring you the solution. It is not normal to endure pain in the feet while skiing, there is always a solution.",
+    "Pour éviter de souffrir dans vos chaussures il est important de réunir les éléments suivants:",
+  bootfittingIntroLi1: "- des chaussures adaptées",
+  bootfittingIntroLi2:
+    "- des semelles spécifiques, afin de favoriser l’alignement du corps et la stabilité du pied",
+  bootfittingIntroLi3:
+    "- des chaussettes performantes, confortables et respirantes",
+
+  bootfittingIntro4:
+    "Si vous possédez déjà votre équipement et que vous souffrez, nous saurons vous apporter la solution. Il n’est pas normal de supporter des douleurs aux pieds en skiant, il y a forcément une solution.",
 
   bootfittingProblemTitle: "Les principaux problèmes que nous solutionnons",
 
@@ -151,5 +161,6 @@ export const french = {
 
   valthoFromSky: "Val Thorens vu du ciel",
 
-  thanks: "Thank you for your message!",
+  rights: "Tous droits réservés.",
+  legal: "Mentions légales",
 };

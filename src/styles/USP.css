@@ -10,7 +10,7 @@
 .usp-intro {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px;
   margin: 0 30px;
   color: var(--color-text-gray);

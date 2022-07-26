@@ -1,16 +1,17 @@
 .footer {
-  margin-top: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  text-align: center;
 }
 
-.footer-logo {
-  width: 10%;
+.footer p {
+  font-size: 15px;
 }
 
 @media only screen and (min-width: 768px) {
-  .footer {
-    flex-direction: row;
+  .explanation {
+    padding: 50px;
+  }
+
+  .footer p {
+    font-size: 25px;
   }
 }

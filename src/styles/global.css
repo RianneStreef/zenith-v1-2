@@ -14,7 +14,8 @@ IBM Plex Mono light Italic menu et usp
 
 @font-face {
   font-family: "Futura";
-  src: local("Futura"), url(../fonts/futura/futur.ttf) format("truetype");
+  src: local("Futura"),
+    url(../fonts/futura/futura\ light\ bt.ttf) format("truetype");
 }
 @font-face {
   font-family: "IBM Plex Mono Bold";
@@ -58,17 +59,22 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
   font-weight: 700;
   margin: 0;
   font-family: "IBM Plex Mono Bold";
+  color: var(--color-highlight);
+  font-size: 25px;
 }
 
-p {
+p,
+li {
   margin: 0;
   padding: 0;
   font-family: "Futura";
   color: var(--color-text-gray);
+  font-size: 15px;
+  line-height: 40px;
+  margin-top: 20px;
 }
 
 .bold {
@@ -136,4 +142,16 @@ ul {
 .book-link:visited {
   color: var(--color-text);
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  h1,
+  h2 {
+    font-size: 40px;
+  }
+
+  p,
+  li {
+    font-size: 25px;
+  }
 }
