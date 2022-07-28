@@ -26,9 +26,6 @@ const Header = (props) => {
   language === "dutch" ? (languageToUse = content.dutch) : null;
   return (
     <div className="header">
-      <Link to="/" className="logo-link">
-        <img src={logoVertical} alt="Logo" className="header-logo" />
-      </Link>
       <ul className="links hidden-mobile">
         <li>
           <Link to="/bootfitting" className="nav-link">

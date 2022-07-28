@@ -18,7 +18,7 @@ const USP = (props) => {
   return (
     <div className="usp">
       <div className="usp-intro bootfitting-intro">
-        <Link to="/bootfitting">
+        <Link to="/bootfitting" className="usp-link-container">
           <img
             src={bootfittingIntroImage}
             alt="bootfitting"
@@ -29,7 +29,7 @@ const USP = (props) => {
         <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
       </div>
       <div className="usp-intro modjo-intro">
-        <Link to="/modjo">
+        <Link to="/modjo" className="usp-link-container">
           <img
             src={modjoIntroImage}
             alt="ski modjo"
@@ -40,7 +40,7 @@ const USP = (props) => {
         <p className="usp-intro-text">{languageToUse.Usp2Text}</p>
       </div>
       <div className="usp-intro services-intro">
-        <Link to="/services">
+        <Link to="/services" className="usp-link-container">
           <img src={ripNWudIntroImage} alt="" className="usp-intro-image" />
           <h3 className="usp-link">{languageToUse.ourServices}</h3>
         </Link>

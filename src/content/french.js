@@ -129,7 +129,7 @@ export const french = {
     "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
 
   serviceMetaTitle: "LES SERVICES ZENITH SKI SHOP",
-  serviceTitle: "LES SERVICES ZENITH SKI SHOP",
+  servicesTitle: "LES SERVICES ZENITH SKI SHOP",
 
   service1Title: "SERVICE CHAUSSURES",
   service1Text1:
@@ -155,7 +155,7 @@ export const french = {
     "Vous pouvez changer de glisse pendant votre séjour et si votre hébergement ne dispose pas d'un accès skis aux pieds, nous pouvons garder votre matériel le soir. Pour la location de skis, snowboard ou snowscoot, vous pouvez dès à présent louer votre matériel en ligne sur notre ",
   service4Link: "système de réservation.",
 
-  partners: "Partenaires",
+  partners: "Nos Partenaires",
 
   siteValThorens: "Le site officiel de Val Thorens",
 

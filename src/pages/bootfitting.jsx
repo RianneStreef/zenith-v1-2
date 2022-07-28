@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import "../styles/bootfitting.css";
 
 import Layout from "../components/Layout";
+import Hero2 from "../components/Hero2";
 
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
@@ -36,19 +37,20 @@ const BootfittingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
-      <div className="header-placeholder" />
-
+      <Hero2 />
       <h1 className="bootfitting-title">{languageToUse.bootfittingTitle}</h1>
       <div className="bootfitting-intro">
         <div className="bootfitting-intro-text">
           <p>{languageToUse.bootfittingIntro1}</p>
           <p>{languageToUse.bootfittingIntro2}</p>
+          <p>{languageToUse.bootfittingIntro3}</p>
+
           <ul>
             <li>{languageToUse.bootfittingIntroLi1}</li>
             <li>{languageToUse.bootfittingIntroLi2}</li>
             <li>{languageToUse.bootfittingIntroLi3}</li>
           </ul>
-          <p>{languageToUse.bootfittingIntro3}</p>
+          <p>{languageToUse.bootfittingIntro4}</p>
         </div>
       </div>
       <div className="bootfitting-problems-container">

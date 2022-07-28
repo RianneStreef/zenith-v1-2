@@ -23,8 +23,15 @@
 }
 
 .hero-title {
-  text-align: center;
   color: #fff;
+  font-family: "IBM Plex Mono Bold Italic";
+}
+
+.hero-title-2 {
+  color: #fff;
+  font-family: "IBM Plex Mono Light Italic";
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 768px) {

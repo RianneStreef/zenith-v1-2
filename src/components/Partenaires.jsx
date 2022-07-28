@@ -1,8 +1,17 @@
 import React from "react";
 
-const Partenaires = () => {
+import { content } from "../content/languages";
+
+import "../styles/Partenaires.css";
+
+const Partenaires = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
-    <div>
+    <div className="partenaires">
       <h4>{languageToUse.partners}</h4>
       <ul>
         <li>

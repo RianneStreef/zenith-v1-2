@@ -1,5 +1,6 @@
 .bootfitting h1 {
   color: var(--color-highlight);
+  font-family: "IBM Plex Mono Bold Italic";
 }
 
 .bootfitting-problems h3 {
@@ -48,9 +49,12 @@
 
 @media only screen and (min-width: 768px) {
   .bootfitting-intro,
-  .bootfitting-title,
   .bootfitting-problems {
     padding: 50px;
+  }
+
+  .bootfitting-title {
+    padding: 50px 50px 0 50px;
   }
 
   .bootfitting-problems {
