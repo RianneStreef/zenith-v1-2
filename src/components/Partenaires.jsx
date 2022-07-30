@@ -15,36 +15,56 @@ const Partenaires = (props) => {
       <h4>{languageToUse.partners}</h4>
       <ul>
         <li>
-          <a href="https://www.valthorens.com/">
-            {languageToUse.siteValThorens}
+          <span>{languageToUse.siteValThorens}: </span>
+          <a href="https://www.valthorens.com/">www.valthorens.com</a>
+        </li>
+        <li>
+          <span>{languageToUse.logementParticulier}: </span>
+          {/* <a href="https://www.valthorens-location.com">
+            www.valthorens-location.com
+          </a>
+          ,{" "} */}
+          <a href="https://www.locations-valthorens.fr.gd">
+            www.locations-valthorens.fr.gd
           </a>
         </li>
-        {/* <li>
-      <a href="https://www.valthorens-location.com">{languageToUse.bookPrivate}</a>
-    </li> */}
         <li>
+          <span>{languageToUse.logementAgence}: </span>
           <a href="https://www.immobilier-valthorens.fr/" target="blank">
-            MaCle Immo
+            www.immobilier-valthorens.fr
           </a>
-        </li>
-        <li>
+          ,{" "}
           <a href="https://www.agencelacime.com/" target="blank">
-            Agence la Cime
+            www.agencelacime.com
           </a>
-        </li>
-        <li>
+          ,{" "}
           <a href="https://www.alpineimmo.com/" target="blank">
-            Alpine Immo
+            https://www.alpineimmo.com
           </a>
         </li>
         <li>
+          <span> {languageToUse.coursSki}: </span>
           <a href="https://www.ski-cool.com/" target="blank">
-            Ski Cool
+            www.ski-cool.com
+          </a>
+        </li>
+
+        <li>
+          <span> {languageToUse.valthoFromSky}: </span>
+          <a href="https://www.libre-envol.com/" target="blank">
+            www.libre-envol.com
           </a>
         </li>
         <li>
-          <a href="https://libre-envol.com/" target="blank">
-            {languageToUse.valthoFromSky}
+          <span> {languageToUse.savoie}: </span>
+          <a href="https://www.france-voyage.com/" target="blank">
+            www.france-voyage.com
+          </a>
+        </li>
+        <li>
+          <span> {languageToUse.pasChere}: </span>
+          <a href="https://www.montagnepascher.com/" target="blank">
+            www.montagnepascher.com
           </a>
         </li>
       </ul>

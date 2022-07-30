@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "gatsby";
+
 import "../styles/Footer.css";
 import { content } from "../content/languages";
 
@@ -13,7 +15,8 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <p>
-        © Zenith Ski Shop.{languageToUse.rights} {languageToUse.legal}
+        © Zenith Ski Shop.{languageToUse.rights}{" "}
+        <Link to="/legal">{languageToUse.legal}</Link>
       </p>
     </div>
   );

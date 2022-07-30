@@ -13,13 +13,14 @@
 .hero-content-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 50px;
+  height: 80vh;
 }
 
 .hero-logo {
-  width: 60%;
+  width: 100%;
 }
 
 .hero-title {
@@ -37,5 +38,12 @@
 @media only screen and (min-width: 768px) {
   .hero {
     background-position: 100% 100%;
+  }
+
+  .hero-content-container {
+    justify-content: center;
+  }
+  .hero-logo {
+    width: 60%;
   }
 }

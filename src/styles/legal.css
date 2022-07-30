@@ -1,3 +1,9 @@
 .legal {
-  margin: 150px 50px 50px 50px;
+  margin: 50px;
+}
+
+.legal h3 {
+  font-family: "IBM Plex Mono Bold";
+  color: var(--color-highlight);
+  font-size: 25px;
 }

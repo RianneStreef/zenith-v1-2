@@ -77,7 +77,7 @@ const Navbar = (props) => {
             Zenith Ski Shop
           </Link>
           <Link
-            to="/#bootfitting"
+            to="/bootfitting"
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
@@ -91,7 +91,7 @@ const Navbar = (props) => {
             {languageToUse.services}
           </Link>
           <Link
-            to="/contact"
+            to="/#contact"
             className="nav-link"
             onClick={() => setOpen(!open)}
           >

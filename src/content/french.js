@@ -2,7 +2,8 @@ export const french = {
   language: "french",
 
   indexTitle: "Zenith Ski Shop",
-  metaDescription: "French  description",
+  metaDescription:
+    "Zenith Ski Shop – Location ski Val Thorens – Spécialiste Bootfitting. – Location ski Val Thorens. Reservez votre location de skis à Val Thorens en ligne. Zenith Ski Shop, specialiste du bootfitting dans les 3 Vallées",
   metaKeywords: "French  keywords",
 
   bootfitting: "Bootfitting",
@@ -158,8 +159,12 @@ export const french = {
   partners: "Nos Partenaires",
 
   siteValThorens: "Le site officiel de Val Thorens",
-
+  logementParticulier: "Votre logement chez un particulier",
+  logementAgence: "Votre hébergement par agence",
+  coursSki: "Vos cours de ski",
   valthoFromSky: "Val Thorens vu du ciel",
+  savoie: "Tourisme en Savoie",
+  pasChere: "Montagne pas cher",
 
   rights: "Tous droits réservés.",
   legal: "Mentions légales",

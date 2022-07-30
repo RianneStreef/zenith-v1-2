@@ -17,8 +17,10 @@ const Hero = (props) => {
     <div className="hero">
       <div className="hero-content-container">
         <img src={logoHero} alt="logo" className="hero-logo" />
-        <h1 className="hero-title">{languageToUse.heroTitle}</h1>
-        <h2 className="hero-title-2">{languageToUse.underTitle}</h2>
+        <div>
+          <h1 className="hero-title">{languageToUse.heroTitle}</h1>
+          <h2 className="hero-title-2">{languageToUse.underTitle}</h2>
+        </div>
       </div>
     </div>
   );
