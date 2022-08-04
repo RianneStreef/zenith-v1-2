@@ -31,6 +31,12 @@
   width: 100%;
 }
 
+.bootfitting-problem-image-container {
+  padding: 40px;
+  background-color: #000;
+  border-radius: 10%;
+}
+
 .bootfitting-under-title {
   background-image: url("../images/hero-insta.jpg");
   background-size: cover;

@@ -4202,7 +4202,6 @@ exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsx */ "component---src-pages-404-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx */ "./src/pages/404.jsx")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx */ "./src/pages/bootfitting.jsx")),
-  "component---src-pages-contact-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-contact-jsx */ "component---src-pages-contact-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/contact.jsx */ "./src/pages/contact.jsx")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx */ "./src/pages/index.jsx")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx */ "./src/pages/legal.jsx")),
   "component---src-pages-modjo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-modjo-jsx */ "component---src-pages-modjo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/modjo.jsx */ "./src/pages/modjo.jsx")),
@@ -6400,11 +6399,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _images_LOGO_VER_White_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/LOGO-VER-White.svg */ "./src/images/LOGO-VER-White.svg");
-/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/Footer.css */ "./src/styles/Footer.css");
-/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Footer_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
-
+/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Footer.css */ "./src/styles/Footer.css");
+/* harmony import */ var _styles_Footer_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Footer_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 
 
 
@@ -6415,44 +6412,12 @@ const Footer = props => {
     language,
     languageToUse
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.french;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.french;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Links"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "footer-links"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/bootfitting"
-  }, "Bootfitting")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/modjo"
-  }, "Ski Modjo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/rip-n-wud"
-  }, "Rip 'n Wud")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/services"
-  }, languageToUse.services)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://zenith-skishop.notresphere.com/location-materiel",
-    target: "blank"
-  }, languageToUse.book))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, languageToUse.partners), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.valthorens.com/"
-  }, languageToUse.siteValThorens)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.immobilier-valthorens.fr/",
-    target: "blank"
-  }, "MaCle Immo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.agencelacime.com/",
-    target: "blank"
-  }, "Agence la Cime")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.alpineimmo.com/",
-    target: "blank"
-  }, "Alpine Immo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.ski-cool.com/",
-    target: "blank"
-  }, "Ski Cool")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://libre-envol.com/",
-    target: "blank"
-  }, languageToUse.valthoFromSky)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "footer-logo",
-    src: _images_LOGO_VER_White_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
-    alt: ""
-  }));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 Zenith Ski Shop.", languageToUse.rights, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/legal"
+  }, languageToUse.legal)));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
@@ -6508,14 +6473,7 @@ const Header = props => {
   language === "dutch" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.dutch : null;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/",
-    className: "logo-link"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_logo_hor_white_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-    alt: "Logo",
-    className: "header-logo"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "links hidden-mobile"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
@@ -6527,12 +6485,12 @@ const Header = props => {
     to: "/services",
     className: "nav-link"
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/contact",
+    to: "/#contact",
     className: "nav-link"
   }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
-    className: "nav-link"
+    className: "nav-link nav-link-yellow"
   }, languageToUse.book)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "set-language"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
@@ -6624,7 +6582,6 @@ const Layout = ({
     className: "main"
   }, childrenWithProps), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     language: language,
-    setLanguage: setLanguage,
     languageToUse: languageToUse
   }));
 };
@@ -6736,7 +6693,7 @@ const Navbar = props => {
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, "Zenith Ski Shop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/#bootfitting",
+    to: "/bootfitting",
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
@@ -6744,7 +6701,7 @@ const Navbar = props => {
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/contact",
+    to: "/#contact",
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -6856,11 +6813,12 @@ __webpack_require__.r(__webpack_exports__);
 const french = {
   language: "french",
   indexTitle: "Zenith Ski Shop",
-  metaDescription: "French  description",
+  metaDescription: "Zenith Ski Shop – Location ski Val Thorens – Spécialiste Bootfitting. – Location ski Val Thorens. Reservez votre location de skis à Val Thorens en ligne. Zenith Ski Shop, specialiste du bootfitting dans les 3 Vallées",
   metaKeywords: "French  keywords",
   bootfitting: "Bootfitting",
-  services: "Services",
-  book: "Reserver",
+  services: "le Service Zenith",
+  book: "Location en ligne",
+  contact: "Contact",
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
   modjo: "Ski Modjo",
@@ -6873,20 +6831,22 @@ const french = {
   introText2: " est le ",
   introText2B: "spécialiste du bootfitting ",
   introText3: " nous adaptons vos chaussures de skis en fonction de votre morphologie) depuis plus de 30 ans dans Les 3 Vallées. ",
-  introText3b: "Seul magasin encore indépendant",
+  introText3B: "Seul magasin encore indépendant",
   introText4: " à Val Thorens, nous mettons l'accent sur le service et la qualité pour rendre votre séjour toujours plus agréable.",
   introText5: "Zenith Ski Shop, c'est aussi la vente, la location et l'entretien de vos skis et snowboards.",
   introText6: "Toute l'équipe de Zenith Ski Shop à Val Thorens vous souhaite une bonne glisse et un agréable séjour dans la meilleure station de ski de France.",
-  contact: "Contact",
-  contactIntro: "Contact intro",
+  contactTitle: "ZENITH SKI SHOP À VAL THORENS",
+  contactIntro1: "Zenith Ski Shop est situé au centre de la station de Val Thorens, sous l’office de tourisme, place Caron. Très facile d’accès, d’un côté par la route ou de l’autre en ski.",
+  contactIntro2: "Nous vous accueillons tous les jours de 8h30 à 19h00 non-stop.",
   name: "Name",
   email: "Email",
   message: "Message",
   send: "Send",
-  address: "Adresse",
-  addressContent: "Immeuble Le Zénith Place Caron Val Thorens, 73440 Les Belleville, France",
-  tel: "Numéro",
-  telContent: "00 33 (0)4 79 00 05 28",
+  addressContent1: "Zenith Ski Shop",
+  addressContent2: "Immeuble Le Zénith",
+  addressContent3: "Place Caron Val Thorens",
+  addressContent4: "73440 Les Belleville",
+  telContent: "+ 33 (0)4 79 00 05 28",
   Usp1Text: "Le bootfitting c’est notre spécialité! Les pieds sont tous différents, il est normal de devoir aménager les chaussures pour un confort optimal en skiant.",
   Usp2Text: "La genouillère bionique dédiée à la pratique du ski est arrivée. Oubliez vos douleurs articulaires et la fatigue. Skiez sans effort avec l'exosquelette.",
   Usp3Text: "Adaptations de vos chaussures, entretien skis et snowboards, solutions de confort (semelles et gants chauffants, verres polarisés,...)",
@@ -6895,12 +6855,14 @@ const french = {
   explanationText1: "Pour la location de skis / snowboard / chaussures nous vous proposons l’équipement correspondant à votre besoin et à votre niveau. Notre parc de location est actualisé chaque année. Nos chaussures de location sont séchées et aseptisées après chaque sortie et, si nécessaire, nous personnalisons celles que vous louez.",
   explanationText2: "Vous pouvez changer de glisse pendant votre séjour et si vous résidez loin des pistes, nous pouvons garder vos skis le soir après votre journée de glisse. Pour faciliter toujours plus votre séjour et ne pas gaspiller de temps lors de votre arrivée à Val Thorens, nous vous offrons la possibilité d’effectuer la location de votre matériel en ligne.",
   explanationText3: "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
-  bootfittingIntro1: "We have all different feet, naturally or by accident, or ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing. First we help you to buy your ski boots based on the anatomy of your feet we know analyze: feet long and thin, short and stocky, flat or arched, inactive, footballer, dancer, runner. Then, after the first ride you give us your impressions and we refine the settings together.",
-  bootfittingIntro2: "To avoid suffering in your shoes it is important to bring together the following elements:",
-  bootfittingIntroLi1: "- Suitable footwear",
-  bootfittingIntroLi2: "- Specific soles to facilitate the alignment of the body and the stability of the foot",
-  bootfittingIntroLi3: "- Efficient, comfortable and breathable socks",
-  bootfittingIntro3: "If you already have your equipment and you are suffering, we will be able to bring you the solution. It is not normal to endure pain in the feet while skiing, there is always a solution.",
+  bootfittingTitle: "LE BOOTFITTING, C’EST NOTRE SPÉCIALITÉ",
+  bootfittingIntro1: "Nous avons tous les pieds différents, naturellement ou par accident, or les chaussures de ski sont fabriquées en paires identiques et selon les critères de chaque marque. Il est logique de devoir les aménager pour obtenir le meilleur confort en skiant.",
+  bootfittingIntro2: "Tout d’abord nous vous aidons à acheter vos chaussures de ski en fonction de l’anatomie de vos pieds que nous savons analyser : pieds longs et fins, courts et trapus, plats ou cambrés, d’inactif, de footballeur, de danseuse, de coureur. Ensuite, après les premières descentes vous nous donnez vos impressions et nous affinons les réglages ensemble.",
+  bootfittingIntro3: "Pour éviter de souffrir dans vos chaussures il est important de réunir les éléments suivants:",
+  bootfittingIntroLi1: "- des chaussures adaptées",
+  bootfittingIntroLi2: "- des semelles spécifiques, afin de favoriser l’alignement du corps et la stabilité du pied",
+  bootfittingIntroLi3: "- des chaussettes performantes, confortables et respirantes",
+  bootfittingIntro4: "Si vous possédez déjà votre équipement et que vous souffrez, nous saurons vous apporter la solution. Il n’est pas normal de supporter des douleurs aux pieds en skiant, il y a forcément une solution.",
   bootfittingProblemTitle: "Les principaux problèmes que nous solutionnons",
   bootfittingProblem1Title: "Les crampes",
   bootfittingProblem1Text: "Une douleur sur cette partie du pied est souvent caractérisée par des crampes. Les pieds sont les fondations du corps et supportent tout votre poids, la voûte plantaire est étirée, des crampes peuvent survenir. L'adaptation de vos chaussures évitera ce phénomène.",
@@ -6922,7 +6884,7 @@ const french = {
   bootfittingProblem9Text: "La pression constante sur l’avant du pied, et/ou une chaussure trop étroite peuvent être la cause de ces douleurs. Nos solutions apportées en magasin vous soulageront.",
   bootfittingUnderTitle: "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
   serviceMetaTitle: "LES SERVICES ZENITH SKI SHOP",
-  serviceTitle: "LES SERVICES ZENITH SKI SHOP",
+  servicesTitle: "LES SERVICES ZENITH SKI SHOP",
   service1Title: "SERVICE CHAUSSURES",
   service1Text1: "Vos pieds évoluent, et d'un hiver à l'autre vos chaussures deviennent de plus en plus inconfortables. Nos chausseurs peuvent les modifier, les aménager et les adapter. Vous retrouverez ainsi le plaisir de glisser dans le meilleur confort.",
   service1Text2: "Pour plus d'informations sur les chaussures et leurs adaptations possibles visitez notre page ",
@@ -6936,10 +6898,16 @@ const french = {
   service4Text1: "Nous vous proposons l'équipement correspondant à vos besoins et à votre niveau. Notre parc de location est actualisé chaque année. Les skis et snowboards disponibles à la vente font également partis de notre parc de location. Vos chaussures sont séchées et aseptisées après chaque sortie et, si nécessaire, nous personnalisons celles que vous louez pour toujours plus de confort et de plaisir sur les planches.",
   service4Text2: "Vous pouvez changer de glisse pendant votre séjour et si votre hébergement ne dispose pas d'un accès skis aux pieds, nous pouvons garder votre matériel le soir. Pour la location de skis, snowboard ou snowscoot, vous pouvez dès à présent louer votre matériel en ligne sur notre ",
   service4Link: "système de réservation.",
-  partners: "Partenaires",
+  partners: "Nos Partenaires",
   siteValThorens: "Le site officiel de Val Thorens",
+  logementParticulier: "Votre logement chez un particulier",
+  logementAgence: "Votre hébergement par agence",
+  coursSki: "Vos cours de ski",
   valthoFromSky: "Val Thorens vu du ciel",
-  thanks: "Thank you for your message!"
+  savoie: "Tourisme en Savoie",
+  pasChere: "Montagne pas cher",
+  rights: "Tous droits réservés.",
+  legal: "Mentions légales"
 };
 
 /***/ }),
@@ -14688,21 +14656,6 @@ var isPropValid = /* #__PURE__ */(0,_emotion_memoize__WEBPACK_IMPORTED_MODULE_0_
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isPropValid);
 
-
-/***/ }),
-
-/***/ "./src/images/LOGO-VER-White.svg":
-/*!***************************************!*\
-  !*** ./src/images/LOGO-VER-White.svg ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/LOGO-VER-White-b3382232ca6f1adbd7ad4118df2030d9.svg");
 
 /***/ }),
 

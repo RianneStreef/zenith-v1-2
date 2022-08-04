@@ -6,7 +6,7 @@ import { content } from "../content/languages";
 
 import location from "../images/location.svg";
 import telephone from "../images/phone.svg";
-import email from "../images/at.svg";
+import email from "../images/at.png";
 
 const Contact = (props) => {
   let { language, languageToUse } = props;

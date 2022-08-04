@@ -31,13 +31,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "IBM Plex Mono light Italic";
+  font-family: "IBM Plex Mono Thin";
   font-size: 15px;
-}
-
-.logo-link {
-  text-align: right;
-  width: 130px;
 }
 
 .nav-link:hover {
@@ -46,6 +41,19 @@
 
 .nav-link:visited {
   color: var(--color-text-dark);
+}
+
+.nav-link-yellow {
+  color: var(--color-highlight);
+}
+
+.nav-link-yellow:visited {
+  color: var(--color-highlight);
+}
+
+.logo-link {
+  text-align: right;
+  width: 130px;
 }
 
 .header ul {

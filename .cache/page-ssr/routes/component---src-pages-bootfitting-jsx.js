@@ -2,6 +2,49 @@ exports.id = "component---src-pages-bootfitting-jsx";
 exports.ids = ["component---src-pages-bootfitting-jsx"];
 exports.modules = {
 
+/***/ "./src/components/Hero2.jsx":
+/*!**********************************!*\
+  !*** ./src/components/Hero2.jsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _styles_Hero2_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Hero2.css */ "./src/styles/Hero2.css");
+/* harmony import */ var _styles_Hero2_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Hero2_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_logo_hero_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/logo-hero.svg */ "./src/images/logo-hero.svg");
+
+
+
+
+
+const Hero2 = props => {
+  let {
+    language,
+    languageToUse
+  } = props;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_1__.content.english : null;
+  language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_1__.content.french : null;
+  language === "dutch" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_1__.content.dutch : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "hero-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_logo_hero_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "logo",
+    className: "hero-logo-2"
+  }));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero2);
+
+/***/ }),
+
 /***/ "./src/content/intake.js":
 /*!*******************************!*\
   !*** ./src/content/intake.js ***!
@@ -15,9 +58,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const intakeInfo = {
   companyName: "Zenith",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
-  contactEmail: "",
+  companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
+  domainName: "zenith-skishop.com",
+  contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
   taxNumber: "1313"
@@ -43,18 +86,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_bootfitting_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/bootfitting.css */ "./src/styles/bootfitting.css");
 /* harmony import */ var _styles_bootfitting_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_bootfitting_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.jsx");
-/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
-/* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
-/* harmony import */ var _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/bootfittingIntroImage.jpg */ "./src/images/bootfittingIntroImage.jpg");
-/* harmony import */ var _images_bootfitting_crampes_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/bootfitting/crampes.png */ "./src/images/bootfitting/crampes.png");
-/* harmony import */ var _images_bootfitting_froid_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/bootfitting/froid.png */ "./src/images/bootfitting/froid.png");
-/* harmony import */ var _images_bootfitting_tibia_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/bootfitting/tibia.png */ "./src/images/bootfitting/tibia.png");
-/* harmony import */ var _images_bootfitting_ampoule_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/bootfitting/ampoule.png */ "./src/images/bootfitting/ampoule.png");
-/* harmony import */ var _images_bootfitting_douleur_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/bootfitting/douleur.png */ "./src/images/bootfitting/douleur.png");
-/* harmony import */ var _images_bootfitting_genou_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/bootfitting/genou.png */ "./src/images/bootfitting/genou.png");
-/* harmony import */ var _images_bootfitting_hallux_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/bootfitting/hallux.png */ "./src/images/bootfitting/hallux.png");
-/* harmony import */ var _images_bootfitting_malleole_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../images/bootfitting/malleole.png */ "./src/images/bootfitting/malleole.png");
-/* harmony import */ var _images_bootfitting_meta_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../images/bootfitting/meta.png */ "./src/images/bootfitting/meta.png");
+/* harmony import */ var _components_Hero2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Hero2 */ "./src/components/Hero2.jsx");
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
+/* harmony import */ var _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/bootfittingIntroImage.jpg */ "./src/images/bootfittingIntroImage.jpg");
+/* harmony import */ var _images_bootfitting_crampes_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/bootfitting/crampes.png */ "./src/images/bootfitting/crampes.png");
+/* harmony import */ var _images_bootfitting_froid_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/bootfitting/froid.png */ "./src/images/bootfitting/froid.png");
+/* harmony import */ var _images_bootfitting_tibia_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/bootfitting/tibia.png */ "./src/images/bootfitting/tibia.png");
+/* harmony import */ var _images_bootfitting_ampoule_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/bootfitting/ampoule.png */ "./src/images/bootfitting/ampoule.png");
+/* harmony import */ var _images_bootfitting_douleur_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/bootfitting/douleur.png */ "./src/images/bootfitting/douleur.png");
+/* harmony import */ var _images_bootfitting_genou_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/bootfitting/genou.png */ "./src/images/bootfitting/genou.png");
+/* harmony import */ var _images_bootfitting_hallux_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../images/bootfitting/hallux.png */ "./src/images/bootfitting/hallux.png");
+/* harmony import */ var _images_bootfitting_malleole_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../images/bootfitting/malleole.png */ "./src/images/bootfitting/malleole.png");
+/* harmony import */ var _images_bootfitting_meta_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../images/bootfitting/meta.png */ "./src/images/bootfitting/meta.png");
+
 
 
 
@@ -77,7 +122,7 @@ const BootfittingPage = function (props) {
     language,
     languageToUse
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.french;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.french;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.bootfittingMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
@@ -91,68 +136,90 @@ const BootfittingPage = function (props) {
     content: languageToUse.metaKeywords
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     rel: "canonical",
-    href: _content_intake__WEBPACK_IMPORTED_MODULE_5__["default"].domainName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "header-placeholder"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Bootfitting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    href: _content_intake__WEBPACK_IMPORTED_MODULE_6__["default"].domainName
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero2__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "bootfitting-title"
+  }, languageToUse.bootfittingTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-intro-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi3)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro3)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
-    alt: "Bootfitting"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.bootfittingProblemTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro3), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, languageToUse.bootfittingIntroLi3)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingIntro4))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "bootfitting-problems-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "bootfitting-title"
+  }, languageToUse.bootfittingProblemTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problems"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_crampes_png__WEBPACK_IMPORTED_MODULE_7__["default"],
-    alt: ""
+    src: _images_bootfitting_crampes_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem1Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem1Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_froid_png__WEBPACK_IMPORTED_MODULE_8__["default"],
-    alt: ""
+    src: _images_bootfitting_froid_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem2Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_tibia_png__WEBPACK_IMPORTED_MODULE_9__["default"],
-    alt: ""
+    src: _images_bootfitting_tibia_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem3Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem3Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_ampoule_png__WEBPACK_IMPORTED_MODULE_10__["default"],
-    alt: ""
+    src: _images_bootfitting_ampoule_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem4Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem4Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_douleur_png__WEBPACK_IMPORTED_MODULE_11__["default"],
-    alt: ""
+    src: _images_bootfitting_douleur_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem5Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem5Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_genou_png__WEBPACK_IMPORTED_MODULE_12__["default"],
-    alt: ""
+    src: _images_bootfitting_genou_png__WEBPACK_IMPORTED_MODULE_13__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem6Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem6Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_hallux_png__WEBPACK_IMPORTED_MODULE_13__["default"],
-    alt: ""
+    src: _images_bootfitting_hallux_png__WEBPACK_IMPORTED_MODULE_14__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem7Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem7Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_malleole_png__WEBPACK_IMPORTED_MODULE_14__["default"],
-    alt: ""
+    src: _images_bootfitting_malleole_png__WEBPACK_IMPORTED_MODULE_15__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem8Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem8Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bootfitting-problem"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfitting_meta_png__WEBPACK_IMPORTED_MODULE_15__["default"],
-    alt: ""
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem9Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem9Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingUnderTitle));
+    src: _images_bootfitting_meta_png__WEBPACK_IMPORTED_MODULE_16__["default"],
+    alt: "",
+    className: "bootfitting-problem-image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.bootfittingProblem9Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.bootfittingProblem9Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "bootfitting-under-title"
+  }, languageToUse.bootfittingUnderTitle)));
 };
 
 BootfittingPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BootfittingPage);
+
+/***/ }),
+
+/***/ "./src/styles/Hero2.css":
+/*!******************************!*\
+  !*** ./src/styles/Hero2.css ***!
+  \******************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
@@ -313,6 +380,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/bootfittingIntroImage-cbf2a1da38c68a2c4c868682d3e92013.jpg");
+
+/***/ }),
+
+/***/ "./src/images/logo-hero.svg":
+/*!**********************************!*\
+  !*** ./src/images/logo-hero.svg ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/logo-hero-a8e697e2d15a95995d8b4b6c03c5db6f.svg");
 
 /***/ })
 

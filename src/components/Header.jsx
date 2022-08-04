@@ -43,7 +43,7 @@ const Header = (props) => {
           <a
             href="https://zenith-skishop.notresphere.com/location-materiel"
             target="blank"
-            className="nav-link"
+            className="nav-link nav-link-yellow"
           >
             {languageToUse.book}
           </a>

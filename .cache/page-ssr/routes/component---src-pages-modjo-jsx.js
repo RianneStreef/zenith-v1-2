@@ -15,9 +15,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const intakeInfo = {
   companyName: "Zenith",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
-  contactEmail: "",
+  companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
+  domainName: "zenith-skishop.com",
+  contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
   taxNumber: "1313"

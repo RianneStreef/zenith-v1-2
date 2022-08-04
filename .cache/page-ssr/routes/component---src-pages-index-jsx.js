@@ -2,6 +2,80 @@ exports.id = "component---src-pages-index-jsx";
 exports.ids = ["component---src-pages-index-jsx"];
 exports.modules = {
 
+/***/ "./src/components/Contact.jsx":
+/*!************************************!*\
+  !*** ./src/components/Contact.jsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/Contact.css */ "./src/styles/Contact.css");
+/* harmony import */ var _styles_Contact_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Contact_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _images_location_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/location.svg */ "./src/images/location.svg");
+/* harmony import */ var _images_phone_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/phone.svg */ "./src/images/phone.svg");
+/* harmony import */ var _images_at_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/at.svg */ "./src/images/at.svg");
+
+
+
+
+
+
+
+const Contact = props => {
+  let {
+    language,
+    languageToUse
+  } = props;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_2__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_2__.content.french;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "contact",
+    id: "contact"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "header-placeholder"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.contactTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "explanation-text"
+  }, languageToUse.contactIntro1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "explanation-text"
+  }, languageToUse.contactIntro2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "contact-blocks"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "google-map-iframe"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    className: "iframe-google",
+    id: "gmap_canvas",
+    src: "https://maps.google.com/maps?q=Immeuble%20Le%20Z%C3%A9nith%20Place%20Caron%20Val%20Thorens,%2073440%20Les%20Belleville,%20France&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "contact-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_location_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "",
+    className: "contact-icon"
+  }), languageToUse.addressContent1, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), languageToUse.addressContent2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), languageToUse.addressContent3, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), languageToUse.addressContent4, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_phone_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    alt: "",
+    className: "contact-icon"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "tel:0033479000528"
+  }, " ", languageToUse.telContent)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_at_svg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    alt: "",
+    className: "contact-icon"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "mailto:zenith-skishop@wanadoo.fr"
+  }, "zenith-skishop@wanadoo.fr")))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
+
+/***/ }),
+
 /***/ "./src/components/Explanation.jsx":
 /*!****************************************!*\
   !*** ./src/components/Explanation.jsx ***!
@@ -85,11 +159,11 @@ const Hero = props => {
     src: _images_logo_hero_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "logo",
     className: "hero-logo"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "hero-title"
   }, languageToUse.heroTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "hero-title"
-  }, languageToUse.underTitle)));
+    className: "hero-title-2"
+  }, languageToUse.underTitle))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
@@ -222,7 +296,8 @@ const USP = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "usp-intro bootfitting-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/bootfitting"
+    to: "/bootfitting",
+    className: "usp-link-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "bootfitting",
@@ -234,7 +309,8 @@ const USP = props => {
   }, languageToUse.Usp1Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "usp-intro modjo-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/modjo"
+    to: "/modjo",
+    className: "usp-link-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "ski modjo",
@@ -246,7 +322,8 @@ const USP = props => {
   }, languageToUse.Usp2Text)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "usp-intro services-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/services"
+    to: "/services",
+    className: "usp-link-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "",
@@ -275,9 +352,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const intakeInfo = {
   companyName: "Zenith",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
-  contactEmail: "",
+  companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
+  domainName: "zenith-skishop.com",
+  contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
   taxNumber: "1313"
@@ -310,6 +387,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_USP__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/USP */ "./src/components/USP.jsx");
 /* harmony import */ var _components_Insta__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Insta */ "./src/components/Insta.jsx");
 /* harmony import */ var _components_Explanation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Explanation */ "./src/components/Explanation.jsx");
+/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Contact */ "./src/components/Contact.jsx");
+
 
 
 
@@ -362,6 +441,9 @@ const IndexPage = function (props) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Insta__WEBPACK_IMPORTED_MODULE_9__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Explanation__WEBPACK_IMPORTED_MODULE_10__["default"], {
     language: language,
     languageToUse: languageToUse
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    language: language,
+    languageToUse: languageToUse
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
@@ -371,6 +453,16 @@ const IndexPage = function (props) {
 
 IndexPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
+
+/***/ }),
+
+/***/ "./src/styles/Contact.css":
+/*!********************************!*\
+  !*** ./src/styles/Contact.css ***!
+  \********************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
@@ -434,6 +526,21 @@ IndexPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"];
 
 /***/ }),
 
+/***/ "./src/images/at.svg":
+/*!***************************!*\
+  !*** ./src/images/at.svg ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA3LjggMjAuNzNjLTkzLjQ1IDE4LjMyLTE2OC43IDkzLjY2LTE4NyAxODcuMWMtMjcuNjQgMTQwLjkgNjguNjUgMjY2LjIgMTk5LjEgMjg1LjFjMTkuMDEgMi44ODggMzYuMTctMTIuMjYgMzYuMTctMzEuNDlsLjAwMDEtLjY2MzFjMC0xNS43NC0xMS40NC0yOC44OC0yNi44NC0zMS4yNGMtODQuMzUtMTIuOTgtMTQ5LjItODYuMTMtMTQ5LjItMTc0LjJjMC0xMDIuOSA4OC42MS0xODUuNSAxOTMuNC0xNzUuNGM5MS41NCA4Ljg2OSAxNTguNiA5MS4yNSAxNTguNiAxODMuMmwwIDE2LjE2YzAgMjIuMDktMTcuOTQgNDAuMDUtNDAgNDAuMDVzLTQwLjAxLTE3Ljk2LTQwLjAxLTQwLjA1di0xMjAuMWMwLTguODQ3LTcuMTYxLTE2LjAyLTE2LjAxLTE2LjAybC0zMS45OCAuMDAzNmMtNy4yOTkgMC0xMy4yIDQuOTkyLTE1LjEyIDExLjY4Yy0yNC44NS0xMi4xNS01NC4yNC0xNi4zOC04Ni4wNi01LjEwNmMtMzguNzUgMTMuNzMtNjguMTIgNDguOTEtNzMuNzIgODkuNjRjLTkuNDgzIDY5LjAxIDQzLjgxIDEyOCAxMTAuOSAxMjhjMjYuNDQgMCA1MC40My05LjU0NCA2OS41OS0yNC44OGMyNCAzMS4zIDY1LjIzIDQ4LjY5IDEwOS40IDM3LjQ5QzQ2NS4yIDM2OS4zIDQ5NiAzMjQuMSA0OTUuMSAyNzcuMlYyNTYuM0M0OTUuMSAxMDcuMSAzNjEuMi05LjMzMiAyMDcuOCAyMC43M3pNMjM5LjEgMzA0LjNjLTI2LjQ3IDAtNDgtMjEuNTYtNDgtNDguMDVzMjEuNTMtNDguMDUgNDgtNDguMDVzNDggMjEuNTYgNDggNDguMDVTMjY2LjUgMzA0LjMgMjM5LjEgMzA0LjN6Ii8+PC9zdmc+");
+
+/***/ }),
+
 /***/ "./src/images/bootfittingIntroImage.jpg":
 /*!**********************************************!*\
   !*** ./src/images/bootfittingIntroImage.jpg ***!
@@ -446,6 +553,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/bootfittingIntroImage-cbf2a1da38c68a2c4c868682d3e92013.jpg");
+
+/***/ }),
+
+/***/ "./src/images/location.svg":
+/*!*********************************!*\
+  !*** ./src/images/location.svg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY4LjMgNDk5LjJDMTE2LjEgNDM1IDAgMjc5LjQgMCAxOTJDMCA4NS45NiA4NS45NiAwIDE5MiAwQzI5OCAwIDM4NCA4NS45NiAzODQgMTkyQzM4NCAyNzkuNCAyNjcgNDM1IDIxNS43IDQ5OS4yQzIwMy40IDUxNC41IDE4MC42IDUxNC41IDE2OC4zIDQ5OS4ySDE2OC4zek0xOTIgMjU2QzIyNy4zIDI1NiAyNTYgMjI3LjMgMjU2IDE5MkMyNTYgMTU2LjcgMjI3LjMgMTI4IDE5MiAxMjhDMTU2LjcgMTI4IDEyOCAxNTYuNyAxMjggMTkyQzEyOCAyMjcuMyAxNTYuNyAyNTYgMTkyIDI1NnoiLz48L3N2Zz4=");
 
 /***/ }),
 
@@ -476,6 +598,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/modjoIntroImage-dbcdfe8271a16351eb70ac462f3a1e6a.jpg");
+
+/***/ }),
+
+/***/ "./src/images/phone.svg":
+/*!******************************!*\
+  !*** ./src/images/phone.svg ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMS4xIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTExLjIgMzg3bC0yMy4yNSAxMDAuOGMtMy4yNjYgMTQuMjUtMTUuNzkgMjQuMjItMzAuNDYgMjQuMjJDMjA1LjIgNTEyIDAgMzA2LjggMCA1NC41YzAtMTQuNjYgOS45NjktMjcuMiAyNC4yMi0zMC40NWwxMDAuOC0yMy4yNUMxMzkuNy0yLjYwMiAxNTQuNyA1LjAxOCAxNjAuOCAxOC45Mmw0Ni41MiAxMDguNWM1LjQzOCAxMi43OCAxLjc3IDI3LjY3LTguOTggMzYuNDVMMTQ0LjUgMjA3LjFjMzMuOTggNjkuMjIgOTAuMjYgMTI1LjUgMTU5LjUgMTU5LjVsNDQuMDgtNTMuOGM4LjY4OC0xMC43OCAyMy42OS0xNC41MSAzNi40Ny04Ljk3NWwxMDguNSA0Ni41MUM1MDYuMSAzNTcuMiA1MTQuNiAzNzIuNCA1MTEuMiAzODd6Ii8+PC9zdmc+");
 
 /***/ })
 

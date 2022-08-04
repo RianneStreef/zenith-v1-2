@@ -5,6 +5,7 @@
   align-items: center;
   background-color: #fff;
   min-height: calc(100vh - 90px);
+  padding-top: 60px;
 }
 
 .usp-intro {
@@ -61,6 +62,6 @@ a h3:visited {
     justify-content: center;
   }
   .usp-intro {
-    width: 25vw;
+    width: 20vw;
   }
 }
