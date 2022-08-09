@@ -5,6 +5,7 @@ import "../styles/bootfitting.css";
 
 import Layout from "../components/Layout";
 import Hero2 from "../components/Hero2";
+import Slider from "../components/Slider";
 
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
@@ -42,6 +43,7 @@ const BootfittingPage = function (props) {
       <div className="bootfitting-intro">
         <div className="bootfitting-intro-text">
           <p>{languageToUse.bootfittingIntro1}</p>
+          <Slider />
           <p>{languageToUse.bootfittingIntro2}</p>
           <p>{languageToUse.bootfittingIntro3}</p>
 

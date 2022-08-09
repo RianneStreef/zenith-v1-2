@@ -19,8 +19,8 @@ export const french = {
 
   moreInfo: "Plus d'informations",
 
-  introTitle1: "BIENVENUE SUR LE SITE ZENITH SKI SHOP",
-  introTitle2: "LOCATION SKI / SNOWBOARD VAL THORENS",
+  introTitle1: "BIENVENUE SUR LE SITE DE ZENITH SKI SHOP",
+  introTitle2: "LOCATION DE SKIS ET SNOWBOARDS A VAL THORENS",
   introText1: "Le magasin ",
   introText1B: "Zenith Ski Shop à Val Thorens",
   introText2: " est le ",

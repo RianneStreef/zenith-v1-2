@@ -43,8 +43,9 @@
 
   .hero-content-container {
     justify-content: center;
+    padding: 100px;
   }
   .hero-logo {
-    width: 60%;
+    width: 100%;
   }
 }

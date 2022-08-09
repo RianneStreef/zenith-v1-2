@@ -6,8 +6,8 @@ import { content } from "../content/languages";
 import "../styles/USP.css";
 
 import bootfittingIntroImage from "../images/bootfittingIntroImage.jpg";
-import modjoIntroImage from "../images/modjoIntroImage.jpg";
-import ripNWudIntroImage from "../images/modjoIntroImage.jpg";
+import modjoIntroImage from "../images/bootfittingIntroImage.jpg";
+import servicesIntroImage from "../images/bootfittingIntroImage.jpg";
 
 const USP = (props) => {
   let { language, languageToUse } = props;
@@ -17,7 +17,7 @@ const USP = (props) => {
   language === "dutch" ? (languageToUse = content.dutch) : null;
   return (
     <div className="usp">
-      <div className="usp-intro bootfitting-intro">
+      <div className="usp-intro">
         <Link to="/bootfitting" className="usp-link-container">
           <img
             src={bootfittingIntroImage}
@@ -28,7 +28,7 @@ const USP = (props) => {
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
       </div>
-      <div className="usp-intro modjo-intro">
+      <div className="usp-intro">
         <Link to="/modjo" className="usp-link-container">
           <img
             src={modjoIntroImage}
@@ -39,9 +39,9 @@ const USP = (props) => {
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp2Text}</p>
       </div>
-      <div className="usp-intro services-intro">
+      <div className="usp-intro ">
         <Link to="/services" className="usp-link-container">
-          <img src={ripNWudIntroImage} alt="" className="usp-intro-image" />
+          <img src={servicesIntroImage} alt="" className="usp-intro-image" />
           <h3 className="usp-link">{languageToUse.ourServices}</h3>
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp3Text}</p>

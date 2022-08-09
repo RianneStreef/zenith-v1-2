@@ -4,8 +4,8 @@ import "../styles/Contact.css";
 
 import { content } from "../content/languages";
 
-import location from "../images/location.svg";
-import telephone from "../images/phone.svg";
+import location from "../images/location.png";
+import telephone from "../images/phone.png";
 import email from "../images/at.png";
 
 const Contact = (props) => {
