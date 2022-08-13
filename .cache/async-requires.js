@@ -4,7 +4,7 @@ exports.components = {
   "component---src-pages-bootfitting-jsx": () => import("./../../../src/pages/bootfitting.jsx" /* webpackChunkName: "component---src-pages-bootfitting-jsx" */),
   "component---src-pages-index-jsx": () => import("./../../../src/pages/index.jsx" /* webpackChunkName: "component---src-pages-index-jsx" */),
   "component---src-pages-legal-jsx": () => import("./../../../src/pages/legal.jsx" /* webpackChunkName: "component---src-pages-legal-jsx" */),
-  "component---src-pages-modjo-jsx": () => import("./../../../src/pages/modjo.jsx" /* webpackChunkName: "component---src-pages-modjo-jsx" */),
+  "component---src-pages-mojo-jsx": () => import("./../../../src/pages/mojo.jsx" /* webpackChunkName: "component---src-pages-mojo-jsx" */),
   "component---src-pages-services-jsx": () => import("./../../../src/pages/services.jsx" /* webpackChunkName: "component---src-pages-services-jsx" */),
   "component---src-pages-success-jsx": () => import("./../../../src/pages/success.jsx" /* webpackChunkName: "component---src-pages-success-jsx" */)
 }

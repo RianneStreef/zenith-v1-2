@@ -5,7 +5,6 @@
   align-items: center;
   background-color: #fff;
   min-height: calc(100vh - 90px);
-  padding: 60px 100px;
 }
 
 .usp-intro {
@@ -59,6 +58,7 @@ a:visited {
   .usp {
     flex-direction: row;
     justify-content: center;
+    padding: 60px 100px;
   }
   .usp-intro {
     width: 30vw;

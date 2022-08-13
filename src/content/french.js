@@ -14,7 +14,7 @@ export const french = {
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
 
-  modjo: "Ski Modjo",
+  mojo: "Ski Mojo",
   ripNWud: "Rip 'n Wud",
 
   moreInfo: "Plus d'informations",

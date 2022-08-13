@@ -4204,7 +4204,7 @@ exports.components = {
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx */ "./src/pages/bootfitting.jsx")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx */ "./src/pages/index.jsx")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx */ "./src/pages/legal.jsx")),
-  "component---src-pages-modjo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-modjo-jsx */ "component---src-pages-modjo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/modjo.jsx */ "./src/pages/modjo.jsx")),
+  "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsx */ "component---src-pages-mojo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx */ "./src/pages/mojo.jsx")),
   "component---src-pages-services-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-services-jsx */ "component---src-pages-services-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/services.jsx */ "./src/pages/services.jsx")),
   "component---src-pages-success-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-success-jsx */ "component---src-pages-success-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/success.jsx */ "./src/pages/success.jsx"))
 };
@@ -6821,11 +6821,11 @@ const french = {
   contact: "Contact",
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
-  modjo: "Ski Modjo",
+  mojo: "Ski Mojo",
   ripNWud: "Rip 'n Wud",
   moreInfo: "Plus d'informations",
-  introTitle1: "BIENVENUE SUR LE SITE ZENITH SKI SHOP",
-  introTitle2: "LOCATION SKI / SNOWBOARD VAL THORENS",
+  introTitle1: "BIENVENUE SUR LE SITE DE ZENITH SKI SHOP",
+  introTitle2: "LOCATION DE SKIS ET SNOWBOARDS A VAL THORENS",
   introText1: "Le magasin ",
   introText1B: "Zenith Ski Shop à Val Thorens",
   introText2: " est le ",

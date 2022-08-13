@@ -6,7 +6,7 @@ import { content } from "../content/languages";
 import "../styles/USP.css";
 
 import bootfittingIntroImage from "../images/bootfittingIntroImage.jpg";
-import modjoIntroImage from "../images/bootfittingIntroImage.jpg";
+import mojoIntroImage from "../images/bootfittingIntroImage.jpg";
 import servicesIntroImage from "../images/bootfittingIntroImage.jpg";
 
 const USP = (props) => {
@@ -29,13 +29,13 @@ const USP = (props) => {
         <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
       </div>
       <div className="usp-intro">
-        <Link to="/modjo" className="usp-link-container">
+        <Link to="/mojo" className="usp-link-container">
           <img
-            src={modjoIntroImage}
-            alt="ski modjo"
+            src={mojoIntroImage}
+            alt="ski mojo"
             className="usp-intro-image"
           />
-          <h3 className="usp-link">{languageToUse.modjo}</h3>
+          <h3 className="usp-link">{languageToUse.mojo}</h3>
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp2Text}</p>
       </div>
