@@ -59,7 +59,6 @@ const ServicesPage = function (props) {
             </div>
           </div>
         </div>
-        <div className="banner" />
 
         <div className="services-container services-container-2">
           <div className="service service-1">
@@ -87,6 +86,8 @@ const ServicesPage = function (props) {
           </div>
         </div>
       </div>
+      <div className="banner" />
+
       <Partenaires />
     </div>
   );
