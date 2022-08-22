@@ -12,6 +12,11 @@
   margin: 100px 0;
 }
 
+.service img {
+  width: 30%;
+  height: 30%;
+}
+
 .services h1 {
   color: var(--color-highlight);
   font-family: "IBM Plex Mono Bold Italic";

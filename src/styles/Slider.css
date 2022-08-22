@@ -1,10 +1,10 @@
 #slider-element {
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .slide-image-container {
   width: 90vw;
-  /* padding: 0 5vw; */
 }
 
 .slide-image {

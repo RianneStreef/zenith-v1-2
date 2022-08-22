@@ -162,6 +162,34 @@ export const french = {
     "Vous pouvez changer de glisse pendant votre séjour et si votre hébergement ne dispose pas d'un accès skis aux pieds, nous pouvons garder votre matériel le soir. Pour la location de skis, snowboard ou snowscoot, vous pouvez dès à présent louer votre matériel en ligne sur notre ",
   service4Link: "système de réservation.",
 
+  mojoTitle:
+    "Découvrez tous les avantages du Ski Augmenté avec l’exosquelette Ski~Mojo",
+
+  mojoIcon1: "Plaisir",
+  mojoIcon2: "Endurance",
+  mojoIcon3: "Performance",
+  mojoIcon4: "Sécurité",
+
+  mojoExplanation1:
+    "Réduit considérablement les douleurs (genoux, hanches et dos), et ce, sans aucun compromis sur le plaisir",
+  mojoExplanation2:
+    "Retarde la fatigue musculaire pour skier plus longtemps, dans votre journée, votre semaine ou votre vie",
+  mojoExplanation3:
+    "Absorbe chocs et vibrations et améliore le contact ski-neige pour un meilleur contrôle des trajectoires",
+  mojoExplanation4:
+    "Gardez bien plus longtemps de la réserve musculaire dans les jambes pour réduire le risque de chutes",
+
+  mojoP1:
+    "Le Ski~Mojo est un mécanisme basé sur un puissant ressort réglable permettant d’alléger d’1/3 le poids ressenti par les jambes. En comprimant les ressorts dans la phase de flexion, il restitue l’énergie et décuple la puissance musculaire lors de l’extension.",
+  mojoP2:
+    "L’effet de suspension des ressorts diminue les chocs et vibrations réduisant ainsi la pression sur les genoux et soulageant hanches et dos.",
+  mojoP3:
+    "La flexion de genoux nécessite une dépense d’énergie supplémentaire imperceptible. Ce travail supplémentaire des ischios-jambiers, combiné à la contraction réduite des quadriceps, tend à protéger les ligaments croisés.",
+  mojoP4:
+    "La production d’acide lactique, rendant les muscles inefficaces, sera retardée et limitée. Les risques d’accidents liés à la fatigue ainsi que les courbatures sont ainsi réduits.",
+
+  mojoUnderTitle: "Réserver votre test au magazin avant d'acheter",
+
   partners: "Nos Partenaires",
 
   siteValThorens: "Le site officiel de Val Thorens",

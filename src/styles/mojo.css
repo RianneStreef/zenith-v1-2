@@ -1,0 +1,65 @@
+.hero-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../images/mojo-hero.jpeg");
+  background-size: cover;
+  background-position: 75% 50%;
+  background-repeat: none;
+  width: 100vw;
+  height: 30vw;
+}
+
+.mojo h1 {
+  color: var(--color-highlight);
+  font-family: "IBM Plex Mono Bold Italic";
+  text-transform: uppercase;
+  margin: 50px 100px;
+}
+
+.mojo-icons {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.mojo-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mojo-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.mojo-icon h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mojo-icon p {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.mojo-text {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .mojo-icons {
+    padding: 50px 100px;
+    flex-direction: row;
+  }
+  .mojo-text {
+    flex-direction: row;
+  }
+  .mojo-text-image {
+    width: 50%;
+  }
+}

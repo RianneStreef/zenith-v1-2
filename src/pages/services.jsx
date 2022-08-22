@@ -87,7 +87,6 @@ const ServicesPage = function (props) {
           </div>
         </div>
       </div>
-      <Insta />
       <Partenaires />
     </div>
   );

@@ -42,9 +42,6 @@
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: none;
-}
-
-.bootfitting-under-title {
   color: var(--color-highlight);
   text-transform: uppercase;
   text-align: center;
