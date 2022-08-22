@@ -8,6 +8,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .partenaires {
+    padding: 50px 100px;
+  }
   .partenaires h4 {
     padding: 40px 40px 20px 40px;
     margin: 0;

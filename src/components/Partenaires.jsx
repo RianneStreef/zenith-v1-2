@@ -18,16 +18,16 @@ const Partenaires = (props) => {
           <span>{languageToUse.siteValThorens}: </span>
           <a href="https://www.valthorens.com/">www.valthorens.com</a>
         </li>
-        <li>
+        {/* <li>
           <span>{languageToUse.logementParticulier}: </span>
-          {/* <a href="https://www.valthorens-location.com">
+          <a href="https://www.valthorens-location.com">
             www.valthorens-location.com
           </a>
-          ,{" "} */}
+          ,{" "}
           <a href="https://www.locations-valthorens.fr.gd">
             www.locations-valthorens.fr.gd
           </a>
-        </li>
+        </li> */}
         <li>
           <span>{languageToUse.logementAgence}: </span>
           <a href="https://www.immobilier-valthorens.fr/" target="blank">
@@ -39,7 +39,7 @@ const Partenaires = (props) => {
           </a>
           ,{" "}
           <a href="https://www.alpineimmo.com/" target="blank">
-            https://www.alpineimmo.com
+            www.alpineimmo.com
           </a>
         </li>
         <li>

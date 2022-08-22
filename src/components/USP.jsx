@@ -6,8 +6,8 @@ import { content } from "../content/languages";
 import "../styles/USP.css";
 
 import bootfittingIntroImage from "../images/bootfittingIntroImage.jpg";
-import mojoIntroImage from "../images/bootfittingIntroImage.jpg";
-import servicesIntroImage from "../images/bootfittingIntroImage.jpg";
+import mojoIntroImage from "../images/modjoIntroImage.jpg";
+import servicesIntroImage from "../images/serviceIntro.jpg";
 
 const USP = (props) => {
   let { language, languageToUse } = props;

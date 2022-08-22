@@ -36,6 +36,7 @@ const Explanation = (props) => {
           {languageToUse.explanationText6}
         </span>
       </p>
+      <div className="header-placeholder" />
     </div>
   );
 };

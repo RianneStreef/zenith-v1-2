@@ -30,7 +30,7 @@ const Contact = (props) => {
           />
         </div>
         <div className="contact-info">
-          <p>
+          <div>
             <img src={location} alt="" className="contact-icon" />
             <p className="address address-bold">
               {languageToUse.addressContent1}
@@ -38,7 +38,7 @@ const Contact = (props) => {
             <p className="address"> {languageToUse.addressContent2}</p>
             <p className="address"> {languageToUse.addressContent3}</p>
             <p className="address"> {languageToUse.addressContent4}</p>
-          </p>
+          </div>
           <p>
             <img src={telephone} alt="" className="contact-icon" />
             <a href="tel:0033479000528"> {languageToUse.telContent}</a>

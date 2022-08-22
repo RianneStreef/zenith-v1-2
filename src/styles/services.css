@@ -5,10 +5,11 @@
 
 .services-container-2 {
   background-color: #fff;
+  color: #000;
 }
 
 .service {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .services h1 {
@@ -22,10 +23,6 @@
   font-size: 30px;
   font-family: "IBM Plex Mono Bold Italic";
   margin: 0;
-}
-
-.services-container-2 {
-  color: #000;
 }
 
 .services-container-2 h3 {
@@ -49,6 +46,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .services-container {
+    padding: 100px;
+    margin: 0;
+  }
   .service-1 {
     display: flex;
     flex-direction: row;

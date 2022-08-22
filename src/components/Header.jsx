@@ -3,8 +3,6 @@ import { Link } from "gatsby";
 
 import Burger from "../components/Burger";
 
-import logoVertical from "../images/logo-hor-white.svg";
-
 import flagEn from "../images/icon-en.png";
 import flagFr from "../images/icon-fr.png";
 import flagNl from "../images/icon-nl.png";
@@ -24,6 +22,10 @@ const Header = (props) => {
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
+
+  let slug = props;
+  console.log("slug");
+
   return (
     <div className="header">
       <ul className="links hidden-mobile">
