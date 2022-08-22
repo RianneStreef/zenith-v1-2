@@ -12,9 +12,30 @@ const Explanation = (props) => {
   return (
     <div className="explanation">
       <h2 className="intro-title">{languageToUse.explanationTitle}</h2>
-      <p className="explanation-text">{languageToUse.explanationText1}</p>
-      <p className="explanation-text">{languageToUse.explanationText2}</p>
-      <p className="explanation-text">{languageToUse.explanationText3}</p>
+      <p>
+        <span className="explanation-text">
+          {languageToUse.explanationText1}
+        </span>
+        <span className="explanation-text bold">
+          {languageToUse.explanationText2}
+        </span>
+        <span className="explanation-text">
+          {languageToUse.explanationText3}
+        </span>
+      </p>
+      <p>
+        <span className="explanation-text">
+          {languageToUse.explanationText4}
+        </span>
+        <span className="explanation-text bold">
+          {languageToUse.explanationText5}
+        </span>
+      </p>
+      <p>
+        <span className="explanation-text">
+          {languageToUse.explanationText6}
+        </span>
+      </p>
     </div>
   );
 };

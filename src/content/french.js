@@ -64,11 +64,16 @@ export const french = {
 
   explanationTitle: "ZENITH SKI SHOP - LOCATION SKIS ET SNOWBOARDS",
 
-  explanationText1:
-    "Pour la location de skis / snowboard / chaussures nous vous proposons l’équipement correspondant à votre besoin et à votre niveau. Notre parc de location est actualisé chaque année. Nos chaussures de location sont séchées et aseptisées après chaque sortie et, si nécessaire, nous personnalisons celles que vous louez.",
+  explanationText1: "Pour la location de skis / snowboard / chaussures ",
   explanationText2:
-    "Vous pouvez changer de glisse pendant votre séjour et si vous résidez loin des pistes, nous pouvons garder vos skis le soir après votre journée de glisse. Pour faciliter toujours plus votre séjour et ne pas gaspiller de temps lors de votre arrivée à Val Thorens, nous vous offrons la possibilité d’effectuer la location de votre matériel en ligne.",
+    "nous vous proposons l’équipement correspondant à votre besoin et à votre niveau. ",
   explanationText3:
+    "Notre parc de location est actualisé chaque année. Nos chaussures de location sont séchées et aseptisées après chaque sortie et, si nécessaire, nous personnalisons celles que vous louez. ",
+  explanationText4:
+    "Vous pouvez changer de glisse pendant votre séjour et si vous résidez loin des pistes, nous pouvons garder vos skis le soir après votre journée de glisse. ",
+  explanationText5:
+    "Pour faciliter toujours plus votre séjour et ne pas gaspiller de temps lors de votre arrivée à Val Thorens, nous vous offrons la possibilité d’effectuer la location de votre matériel en ligne. ",
+  explanationText6:
     "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
 
   bootfittingTitle: "LE BOOTFITTING, C’EST NOTRE SPÉCIALITÉ",
