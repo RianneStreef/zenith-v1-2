@@ -69,7 +69,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem1Title}</h3>
-            <p>{languageToUse.bootfittingProblem1Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem1Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -80,7 +80,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem2Title}</h3>
-            <p>{languageToUse.bootfittingProblem2Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem2Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -91,7 +91,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem3Title}</h3>
-            <p>{languageToUse.bootfittingProblem3Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem3Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -102,7 +102,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem4Title}</h3>
-            <p>{languageToUse.bootfittingProblem4Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem4Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -113,7 +113,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem5Title}</h3>
-            <p>{languageToUse.bootfittingProblem5Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem5Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -124,7 +124,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem6Title}</h3>
-            <p>{languageToUse.bootfittingProblem6Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem6Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -135,7 +135,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem7Title}</h3>
-            <p>{languageToUse.bootfittingProblem7Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem7Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -146,7 +146,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem8Title}</h3>
-            <p>{languageToUse.bootfittingProblem8Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem8Text}</p>
           </div>
           <div className="bootfitting-problem">
             <div className="bootfitting-problem-image-container">
@@ -157,7 +157,7 @@ const BootfittingPage = function (props) {
               />
             </div>
             <h3>{languageToUse.bootfittingProblem9Title}</h3>
-            <p>{languageToUse.bootfittingProblem9Text}</p>
+            <p className="gray-text">{languageToUse.bootfittingProblem9Text}</p>
           </div>
         </div>
         <h3 className="bootfitting-under-title">

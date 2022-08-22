@@ -35,22 +35,30 @@
   font-family: "IBM Plex Mono Bold";
   font-size: 15px;
   padding: 0 10px;
-}
-
-.nav-link:hover {
-  border-bottom: 1px solid var(--color-text-dark);
+  transition: color 500ms ease-in-out;
 }
 
 .nav-link:visited {
   color: var(--color-text-dark);
 }
 
+.nav-link:hover {
+  color: #fff;
+  transition: color 500ms ease-in-out;
+}
+
 .nav-link-yellow {
   color: var(--color-highlight);
+  transition: color 500ms ease-in-out;
 }
 
 .nav-link-yellow:visited {
   color: var(--color-highlight);
+}
+
+.nav-link-yellow:hover {
+  color: #fff;
+  transition: color 500ms ease-in-out;
 }
 
 .logo-link {

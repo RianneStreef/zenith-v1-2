@@ -45,13 +45,6 @@ const IndexPage = function (props) {
       <Insta />
       <Explanation language={language} languageToUse={languageToUse} />
       <Contact language={language} languageToUse={languageToUse} />
-      <a
-        href="https://zenith-skishop.notresphere.com/location-materiel"
-        target="blank"
-        className="book-link"
-      >
-        {languageToUse.book}
-      </a>
     </div>
   );
 };

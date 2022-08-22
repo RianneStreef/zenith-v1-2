@@ -4,9 +4,9 @@ import "../styles/Contact.css";
 
 import { content } from "../content/languages";
 
-import location from "../images/location.png";
-import telephone from "../images/phone.png";
-import email from "../images/at.png";
+import location from "../images/location.svg";
+import telephone from "../images/phone.svg";
+import email from "../images/at.svg";
 
 const Contact = (props) => {
   let { language, languageToUse } = props;
@@ -32,14 +32,12 @@ const Contact = (props) => {
         <div className="contact-info">
           <p>
             <img src={location} alt="" className="contact-icon" />
-            {languageToUse.addressContent1}
-            <br />
-            {languageToUse.addressContent2}
-            <br />
-            {languageToUse.addressContent3}
-            <br />
-            {languageToUse.addressContent4}
-            <br />
+            <p className="address address-bold">
+              {languageToUse.addressContent1}
+            </p>
+            <p className="address"> {languageToUse.addressContent2}</p>
+            <p className="address"> {languageToUse.addressContent3}</p>
+            <p className="address"> {languageToUse.addressContent4}</p>
           </p>
           <p>
             <img src={telephone} alt="" className="contact-icon" />

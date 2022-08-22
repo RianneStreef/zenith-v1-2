@@ -35,6 +35,18 @@
   color: #000;
 }
 
+.address {
+  font-size: 35px;
+  margin: 10px;
+  line-height: 25px;
+  color: #000;
+}
+
+.address-bold {
+  font-family: "Futura Bold";
+  font-size: 25px;
+}
+
 .contact-info a {
   font-size: 35px;
   color: #000;

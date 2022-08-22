@@ -29,7 +29,7 @@ const Header = (props) => {
       <ul className="links hidden-mobile">
         <li>
           <Link to="/" className="nav-link">
-            Zenith Ski Shop
+            {languageToUse.home}
           </Link>
           <Link to="/bootfitting" className="nav-link">
             {languageToUse.bootfitting}
