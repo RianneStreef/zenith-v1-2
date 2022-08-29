@@ -61,6 +61,10 @@
   transition: color 500ms ease-in-out;
 }
 
+.active {
+  color: #fff;
+}
+
 .logo-link {
   text-align: right;
   width: 130px;

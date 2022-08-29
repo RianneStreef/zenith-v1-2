@@ -9,7 +9,7 @@ import Hero2 from "../components/Hero2";
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
-import bootfittingIntroImage from "../images/bootfittingIntroImage.jpg";
+import bootfittingSlider from "../images/bootfitting-slider-2.jpg";
 
 import bootfittingProblem1Image from "../images/bootfitting/crampes.svg";
 import bootfittingProblem2Image from "../images/bootfitting/froid.svg";
@@ -42,6 +42,20 @@ const BootfittingPage = function (props) {
       <div className="bootfitting-intro">
         <div className="bootfitting-intro-text">
           <p>{languageToUse.bootfittingIntro1}</p>
+
+          <div className="bootfitting-slider">
+            <img
+              src={bootfittingSlider}
+              alt=""
+              className="bootfitting-slider-image-1"
+            />
+            {/* <img
+              src={bootfittingSlider}
+              alt=""
+              className="bootfitting-slider-image"
+            /> */}
+          </div>
+
           <p>{languageToUse.bootfittingIntro2}</p>
           <p>{languageToUse.bootfittingIntro3}</p>
 

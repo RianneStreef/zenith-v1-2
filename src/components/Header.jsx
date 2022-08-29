@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 
 import Burger from "../components/Burger";
@@ -14,6 +14,8 @@ import "../styles/Header.css";
 const Header = (props) => {
   let { language, languageToUse, setLanguage } = props;
 
+  const [pathname, setPathname] = useState(`/`);
+
   function handleSetLanguage(language) {
     setLanguage(language);
     localStorage.setItem("languageInStorage", language);
@@ -23,23 +25,38 @@ const Header = (props) => {
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
 
-  let slug = props;
-  console.log("slug");
-
   return (
     <div className="header">
       <ul className="links hidden-mobile">
         <li>
-          <Link to="/" className="nav-link">
+          <Link
+            to="/"
+            className={`nav-link ${pathname === "/" ? "active" : ""}`}
+            onClick={() => setPathname("/")}
+          >
             {languageToUse.home}
           </Link>
-          <Link to="/bootfitting" className="nav-link">
+          <Link
+            to="/bootfitting"
+            className={`nav-link ${
+              pathname === "/bootfitting" ? "active" : ""
+            }`}
+            onClick={() => setPathname("/bootfitting")}
+          >
             {languageToUse.bootfitting}
           </Link>
-          <Link to="/services" className="nav-link">
+          <Link
+            to="/services"
+            className={`nav-link ${pathname === "/services" ? "active" : ""}`}
+            onClick={() => setPathname("/services")}
+          >
             {languageToUse.services}
           </Link>
-          <Link to="/#contact" className="nav-link">
+          <Link
+            to="/#contact"
+            className={`nav-link ${pathname === "/#contact" ? "active" : ""}`}
+            onClick={() => setPathname("/#contact")}
+          >
             {languageToUse.contact}
           </Link>
           <a

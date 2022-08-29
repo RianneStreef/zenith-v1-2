@@ -14,10 +14,10 @@ import Partenaires from "../components/Partenaires";
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
-import service1Image from "../images/service1.jpg";
-import service2Image from "../images/service2.jpg";
-import service3Image from "../images/service3.jpg";
-import service4Image from "../images/service4.jpg";
+import service1Image from "../images/service1-square.jpg";
+import service2Image from "../images/service2-square.jpg";
+import service3Image from "../images/service3-square.jpg";
+import service4Image from "../images/service4-square.jpg";
 
 const ServicesPage = function (props) {
   let { language, languageToUse } = props;
