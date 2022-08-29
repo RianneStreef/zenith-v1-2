@@ -19,7 +19,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 40%;
 }
 
 .bootfitting-problems h3 {
@@ -72,10 +71,6 @@
 @media only screen and (min-width: 768px) {
   .bootfitting-intro {
     padding: 0 100px 100px 100px;
-  }
-
-  .bootfitting-slider-image-1 {
-    height: 100%;
   }
 
   .bootfitting-problems {

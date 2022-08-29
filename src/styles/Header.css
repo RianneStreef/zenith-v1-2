@@ -38,11 +38,12 @@
   transition: color 500ms ease-in-out;
 }
 
-.nav-link:visited {
-  color: var(--color-text-dark);
+.nav-link:hover {
+  color: #fff;
+  transition: color 500ms ease-in-out;
 }
 
-.nav-link:hover {
+.nav-link:active {
   color: #fff;
   transition: color 500ms ease-in-out;
 }

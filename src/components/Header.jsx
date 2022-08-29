@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 
 import Burger from "../components/Burger";
@@ -15,6 +15,11 @@ const Header = (props) => {
   let { language, languageToUse, setLanguage } = props;
 
   const [pathname, setPathname] = useState(`/`);
+
+  useEffect(() => {
+    console.log("pathname");
+    console.log(pathname);
+  }, [pathname]);
 
   function handleSetLanguage(language) {
     setLanguage(language);
