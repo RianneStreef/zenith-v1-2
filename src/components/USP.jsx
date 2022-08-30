@@ -10,7 +10,7 @@ import mojoIntroImage from "../images/modjoIntroImage.jpg";
 import servicesIntroImage from "../images/serviceIntro.jpg";
 
 const USP = (props) => {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, pathname, setPathname } = props;
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
@@ -29,7 +29,11 @@ const USP = (props) => {
         <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
       </div>
       <div className="usp-intro">
-        <Link to="/mojo" className="usp-link-container">
+        <Link
+          to="/mojo"
+          className="usp-link-container"
+          onClick={() => setPathname("/mojo")}
+        >
           <img
             src={mojoIntroImage}
             alt="ski mojo"

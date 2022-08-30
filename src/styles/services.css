@@ -17,6 +17,10 @@
   height: 100%;
 }
 
+.services a:hover {
+  text-decoration: underline;
+}
+
 .services h1 {
   color: var(--color-highlight);
   font-family: "IBM Plex Mono Bold Italic";

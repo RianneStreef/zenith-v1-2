@@ -11,6 +11,11 @@
   height: 30vw;
 }
 
+.mojo-hero-logo {
+  width: 500%;
+  margin-left: 100px;
+}
+
 .mojo h1 {
   color: var(--color-highlight);
   font-family: "IBM Plex Mono Bold Italic";

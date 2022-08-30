@@ -3,7 +3,6 @@
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: none;
-  min-height: calc(100vh - 290px);
 }
 
 .insta-feed {

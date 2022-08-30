@@ -123,13 +123,6 @@ const Navbar = (props) => {
                 languageToUse.language === "french" ? "opaque" : "fade"
               } `}
             />
-            <img
-              src={flagNl}
-              onClick={() => handleSetLanguage("dutch")}
-              className={`flag ${
-                languageToUse.language === "dutch" ? "opaque" : "fade"
-              } `}
-            />
           </div>
         </li>
       </Ul>

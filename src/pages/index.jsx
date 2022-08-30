@@ -15,7 +15,7 @@ import Explanation from "../components/Explanation";
 import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, pathname, setPathname } = props;
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
@@ -41,7 +41,12 @@ const IndexPage = function (props) {
       <div className="header-placeholder" />
       <Hero language={language} languageToUse={languageToUse} />
       <Intro language={language} languageToUse={languageToUse} />
-      <USP language={language} languageToUse={languageToUse} />
+      <USP
+        language={language}
+        languageToUse={languageToUse}
+        pathname={pathname}
+        setPathname={setPathname}
+      />
       <Insta />
       <Explanation language={language} languageToUse={languageToUse} />
       <Contact language={language} languageToUse={languageToUse} />

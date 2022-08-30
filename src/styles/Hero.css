@@ -26,6 +26,7 @@
 .hero-title {
   color: #fff;
   font-family: "IBM Plex Mono Bold Italic";
+  text-transform: uppercase;
 }
 
 .hero-title-2 {

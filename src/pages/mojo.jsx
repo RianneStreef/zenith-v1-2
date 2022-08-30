@@ -1,6 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
+import { Link } from "gatsby";
+
 import "../styles/mojo.css";
 
 import Layout from "../components/Layout";
@@ -15,8 +17,10 @@ import mojoIcon4 from "../images/mojo-icon-4.svg";
 
 import mojoIntroImage from "../images/modjoIntroImage.jpg";
 
+import logoHero from "../images/logo-hero.svg";
+
 const BootfittingPage = function (props) {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, pathname, setPathname } = props;
 
   language === "english"
     ? (languageToUse = content.english)
@@ -32,7 +36,16 @@ const BootfittingPage = function (props) {
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
       <div className="header-placeholder" />
-      <div className="hero-3" />
+      <div className="hero-3">
+        <Link to="/">
+          <img
+            src={logoHero}
+            alt="logo"
+            className="mojo-hero-logo"
+            onClick={() => setPathname("/")}
+          />
+        </Link>
+      </div>
       <h1 className="mojo-title">{languageToUse.mojoTitle}</h1>
       <div className="mojo-icons">
         <div className="mojo-icon">

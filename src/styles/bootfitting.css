@@ -3,6 +3,12 @@
   font-family: "IBM Plex Mono Bold Italic";
 }
 
+.bootfitting h2 {
+  color: var(--color-highlight);
+  font-family: "IBM Plex Mono Bold Italic";
+  text-transform: uppercase;
+}
+
 .bootfitting-slider {
   display: flex;
   overflow: hidden;

@@ -12,9 +12,7 @@ import { content } from "../content/languages";
 import "../styles/Header.css";
 
 const Header = (props) => {
-  let { language, languageToUse, setLanguage } = props;
-
-  const [pathname, setPathname] = useState(`/`);
+  let { language, languageToUse, setLanguage, pathname, setPathname } = props;
 
   useEffect(() => {
     console.log("pathname");
@@ -28,7 +26,6 @@ const Header = (props) => {
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
 
   return (
     <div className="header">
@@ -98,19 +95,6 @@ const Header = (props) => {
                 alt="français"
                 className={`flag ${
                   languageToUse.language === "french" ? "opaque" : "fade"
-                } `}
-              />
-            </button>
-            <button
-              onClick={() => handleSetLanguage("dutch")}
-              onKeyPress={() => handleSetLanguage("dutch")}
-              className="invisible-button"
-            >
-              <img
-                src={flagNl}
-                alt="nederlands"
-                className={`flag ${
-                  languageToUse.language === "dutch" ? "opaque" : "fade"
                 } `}
               />
             </button>

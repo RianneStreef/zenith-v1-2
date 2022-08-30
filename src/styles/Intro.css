@@ -1,10 +1,13 @@
 .intro {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 90px);
   flex-direction: column;
   justify-content: center;
   margin: 20px;
+}
+
+.intro-title {
+  text-transform: uppercase;
 }
 
 .intro-text-p {
