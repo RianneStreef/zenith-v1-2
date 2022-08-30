@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  min-height: calc(100vh - 90px);
   padding-top: 20px;
 }
 
@@ -16,6 +15,7 @@
   padding: 20px 0;
   margin: 0 30px;
   color: var(--color-text-gray);
+  flex: 1;
 }
 
 .usp-link-container {
@@ -33,6 +33,7 @@
   width: 100%;
   text-align: center;
   font-family: "Futura";
+  font-size: 20px;
 }
 
 a {
@@ -62,9 +63,14 @@ a:visited {
     justify-content: center;
     padding: 40px 100px;
   }
+
   .usp-intro {
     width: 30vw;
+    height: 100%;
   }
+}
+
+@media only screen and (min-width: 1024px) {
   .usp-link {
     font-size: 25px;
   }
