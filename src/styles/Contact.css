@@ -2,7 +2,6 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-
   padding: 20px;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .address {
-  font-size: 35px;
+  font-size: 18px;
   margin: 10px;
   line-height: 25px;
   color: #000;
@@ -48,7 +47,7 @@
 }
 
 .contact-info a {
-  font-size: 35px;
+  font-size: 18px;
   color: #000;
   text-decoration: none;
 }
@@ -64,6 +63,14 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .address {
+    font-size: 35px;
+  }
+
+  .contact-info a {
+    font-size: 35px;
+  }
+
   .contact {
     padding: 100px;
   }

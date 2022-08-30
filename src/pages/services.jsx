@@ -35,6 +35,7 @@ const ServicesPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <div className="header-placeholder" />
       <Hero2 />
       <div className="services">
         <div className="services-container services-container-1">
