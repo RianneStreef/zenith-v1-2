@@ -10,7 +10,7 @@ export const french = {
 
   home: "Accueil",
   bootfitting: "Bootfitting",
-  services: "le Service Zenith",
+  services: "Le Service Zenith",
   book: "Location en ligne",
   contact: "Contact",
 

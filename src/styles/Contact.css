@@ -5,6 +5,13 @@
   padding: 20px;
 }
 
+.contact-text {
+  font-size: 15px;
+  line-height: 40px;
+  margin-top: 20px;
+  color: var(--color-text-gray);
+}
+
 .contact-blocks {
   display: flex;
   flex-direction: column;
@@ -57,6 +64,10 @@
   margin: 10px;
 }
 
+.google-map-iframe {
+  height: 90vw;
+}
+
 .iframe-google {
   height: 100%;
   width: 100%;
@@ -74,6 +85,11 @@
   .contact {
     padding: 100px;
   }
+
+  .contact-text {
+    font-size: 35px;
+  }
+
   .contact-blocks {
     flex-direction: row;
     justify-content: space-around;
@@ -81,6 +97,10 @@
 
   .contact-blocks > * {
     width: 50%;
+  }
+
+  .google-map-iframe {
+    height: 50vw;
   }
 }
 

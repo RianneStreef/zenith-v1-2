@@ -1,5 +1,6 @@
 .partenaires {
   background-color: #fff;
+  color: var(--color-text-gray);
 }
 
 .partenaires h4 {

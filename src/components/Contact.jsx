@@ -19,8 +19,8 @@ const Contact = (props) => {
       {/* <div className="header-placeholder" /> */}
 
       <h2>{languageToUse.contactTitle}</h2>
-      <p className="explanation-text">{languageToUse.contactIntro1}</p>
-      <p className="explanation-text">{languageToUse.contactIntro2}</p>
+      <p className="contact-text">{languageToUse.contactIntro1}</p>
+      <p className="contact-text">{languageToUse.contactIntro2}</p>
       <div className="contact-blocks">
         <div className="google-map-iframe">
           <iframe

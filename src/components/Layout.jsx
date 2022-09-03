@@ -13,6 +13,22 @@ const Layout = ({ children }) => {
 
   const [pathname, setPathname] = useState(`/`);
 
+  useEffect(() => {
+    const button = document.getElementById("location-en-ligne");
+
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll > 10) {
+        button.classList.remove("transparent");
+        return;
+      }
+      if (currentScroll < 10) {
+        button.classList.add("transparent");
+        return;
+      }
+    });
+  });
+
   //  let languageInStorage = "";
 
   // useEffect(() => {
@@ -54,7 +70,11 @@ const Layout = ({ children }) => {
         target="blank"
         className="book-link"
       >
-        <img src={buttonLocationEnLigne} className="button-location-en-ligne" />
+        <img
+          src={buttonLocationEnLigne}
+          className="button-location-en-ligne transparent"
+          id="location-en-ligne"
+        />
       </a>
       <Footer language={language} languageToUse={languageToUse} />
     </div>

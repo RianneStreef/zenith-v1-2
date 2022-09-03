@@ -45,6 +45,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 25px;
+  color: var(--color-text-gray);
 }
 
 .bootfitting-problems-container {
@@ -68,7 +69,7 @@
   border-radius: 10%;
   width: 35%;
   height: 35%;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .bootfitting-text {

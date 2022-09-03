@@ -6,6 +6,7 @@
   font-size: 15px;
   line-height: 40px;
   margin-top: 20px;
+  color: var(--color-text);
 }
 
 @media only screen and (min-width: 768px) {
@@ -15,5 +16,6 @@
 
   .explanation-text {
     font-size: 35px;
+    color: var(--color-text-gray);
   }
 }

@@ -94,9 +94,9 @@ span {
   margin: 0;
   padding: 0;
   font-family: "Futura";
-  color: var(--color-text-gray);
+  color: var(--color-text-text);
   font-size: 15px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 p {
@@ -166,10 +166,19 @@ ul {
   right: 20px;
   z-index: 999;
   width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .button-location-en-ligne {
-  width: 100%;
+  width: 70%;
+  transition: opacity 500ms;
+}
+
+.transparent {
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
 @media only screen and (min-width: 768px) {
@@ -183,5 +192,11 @@ ul {
   a,
   span {
     font-size: 25px;
+    color: var(--color-text-gray);
+    line-height: 40px;
+  }
+
+  .button-location-en-ligne {
+    width: 100%;
   }
 }

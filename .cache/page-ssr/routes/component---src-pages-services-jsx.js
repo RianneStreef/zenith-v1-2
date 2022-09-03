@@ -105,28 +105,37 @@ const Partenaires = props => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "partenaires"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, languageToUse.partners), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, languageToUse.siteValThorens, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.valthorens.com/"
+    href: "https://www.valthorens.com/",
+    target: "blank",
+    className: "partner-link"
   }, "www.valthorens.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, languageToUse.logementAgence, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.immobilier-valthorens.fr/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.immobilier-valthorens.fr"), ",", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.agencelacime.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.agencelacime.com"), ",", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.alpineimmo.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.alpineimmo.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " ", languageToUse.coursSki, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.ski-cool.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.ski-cool.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " ", languageToUse.valthoFromSky, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.libre-envol.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.libre-envol.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " ", languageToUse.savoie, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.france-voyage.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.france-voyage.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " ", languageToUse.pasChere, ": "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.montagnepascher.com/",
-    target: "blank"
+    target: "blank",
+    className: "partner-link"
   }, "www.montagnepascher.com"))));
 };
 
@@ -181,10 +190,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Partenaires__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Partenaires */ "./src/components/Partenaires.jsx");
 /* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 /* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
-/* harmony import */ var _images_service1_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/service1.jpg */ "./src/images/service1.jpg");
-/* harmony import */ var _images_service2_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/service2.jpg */ "./src/images/service2.jpg");
-/* harmony import */ var _images_service3_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/service3.jpg */ "./src/images/service3.jpg");
-/* harmony import */ var _images_service4_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/service4.jpg */ "./src/images/service4.jpg");
+/* harmony import */ var _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/service1-square.jpg */ "./src/images/service1-square.jpg");
+/* harmony import */ var _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/service2-square.jpg */ "./src/images/service2-square.jpg");
+/* harmony import */ var _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/service3-square.jpg */ "./src/images/service3-square.jpg");
+/* harmony import */ var _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/service4-square.jpg */ "./src/images/service4-square.jpg");
 
 
 
@@ -218,7 +227,9 @@ const ServicesPage = function (props) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     rel: "canonical",
     href: _content_intake__WEBPACK_IMPORTED_MODULE_9__["default"].domainName
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero2__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "header-placeholder"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero2__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-container services-container-1"
@@ -227,7 +238,7 @@ const ServicesPage = function (props) {
   }, languageToUse.servicesTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service1_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
+    src: _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
@@ -236,7 +247,7 @@ const ServicesPage = function (props) {
   }, languageToUse.service1Link)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service2_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
+    src: _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
@@ -245,14 +256,14 @@ const ServicesPage = function (props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service3_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
+    src: _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service3Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service3Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service4_jpg__WEBPACK_IMPORTED_MODULE_13__["default"],
+    src: _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_13__["default"],
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
@@ -324,10 +335,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/images/service1.jpg":
-/*!*********************************!*\
-  !*** ./src/images/service1.jpg ***!
-  \*********************************/
+/***/ "./src/images/service1-square.jpg":
+/*!****************************************!*\
+  !*** ./src/images/service1-square.jpg ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -335,14 +346,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service1-d09001442f2f824a43d4c9cb5806835a.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service1-square-945c12ad77c729bcc2e6d0b825040f33.jpg");
 
 /***/ }),
 
-/***/ "./src/images/service2.jpg":
-/*!*********************************!*\
-  !*** ./src/images/service2.jpg ***!
-  \*********************************/
+/***/ "./src/images/service2-square.jpg":
+/*!****************************************!*\
+  !*** ./src/images/service2-square.jpg ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -350,14 +361,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service2-8832ca0db620998a0a3b8fba450e37a6.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service2-square-9daee0d81f6d1f629e0766cf578b324f.jpg");
 
 /***/ }),
 
-/***/ "./src/images/service3.jpg":
-/*!*********************************!*\
-  !*** ./src/images/service3.jpg ***!
-  \*********************************/
+/***/ "./src/images/service3-square.jpg":
+/*!****************************************!*\
+  !*** ./src/images/service3-square.jpg ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -365,14 +376,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service3-280fb129673389d45204d8d5e119cf2d.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service3-square-b17158b5f39d575921d60a615749fbe3.jpg");
 
 /***/ }),
 
-/***/ "./src/images/service4.jpg":
-/*!*********************************!*\
-  !*** ./src/images/service4.jpg ***!
-  \*********************************/
+/***/ "./src/images/service4-square.jpg":
+/*!****************************************!*\
+  !*** ./src/images/service4-square.jpg ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -380,7 +391,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service4-c80ca0ac05d4e5b7ef0fc79e1503ef17.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service4-square-adceef6c60292336781bbf34d4e615de.jpg");
 
 /***/ })
 

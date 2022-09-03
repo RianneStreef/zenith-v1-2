@@ -37,9 +37,7 @@ const Contact = props => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "contact",
     id: "contact"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "header-placeholder"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.contactTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.contactTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "explanation-text"
   }, languageToUse.contactIntro1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "explanation-text"
@@ -128,9 +126,7 @@ const Explanation = props => {
     className: "explanation-text bold"
   }, languageToUse.explanationText5)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "explanation-text"
-  }, languageToUse.explanationText6)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "header-placeholder"
-  }));
+  }, languageToUse.explanationText6)));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Explanation);
@@ -303,7 +299,9 @@ __webpack_require__.r(__webpack_exports__);
 const USP = props => {
   let {
     language,
-    languageToUse
+    languageToUse,
+    pathname,
+    setPathname
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_2__.content.english : null;
   language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_2__.content.french : null;
@@ -327,7 +325,8 @@ const USP = props => {
     className: "usp-intro"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/mojo",
-    className: "usp-link-container"
+    className: "usp-link-container",
+    onClick: () => setPathname("/mojo")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "ski mojo",
@@ -421,7 +420,9 @@ __webpack_require__.r(__webpack_exports__);
 const IndexPage = function (props) {
   let {
     language,
-    languageToUse
+    languageToUse,
+    pathname,
+    setPathname
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.english : null;
   language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.french : null;
@@ -454,7 +455,9 @@ const IndexPage = function (props) {
     languageToUse: languageToUse
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_USP__WEBPACK_IMPORTED_MODULE_8__["default"], {
     language: language,
-    languageToUse: languageToUse
+    languageToUse: languageToUse,
+    pathname: pathname,
+    setPathname: setPathname
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Insta__WEBPACK_IMPORTED_MODULE_9__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Explanation__WEBPACK_IMPORTED_MODULE_10__["default"], {
     language: language,
     languageToUse: languageToUse

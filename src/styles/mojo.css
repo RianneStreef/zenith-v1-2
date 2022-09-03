@@ -26,6 +26,7 @@
 
 .mojo-icons {
   background-color: #fff;
+  color: var(--color-text-gray);
   display: flex;
   flex-direction: column;
 }
@@ -65,9 +66,23 @@
   .mojo-icons {
     padding: 50px 100px;
     flex-direction: row;
+    font-size: 15px;
   }
+
+  .mojo-icon {
+    width: 20vw;
+  }
+
+  .mojo-icon h2 {
+    font-size: 20px;
+  }
+
+  .mojo-icon p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
   .mojo-text {
-    flex-direction: row;
     padding: 50px 100px;
   }
 
@@ -80,5 +95,25 @@
   .mojo-hero-logo {
     width: 500%;
     margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mojo-icon h2 {
+    font-size: 30px;
+  }
+
+  .mojo-icon p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mojo-text {
+    flex-direction: row;
+  }
+
+  .mojo-text > * {
+    width: 50%;
   }
 }

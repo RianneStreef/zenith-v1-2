@@ -37,15 +37,33 @@
   margin-bottom: 60px;
 }
 
+@media only screen and (min-width: 589px) {
+  .hero-logo {
+    width: 70%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
-    background-position: 100% 100%;
+    background-position: 60% 100%;
   }
 
   .hero-content-container {
     justify-content: center;
     padding: 100px;
   }
+  .hero-logo {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero-logo {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
   .hero-logo {
     width: 100%;
   }
