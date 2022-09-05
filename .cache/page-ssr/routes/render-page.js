@@ -6325,7 +6325,7 @@ const StyledBurger = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].d
     height: 0.25rem;
     background-color: ${({
   open
-}) => open ? "#ffffff" : "#373737"};
+}) => open ? "#ffffff" : "#ffffff"};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -6566,7 +6566,23 @@ const Layout = ({
   const {
     0: pathname,
     1: setPathname
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(`/`); //  let languageInStorage = "";
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(`/`);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const button = document.getElementById("location-en-ligne");
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll > 10) {
+        button.classList.remove("transparent");
+        return;
+      }
+
+      if (currentScroll < 10) {
+        button.classList.add("transparent");
+        return;
+      }
+    });
+  }); //  let languageInStorage = "";
   // useEffect(() => {
   //   if (localStorage.getItem("languageInStorage")) {
   //     setLanguage(languageInStorage);
@@ -6603,7 +6619,8 @@ const Layout = ({
     className: "book-link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_location_en_ligne_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
-    className: "button-location-en-ligne"
+    className: "button-location-en-ligne transparent",
+    id: "location-en-ligne"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     language: language,
     languageToUse: languageToUse
@@ -6899,7 +6916,7 @@ const french = {
   metaKeywords: "Location ski Val Thorens, val thorens ski location, location chaussure ski val thorens, ski val thorens, bootfitting val thorens, snowscoot val thorens, location snowboard val thorens",
   home: "Accueil",
   bootfitting: "Bootfitting",
-  services: "le Service Zenith",
+  services: "Le Service Zenith",
   book: "Location en ligne",
   contact: "Contact",
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
