@@ -5,7 +5,6 @@ import Burger from "../components/Burger";
 
 import flagEn from "../images/icon-en.png";
 import flagFr from "../images/icon-fr.png";
-import flagNl from "../images/icon-nl.png";
 
 import { content } from "../content/languages";
 
@@ -33,31 +32,33 @@ const Header = (props) => {
         <li>
           <Link
             to="/"
-            className={`nav-link ${pathname === "/" ? "active" : ""}`}
-            onClick={() => setPathname("/")}
+            className={`nav-link ${
+              pathname === "http://localhost:8000/" ? "active" : ""
+            }`}
           >
             {languageToUse.home}
           </Link>
           <Link
             to="/bootfitting"
             className={`nav-link ${
-              pathname === "/bootfitting" ? "active" : ""
+              pathname === "http://localhost:8000/bootfitting" ? "active" : ""
             }`}
-            onClick={() => setPathname("/bootfitting")}
           >
             {languageToUse.bootfitting}
           </Link>
           <Link
             to="/services"
-            className={`nav-link ${pathname === "/services" ? "active" : ""}`}
-            onClick={() => setPathname("/services")}
+            className={`nav-link ${
+              pathname === "http://localhost:8000/services" ? "active" : ""
+            }`}
           >
             {languageToUse.services}
           </Link>
           <Link
             to="/#contact"
-            className={`nav-link ${pathname === "/#contact" ? "active" : ""}`}
-            onClick={() => setPathname("/#contact")}
+            className={`nav-link ${
+              pathname === "http://localhost:8000/#contact" ? "active" : ""
+            }`}
           >
             {languageToUse.contact}
           </Link>

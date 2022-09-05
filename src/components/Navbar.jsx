@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 import flagEn from "../images/icon-en.png";
 import flagFr from "../images/icon-fr.png";
-import flagNl from "../images/icon-nl.png";
 
 import { content } from "../content/languages";
 

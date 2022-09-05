@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     const button = document.getElementById("location-en-ligne");
+    setPathname(window.location.href);
 
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
