@@ -106,9 +106,9 @@
 
 @media only screen and (min-width: 1024px) {
   .address {
-    font-size: 35px;
+    font-size: 30px;
   }
   .contact-info a {
-    font-size: 35px;
+    font-size: 30px;
   }
 }

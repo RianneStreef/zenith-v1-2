@@ -19,11 +19,20 @@ const USP = (props) => {
     <div className="usp">
       <div className="usp-intro">
         <Link to="/bootfitting" className="usp-link-container">
-          <img
-            src={bootfittingIntroImage}
-            alt="bootfitting"
-            className="usp-intro-image"
-          />
+          {language === "english" ? (
+            <img
+              src={bootfittingIntroImage}
+              alt="bootfitting"
+              className="usp-intro-image"
+            />
+          ) : (
+            <img
+              src={bootfittingIntroImage}
+              alt="bootfitting"
+              className="usp-intro-image"
+            />
+          )}
+
           <h3 className="usp-link">{languageToUse.bootfitting}</h3>
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp1Text}</p>
@@ -34,18 +43,30 @@ const USP = (props) => {
           className="usp-link-container"
           onClick={() => setPathname("/mojo")}
         >
-          <img
-            src={mojoIntroImage}
-            alt="ski mojo"
-            className="usp-intro-image"
-          />
+          {language === "english" ? (
+            <img
+              src={mojoIntroImage}
+              alt="ski mojo"
+              className="usp-intro-image"
+            />
+          ) : (
+            <img
+              src={mojoIntroImage}
+              alt="ski mojo"
+              className="usp-intro-image"
+            />
+          )}
           <h3 className="usp-link">{languageToUse.mojo}</h3>
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp2Text}</p>
       </div>
       <div className="usp-intro ">
         <Link to="/services" className="usp-link-container">
-          <img src={servicesIntroImage} alt="" className="usp-intro-image" />
+          {language === "english" ? (
+            <img src={servicesIntroImage} alt="" className="usp-intro-image" />
+          ) : (
+            <img src={servicesIntroImage} alt="" className="usp-intro-image" />
+          )}
           <h3 className="usp-link">{languageToUse.ourServices}</h3>
         </Link>
         <p className="usp-intro-text">{languageToUse.Usp3Text}</p>
