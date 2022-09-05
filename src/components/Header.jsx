@@ -33,10 +33,7 @@ const Header = (props) => {
           <Link
             to="/"
             className={`nav-link ${
-              pathname === "http://localhost:8000/" ||
-              "https://zenith-vt.netlify.app/"
-                ? "active"
-                : ""
+              pathname === "https://zenith-vt.netlify.app/" ? "active" : ""
             }`}
           >
             {languageToUse.home}
@@ -44,8 +41,7 @@ const Header = (props) => {
           <Link
             to="/bootfitting"
             className={`nav-link ${
-              pathname === "http://localhost:8000/bootfitting" ||
-              "https://zenith-vt.netlify.app/bootfitting"
+              pathname === "https://zenith-vt.netlify.app/bootfitting"
                 ? "active"
                 : ""
             }`}
@@ -55,8 +51,7 @@ const Header = (props) => {
           <Link
             to="/services"
             className={`nav-link ${
-              pathname === "http://localhost:8000/services" ||
-              "https://zenith-vt.netlify.app/services"
+              pathname === "https://zenith-vt.netlify.app/services"
                 ? "active"
                 : ""
             }`}
@@ -66,8 +61,7 @@ const Header = (props) => {
           <Link
             to="/#contact"
             className={`nav-link ${
-              pathname === "http://localhost:8000/#contact" ||
-              "https://zenith-vt.netlify.app/#contact"
+              pathname === "https://zenith-vt.netlify.app/#contact"
                 ? "active"
                 : ""
             }`}
