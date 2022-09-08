@@ -81,7 +81,7 @@ h2 {
   margin: 0;
   font-family: "IBM Plex Mono Bold";
   color: var(--color-highlight);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 h4 {
@@ -200,5 +200,8 @@ ul {
 
   .button-location-en-ligne {
     width: 100%;
+  }
+  .book-link {
+    right: 75px;
   }
 }

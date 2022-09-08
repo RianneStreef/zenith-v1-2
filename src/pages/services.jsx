@@ -38,7 +38,7 @@ const ServicesPage = function (props) {
   return (
     <div>
       <Helmet>
-        <title>{languageToUse.servicesMetaTitle}</title>
+        <title>{languageToUse.serviceMetaTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescription} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
