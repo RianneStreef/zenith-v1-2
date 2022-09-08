@@ -100,7 +100,8 @@
   }
 
   .google-map-iframe {
-    height: 50vw;
+    height: 40vw;
+    width: 40vw;
   }
 }
 

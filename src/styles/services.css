@@ -14,8 +14,23 @@
   height: 100%;
 }
 
+.service-image-left {
+  margin-left: -100px;
+}
+
+.slide-from-left {
+  margin-left: 0;
+  transition: margin-left 500ms linear;
+}
+
 .service-text-container {
   padding: 20px 0;
+  margin-left: 100px;
+}
+
+.remove-margin-left {
+  margin-left: 0;
+  transition: margin-left 500ms linear;
 }
 
 .services a:hover {

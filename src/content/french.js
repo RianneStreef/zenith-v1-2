@@ -149,7 +149,7 @@ export const french = {
 
   service2Title: "SERVICE ENTRETIEN SKIS / SNOWBOARD",
   service2Text1:
-    "Nos techniciens entretiennent vos skis ou snowboard.Ils réparent les dégâts, affutent les carres, structurent et fartent les semelles. Pour votre sécurité et votre plaisir, nous vous offrons un 'check up' gratuit de vos skis et réglons vos fixations selon les normes.",
+    "Nos techniciens entretiennent vos skis ou snowboard. Ils réparent les dégâts, affutent les carres, structurent et fartent les semelles. Pour votre sécurité et votre plaisir, nous vous offrons un 'check up' gratuit de vos skis et réglons vos fixations selon les normes.",
   service2Text2:
     "Nous vous proposons de garder d'un hiver à l'autre les skis et snowboard que vous nous avez achetés et ce, avec un entretien de qualité pour retrouvez votre matériel préparé et prêt à glisser à votre votre retour.",
 

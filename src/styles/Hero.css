@@ -12,7 +12,7 @@
 }
 .hero-content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: flex-start;
   padding: 50px;
@@ -27,19 +27,23 @@
   color: #fff;
   font-family: "IBM Plex Mono Bold Italic";
   text-transform: uppercase;
+  text-align: right;
+  font-size: 30px;
 }
 
 .hero-title-2 {
   color: #fff;
   font-family: "IBM Plex Mono Light Italic";
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 60px;
+  text-align: right;
 }
 
 @media only screen and (min-width: 589px) {
   .hero-logo {
     width: 70%;
+    margin-bottom: 100px;
   }
 }
 
@@ -49,22 +53,29 @@
   }
 
   .hero-content-container {
+    flex-direction: column;
     justify-content: center;
+
     padding: 100px;
+    width: 85%;
   }
   .hero-logo {
     width: 50%;
+  }
+
+  .hero-text {
+    width: 100%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .hero-logo {
-    width: 70%;
+    width: 50%;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .hero-logo {
-    width: 100%;
+    width: 50%;
   }
 }

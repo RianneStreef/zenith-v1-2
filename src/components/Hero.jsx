@@ -16,11 +16,11 @@ const Hero = (props) => {
   return (
     <div className="hero">
       <div className="hero-content-container">
-        <img src={logoHero} alt="logo" className="hero-logo" />
-        <div>
+        <div className="hero-text">
           <h1 className="hero-title">{languageToUse.heroTitle}</h1>
           <h2 className="hero-title-2">{languageToUse.underTitle}</h2>
         </div>
+        <img src={logoHero} alt="logo" className="hero-logo" />
       </div>
     </div>
   );

@@ -313,7 +313,11 @@ const USP = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/bootfitting",
     className: "usp-link-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    alt: "bootfitting",
+    className: "usp-intro-image"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "bootfitting",
     className: "usp-intro-image"
@@ -327,7 +331,11 @@ const USP = props => {
     to: "/mojo",
     className: "usp-link-container",
     onClick: () => setPathname("/mojo")
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    alt: "ski mojo",
+    className: "usp-intro-image"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "ski mojo",
     className: "usp-intro-image"
@@ -340,7 +348,11 @@ const USP = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/services",
     className: "usp-link-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _images_serviceIntro_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    alt: "",
+    className: "usp-intro-image"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_serviceIntro_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
     alt: "",
     className: "usp-intro-image"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import { Link } from "gatsby";
@@ -8,7 +8,6 @@ import "../styles/services.css";
 import Layout from "../components/Layout";
 import Hero2 from "../components/Hero2";
 
-import Insta from "../components/Insta";
 import Partenaires from "../components/Partenaires";
 
 import { content } from "../content/languages";
@@ -26,6 +25,16 @@ const ServicesPage = function (props) {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById("serviceImage1").classList.add("slide-from-left");
+      document
+        .getElementById("serviceText1")
+        .classList.add("remove-margin-left");
+      console.log("add className");
+    }, 2000);
+  });
+
   return (
     <div>
       <Helmet>
@@ -41,8 +50,13 @@ const ServicesPage = function (props) {
         <div className="services-container services-container-1">
           <h1 className="services-title">{languageToUse.servicesTitle}</h1>
           <div className="service service-1">
-            <img src={service1Image} alt="" />
-            <div className="service-text-container">
+            <img
+              src={service1Image}
+              alt=""
+              className="service-image-left"
+              id="serviceImage1"
+            />
+            <div className="service-text-container" id="serviceText1">
               <h3>{languageToUse.service1Title}</h3>
               <p>{languageToUse.service1Text1}</p>
               <p>
@@ -87,7 +101,6 @@ const ServicesPage = function (props) {
           </div>
         </div>
       </div>
-      <div className="banner" />
 
       <Partenaires />
     </div>

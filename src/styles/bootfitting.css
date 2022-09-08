@@ -25,7 +25,7 @@
 }
 
 .bootfitting-slider-image-1 {
-  animation: image-slider 10s ease infinite;
+  animation: image-slider 10s linear infinite;
   width: 200%;
   margin: 0;
   position: absolute;

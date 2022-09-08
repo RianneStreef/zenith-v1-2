@@ -6444,11 +6444,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Burger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Burger */ "./src/components/Burger.jsx");
 /* harmony import */ var _images_icon_en_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/icon-en.png */ "./src/images/icon-en.png");
 /* harmony import */ var _images_icon_fr_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/icon-fr.png */ "./src/images/icon-fr.png");
-/* harmony import */ var _images_icon_nl_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/icon-nl.png */ "./src/images/icon-nl.png");
-/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
-/* harmony import */ var _styles_Header_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/Header.css */ "./src/styles/Header.css");
-/* harmony import */ var _styles_Header_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_Header_css__WEBPACK_IMPORTED_MODULE_7__);
-
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _styles_Header_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Header.css */ "./src/styles/Header.css");
+/* harmony import */ var _styles_Header_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Header_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
 
@@ -6475,28 +6473,24 @@ const Header = props => {
     localStorage.setItem("languageInStorage", language);
   }
 
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_6__.content.english : null;
-  language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_6__.content.french : null;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.english : null;
+  language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.french : null;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "links hidden-mobile"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
-    className: `nav-link ${pathname === "/" ? "active" : ""}`,
-    onClick: () => setPathname("/")
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/" ? "active" : ""}`
   }, languageToUse.home), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/bootfitting",
-    className: `nav-link ${pathname === "/bootfitting" ? "active" : ""}`,
-    onClick: () => setPathname("/bootfitting")
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/bootfitting" ? "active" : ""}`
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/services",
-    className: `nav-link ${pathname === "/services" ? "active" : ""}`,
-    onClick: () => setPathname("/services")
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/services" ? "active" : ""}`
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/#contact",
-    className: `nav-link ${pathname === "/#contact" ? "active" : ""}`,
-    onClick: () => setPathname("/#contact")
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/#contact" ? "active" : ""}`
   }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
@@ -6569,6 +6563,7 @@ const Layout = ({
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(`/`);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const button = document.getElementById("location-en-ligne");
+    setPathname(window.location.href);
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
 
@@ -6645,19 +6640,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _images_icon_en_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/icon-en.png */ "./src/images/icon-en.png");
 /* harmony import */ var _images_icon_fr_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/icon-fr.png */ "./src/images/icon-fr.png");
-/* harmony import */ var _images_icon_nl_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/icon-nl.png */ "./src/images/icon-nl.png");
-/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 
 
 
 
 
 
-
-const Ul = styled_components__WEBPACK_IMPORTED_MODULE_6__["default"].ul`
+const Ul = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].ul`
   list-style: none;
   display: flex;
   z-index: 100;
@@ -6716,9 +6709,9 @@ const Navbar = props => {
     setLanguage,
     languageToUse
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.english : null;
-  language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.french : null;
-  language === "dutch" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.dutch : null;
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.english : null;
+  language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.french : null;
+  language === "dutch" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.dutch : null;
 
   function handleSetLanguage(language) {
     setLanguage(language);
@@ -14800,21 +14793,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-fr-b70c7a2a5e8350cf2b0e2d40a073dede.png");
-
-/***/ }),
-
-/***/ "./src/images/icon-nl.png":
-/*!********************************!*\
-  !*** ./src/images/icon-nl.png ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-nl-d486b25532e92798c48b5d0c946c5901.png");
 
 /***/ }),
 
