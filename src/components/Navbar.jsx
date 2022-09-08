@@ -10,7 +10,7 @@ import { content } from "../content/languages";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  z-index: 100;
+  z-index: 999;
   background-color: #fff;
   margin-top: 0;
   padding-left: 0;

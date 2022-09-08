@@ -167,7 +167,7 @@ ul {
   position: fixed;
   top: 65px;
   right: 12px;
-  z-index: 999;
+  z-index: 900;
   width: 200px;
   display: flex;
   justify-content: flex-end;
