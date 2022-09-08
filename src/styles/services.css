@@ -14,7 +14,7 @@
   height: 100%;
 }
 
-.service-image-left {
+/* .service-image-left {
   margin-left: -100px;
 }
 
@@ -31,7 +31,7 @@
 .remove-margin-left {
   margin-left: 0;
   transition: margin-left 500ms linear;
-}
+} */
 
 .services a:hover {
   text-decoration: underline;

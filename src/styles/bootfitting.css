@@ -43,8 +43,8 @@
 
 .bootfitting-problem p {
   text-align: center;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: var(--font-size-mobile);
+  line-height: var(--line-height-mobile);
   color: var(--color-text-gray);
 }
 
