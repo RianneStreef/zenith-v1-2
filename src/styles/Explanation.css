@@ -4,7 +4,7 @@
 
 .explanation-text {
   font-size: var(--font-size-mobile);
-  line-height: 40px;
+  line-height: var(--line-height-mobile);
   margin-top: 20px;
   color: var(--color-text);
 }
