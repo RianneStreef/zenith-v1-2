@@ -98,8 +98,8 @@ span {
   padding: 0;
   font-family: "Futura";
   color: var(--color-text-text);
-  font-size: 15px;
-  line-height: 30px;
+  font-size: var(--font-size-mobile);
+  line-height: var(--line-height-mobile);
 }
 
 p {
