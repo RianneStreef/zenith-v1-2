@@ -31,7 +31,6 @@ const ServicesPage = function (props) {
       document
         .getElementById("serviceText1")
         .classList.add("remove-margin-left");
-      console.log("add className");
     }, 2000);
   });
 
@@ -56,7 +55,10 @@ const ServicesPage = function (props) {
               className="service-image-left"
               id="serviceImage1"
             />
-            <div className="service-text-container" id="serviceText1">
+            <div
+              className="service-text-container-left service-text-container"
+              id="serviceText1"
+            >
               <h3>{languageToUse.service1Title}</h3>
               <p>{languageToUse.service1Text1}</p>
               <p>

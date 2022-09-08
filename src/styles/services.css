@@ -14,24 +14,24 @@
   height: 100%;
 }
 
-/* .service-image-left {
-  margin-left: -100px;
+.service-image-left {
+  margin-left: -500px;
 }
 
 .slide-from-left {
   margin-left: 0;
-  transition: margin-left 500ms linear;
+  transition: margin-left 800ms cubic-bezier(0, 1, 1, 1);
 }
 
-.service-text-container {
+.service-text-container-left {
   padding: 20px 0;
-  margin-left: 100px;
+  margin-left: 500px;
 }
 
 .remove-margin-left {
   margin-left: 0;
-  transition: margin-left 500ms linear;
-} */
+  transition: margin-left 800ms cubic-bezier(0, 1, 1, 1);
+}
 
 .services a:hover {
   text-decoration: underline;
