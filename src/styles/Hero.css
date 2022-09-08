@@ -8,48 +8,64 @@
   background-position: 75% 100%;
   background-repeat: none;
   width: 100vw;
-  min-height: calc(100vh - 90px);
+  overflow: hidden;
 }
 .hero-content-container {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px;
   height: 80vh;
-}
-
-.hero-logo {
   width: 100%;
 }
 
+.hero-logo {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-text {
+  width: 95%;
+}
+
 .hero-title {
-  color: #fff;
+  color: #000;
   font-family: "IBM Plex Mono Bold Italic";
   text-transform: uppercase;
   text-align: right;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .hero-title-2 {
-  color: #fff;
+  color: #000;
   font-family: "IBM Plex Mono Light Italic";
   text-transform: uppercase;
-  font-size: 25px;
-  margin-bottom: 60px;
+  font-size: 12px;
   text-align: right;
+  margin-bottom: 24px;
 }
 
 @media only screen and (min-width: 589px) {
   .hero-logo {
     width: 70%;
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
     background-position: 60% 100%;
+  }
+
+  .hero-title {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .hero-title-2 {
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: #fff;
   }
 
   .hero-content-container {

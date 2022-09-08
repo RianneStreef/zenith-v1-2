@@ -11,13 +11,13 @@
 }
 
 .intro-text-p {
-  font-size: 15px;
+  font-size: var(--font-size-mobile);
   line-height: 30px;
   margin-top: 20px;
 }
 
 .intro-text-p span {
-  font-size: 15px;
+  font-size: var(--font-size-mobile);
 }
 
 @media only screen and (min-width: 768px) {

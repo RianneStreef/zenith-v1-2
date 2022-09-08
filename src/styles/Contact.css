@@ -6,7 +6,7 @@
 }
 
 .contact-text {
-  font-size: 15px;
+  font-size: var(--font-size-mobile);
   line-height: 40px;
   margin-top: 20px;
   color: var(--color-text-gray);

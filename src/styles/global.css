@@ -5,6 +5,8 @@
   --color-text-gray: rgb(117, 117, 117);
   --color-background: #000;
   --color-background-light: rgb(59, 58, 58);
+
+  --font-size-mobile: 18px;
 }
 
 /* Futura for p 
@@ -162,8 +164,8 @@ ul {
 
 .book-link {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  top: 65px;
+  right: 12px;
   z-index: 999;
   width: 200px;
   display: flex;

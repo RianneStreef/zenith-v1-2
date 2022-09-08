@@ -19,11 +19,12 @@ const Layout = ({ children }) => {
 
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
-      if (currentScroll > 10) {
+      const windowHeight = window.innerHeight;
+      if (currentScroll > windowHeight) {
         button.classList.remove("transparent");
         return;
       }
-      if (currentScroll < 10) {
+      if (currentScroll < windowHeight) {
         button.classList.add("transparent");
         return;
       }
