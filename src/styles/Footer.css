@@ -4,8 +4,12 @@
 }
 
 .footer p {
-  font-size: 15px;
+  font-size: var(--font-size-mobile);
   margin: 0;
+}
+
+.footer a {
+  font-size: var(--font-size-mobile);
 }
 
 .footer a:hover {

@@ -13,10 +13,7 @@ import "../styles/Header.css";
 const Header = (props) => {
   let { language, languageToUse, setLanguage, pathname, setPathname } = props;
 
-  useEffect(() => {
-    console.log("pathname");
-    console.log(pathname);
-  }, [pathname]);
+  useEffect(() => {}, [pathname]);
 
   function handleSetLanguage(language) {
     setLanguage(language);

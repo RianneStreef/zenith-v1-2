@@ -31,22 +31,9 @@ const Layout = ({ children }) => {
     });
   });
 
-  //  let languageInStorage = "";
-
-  // useEffect(() => {
-  //   if (localStorage.getItem("languageInStorage")) {
-  //     setLanguage(languageInStorage);
-  //     console.log("language found");
-  //     console.log(languageInStorage);
-  //   }
-  // }, []);
-
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
-
-  console.log("language in layout");
-  console.log(language);
 
   const childrenWithProps = React.Children.map(children, (child) =>
     React.cloneElement(child, {
