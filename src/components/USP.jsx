@@ -5,9 +5,12 @@ import { content } from "../content/languages";
 
 import "../styles/USP.css";
 
-import bootfittingIntroImage from "../images/bootfittingIntroImage.jpg";
-import mojoIntroImage from "../images/modjoIntroImage.jpg";
-import servicesIntroImage from "../images/serviceIntro.jpg";
+import bootfittingIntroImageFR from "../images/USP-BOOT-FR.jpg";
+import mojoIntroImageFR from "../images//USP-MOJO-FR.jpg";
+import servicesIntroImageFR from "../images//USP-SERVICE-FR.jpg";
+import bootfittingIntroImageEN from "../images/USP-BOOT-EN.jpg";
+import mojoIntroImageEN from "../images//USP-MOJO-EN.jpg";
+import servicesIntroImageEN from "../images//USP-SERVICE-EN.jpg";
 
 const USP = (props) => {
   let { language, languageToUse, pathname, setPathname } = props;
@@ -21,13 +24,13 @@ const USP = (props) => {
         <Link to="/bootfitting" className="usp-link-container">
           {language === "english" ? (
             <img
-              src={bootfittingIntroImage}
+              src={bootfittingIntroImageEN}
               alt="bootfitting"
               className="usp-intro-image"
             />
           ) : (
             <img
-              src={bootfittingIntroImage}
+              src={bootfittingIntroImageFR}
               alt="bootfitting"
               className="usp-intro-image"
             />
@@ -45,13 +48,13 @@ const USP = (props) => {
         >
           {language === "english" ? (
             <img
-              src={mojoIntroImage}
+              src={mojoIntroImageEN}
               alt="ski mojo"
               className="usp-intro-image"
             />
           ) : (
             <img
-              src={mojoIntroImage}
+              src={mojoIntroImageFR}
               alt="ski mojo"
               className="usp-intro-image"
             />
@@ -63,9 +66,17 @@ const USP = (props) => {
       <div className="usp-intro ">
         <Link to="/services" className="usp-link-container">
           {language === "english" ? (
-            <img src={servicesIntroImage} alt="" className="usp-intro-image" />
+            <img
+              src={servicesIntroImageEN}
+              alt=""
+              className="usp-intro-image"
+            />
           ) : (
-            <img src={servicesIntroImage} alt="" className="usp-intro-image" />
+            <img
+              src={servicesIntroImageFR}
+              alt=""
+              className="usp-intro-image"
+            />
           )}
           <h3 className="usp-link">{languageToUse.ourServices}</h3>
         </Link>

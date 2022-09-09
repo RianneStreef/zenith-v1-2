@@ -6463,10 +6463,7 @@ const Header = props => {
     pathname,
     setPathname
   } = props;
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    console.log("pathname");
-    console.log(pathname);
-  }, [pathname]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {}, [pathname]);
 
   function handleSetLanguage(language) {
     setLanguage(language);
@@ -6566,31 +6563,34 @@ const Layout = ({
     setPathname(window.location.href);
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
+      const windowHeight = window.innerHeight;
 
-      if (currentScroll > 10) {
-        button.classList.remove("transparent");
-        return;
-      }
+      if (pathname === "http://localhost:8001/") {
+        if (currentScroll > windowHeight) {
+          button.classList.remove("transparent");
+          return;
+        }
 
-      if (currentScroll < 10) {
-        button.classList.add("transparent");
-        return;
+        if (currentScroll < windowHeight) {
+          button.classList.add("transparent");
+          return;
+        }
+      } else {
+        if (currentScroll > windowHeight * 0.25) {
+          button.classList.remove("transparent");
+          return;
+        }
+
+        if (currentScroll < windowHeight * 0.25) {
+          button.classList.add("transparent");
+          return;
+        }
       }
     });
-  }); //  let languageInStorage = "";
-  // useEffect(() => {
-  //   if (localStorage.getItem("languageInStorage")) {
-  //     setLanguage(languageInStorage);
-  //     console.log("language found");
-  //     console.log(languageInStorage);
-  //   }
-  // }, []);
-
+  });
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.english : null;
   language === "french" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.french : null;
   language === "dutch" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.dutch : null;
-  console.log("language in layout");
-  console.log(language);
   const childrenWithProps = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(children, child => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
     language,
     setLanguage,
@@ -6653,7 +6653,7 @@ __webpack_require__.r(__webpack_exports__);
 const Ul = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].ul`
   list-style: none;
   display: flex;
-  z-index: 100;
+  z-index: 999;
   background-color: #fff;
   margin-top: 0;
   padding-left: 0;
@@ -6986,7 +6986,7 @@ const french = {
   service1Text2: "Pour plus d'informations sur les chaussures et leurs adaptations possibles visitez notre page ",
   service1Link: "bootfitting.",
   service2Title: "SERVICE ENTRETIEN SKIS / SNOWBOARD",
-  service2Text1: "Nos techniciens entretiennent vos skis ou snowboard.Ils réparent les dégâts, affutent les carres, structurent et fartent les semelles. Pour votre sécurité et votre plaisir, nous vous offrons un 'check up' gratuit de vos skis et réglons vos fixations selon les normes.",
+  service2Text1: "Nos techniciens entretiennent vos skis ou snowboard. Ils réparent les dégâts, affutent les carres, structurent et fartent les semelles. Pour votre sécurité et votre plaisir, nous vous offrons un 'check up' gratuit de vos skis et réglons vos fixations selon les normes.",
   service2Text2: "Nous vous proposons de garder d'un hiver à l'autre les skis et snowboard que vous nous avez achetés et ce, avec un entretien de qualité pour retrouvez votre matériel préparé et prêt à glisser à votre votre retour.",
   service3Title: "SERVICE CONFORT",
   service3Text: "Vous avez froid aux pieds ou aux mains. Votre vision est mauvaise à cause d'un masque rayé ou mal adapté aux conditions. Vous êtes à la recherche de solutions, nous vous proposons des gants chauffants, des semelles chauffantes, des masques équipés de verre polarisé. Nous saurons vous orientez pour vous permettre de skier dans les meilleures conditions possibles.",

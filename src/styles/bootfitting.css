@@ -5,14 +5,14 @@
 }
 
 .bootfitting-intro {
-  padding: 0 20px 40px 20px;
+  padding: 0 20px 50px 20px;
 }
 
 .bootfitting h2 {
   color: var(--color-highlight);
   font-family: "IBM Plex Mono Bold Italic";
   text-transform: uppercase;
-  padding: 40px 20px 0 20px;
+  padding: 50px 20px 40px 20px;
 }
 
 .bootfitting-slider {
@@ -109,11 +109,11 @@
 
 @media only screen and (min-width: 768px) {
   .bootfitting h1 {
-    padding: 50px 100px 0 100px;
+    padding: 100px 100px 0 100px;
   }
 
   .bootfitting h2 {
-    padding: 50px 100px;
+    padding: 100px 100px 20px 100px;
   }
 
   .bootfitting-intro {
@@ -125,7 +125,7 @@
   }
 
   .bootfitting-problems {
-    padding: 0 100px;
+    padding: 0 100px 50px 100px;
   }
 
   .bootfitting-problem {

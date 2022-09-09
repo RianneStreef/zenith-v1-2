@@ -58,8 +58,6 @@ const SuccessPage = function (props) {
     languageToUse
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_4__.content.french;
-  console.log(languageToUse);
-  console.log(languageToUse.metaKeywords);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "success"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.indexTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {

@@ -26,12 +26,43 @@ const ServicesPage = function (props) {
     : (languageToUse = content.french);
 
   useEffect(() => {
-    setTimeout(() => {
-      document.getElementById("serviceImage1").classList.add("slide-from-left");
-      document
-        .getElementById("serviceText1")
-        .classList.add("remove-margin-left");
-    }, 2000);
+    window.addEventListener("scroll", scrollImages);
+
+    let serviceImage1 = document.getElementById("service-image-1");
+    let serviceImage2 = document.getElementById("service-image-2");
+    let serviceImage3 = document.getElementById("service-image-3");
+    let serviceImage4 = document.getElementById("service-image-4");
+
+    let serviceText1 = document.getElementById("serviceText1");
+    let serviceText2 = document.getElementById("serviceText2");
+    let serviceText3 = document.getElementById("serviceText3");
+    let serviceText4 = document.getElementById("serviceText4");
+
+    function scrollImages() {
+      let positionImage1 = serviceImage1.getBoundingClientRect();
+      let positionImage2 = serviceImage2.getBoundingClientRect();
+      let positionImage3 = serviceImage3.getBoundingClientRect();
+      let positionImage4 = serviceImage4.getBoundingClientRect();
+
+      let scrollY = window.innerHeight;
+
+      if (positionImage1.y < scrollY) {
+        serviceImage1.classList.add("slide-from-left");
+        serviceText1.classList.add("remove-margin-left");
+      }
+      if (positionImage2.y < scrollY) {
+        serviceImage2.classList.add("slide-from-right");
+        serviceText2.classList.add("remove-margin-right");
+      }
+      if (positionImage3.y < scrollY) {
+        serviceImage3.classList.add("slide-from-left");
+        serviceText3.classList.add("remove-margin-left");
+      }
+      if (positionImage4.y < scrollY) {
+        serviceImage4.classList.add("slide-from-right");
+        serviceText4.classList.add("remove-margin-right");
+      }
+    }
   });
 
   return (
@@ -53,10 +84,10 @@ const ServicesPage = function (props) {
               src={service1Image}
               alt=""
               className="service-image-left"
-              id="serviceImage1"
+              id="service-image-1"
             />
             <div
-              className="service-text-container-left service-text-container"
+              className="service-text-container-right service-text-container"
               id="serviceText1"
             >
               <h3>{languageToUse.service1Title}</h3>
@@ -68,8 +99,17 @@ const ServicesPage = function (props) {
             </div>
           </div>
           <div className="service service-2">
-            <img src={service2Image} alt="" />
-            <div className="service-text-container">
+            <img
+              src={service2Image}
+              alt=""
+              className="service-image-right"
+              id="service-image-2"
+            />
+            <div
+              className="service-text-container-left service-text-container"
+              id="serviceText2"
+            >
+              {" "}
               <h3>{languageToUse.service2Title}</h3>
               <p>{languageToUse.service2Text1}</p>
               <p>{languageToUse.service2Text2}</p>
@@ -79,15 +119,33 @@ const ServicesPage = function (props) {
 
         <div className="services-container services-container-2">
           <div className="service service-1">
-            <img src={service3Image} alt="" />
-            <div className="service-text-container">
+            <img
+              src={service3Image}
+              alt=""
+              className="service-image-left"
+              id="service-image-3"
+            />
+            <div
+              className="service-text-container-right service-text-container"
+              id="serviceText3"
+            >
+              {" "}
               <h3>{languageToUse.service3Title}</h3>
               <p>{languageToUse.service3Text}</p>
             </div>
           </div>
           <div className="service service-2">
-            <img src={service4Image} alt="" />
-            <div className="service-text-container">
+            <img
+              src={service4Image}
+              alt=""
+              className="service-image-right"
+              id="service-image-4"
+            />
+            <div
+              className="service-text-container-left service-text-container"
+              id="serviceText4"
+            >
+              {" "}
               <h3>{languageToUse.service4Title}</h3>
               <p>{languageToUse.service4Text1}</p>
               <p>

@@ -45,37 +45,6 @@ const Hero2 = props => {
 
 /***/ }),
 
-/***/ "./src/components/Insta.jsx":
-/*!**********************************!*\
-  !*** ./src/components/Insta.jsx ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Insta_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/Insta.css */ "./src/styles/Insta.css");
-/* harmony import */ var _styles_Insta_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Insta_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-const Insta = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "insta"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "insta-feed",
-    "data-mc-src": "b5424409-4089-4d37-8b5e-1a01f0e8caba#null"
-  }));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Insta);
-
-/***/ }),
-
 /***/ "./src/components/Partenaires.jsx":
 /*!****************************************!*\
   !*** ./src/components/Partenaires.jsx ***!
@@ -186,15 +155,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_services_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_services_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.jsx");
 /* harmony import */ var _components_Hero2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Hero2 */ "./src/components/Hero2.jsx");
-/* harmony import */ var _components_Insta__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Insta */ "./src/components/Insta.jsx");
-/* harmony import */ var _components_Partenaires__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Partenaires */ "./src/components/Partenaires.jsx");
-/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
-/* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
-/* harmony import */ var _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/service1-square.jpg */ "./src/images/service1-square.jpg");
-/* harmony import */ var _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/service2-square.jpg */ "./src/images/service2-square.jpg");
-/* harmony import */ var _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/service3-square.jpg */ "./src/images/service3-square.jpg");
-/* harmony import */ var _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/service4-square.jpg */ "./src/images/service4-square.jpg");
-
+/* harmony import */ var _components_Partenaires__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Partenaires */ "./src/components/Partenaires.jsx");
+/* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
+/* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
+/* harmony import */ var _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/service1-square.jpg */ "./src/images/service1-square.jpg");
+/* harmony import */ var _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/service2-square.jpg */ "./src/images/service2-square.jpg");
+/* harmony import */ var _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/service3-square.jpg */ "./src/images/service3-square.jpg");
+/* harmony import */ var _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/service4-square.jpg */ "./src/images/service4-square.jpg");
 
 
 
@@ -214,8 +181,51 @@ const ServicesPage = function (props) {
     language,
     languageToUse
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_8__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_8__.content.french;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.servicesMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
+  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.french;
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    window.addEventListener("scroll", scrollImages);
+    let serviceImage1 = document.getElementById("service-image-1");
+    let serviceImage2 = document.getElementById("service-image-2");
+    let serviceImage3 = document.getElementById("service-image-3");
+    let serviceImage4 = document.getElementById("service-image-4");
+
+    function scrollImages() {
+      let position1 = serviceImage1.getBoundingClientRect();
+      let position2 = serviceImage2.getBoundingClientRect();
+      let position3 = serviceImage3.getBoundingClientRect();
+      let position4 = serviceImage4.getBoundingClientRect();
+      let scrollY = window.innerHeight;
+      console.log("position1.y");
+      console.log(position1.y);
+      console.log("scrollY");
+      console.log(scrollY);
+
+      if (position1.y < scrollY) {
+        serviceImage1.classList.add("slide-from-left");
+      }
+
+      if (position2.y < scrollY) {
+        serviceImage2.classList.add("slide-from-left");
+      }
+
+      if (position3.y < scrollY) {
+        serviceImage3.classList.add("slide-from-left");
+      }
+
+      if (position4.y < scrollY) {
+        serviceImage4.classList.add("slide-from-left");
+      }
+    } // setTimeout(() => {
+    //   document
+    //     .getElementById("service-image-1")
+    //     .classList.add("slide-from-left");
+    //   document
+    //     .getElementById("serviceText1")
+    //     .classList.add("remove-margin-left");
+    // }, 2000);
+
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.serviceMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "robots",
     content: "index, follow"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
@@ -226,7 +236,7 @@ const ServicesPage = function (props) {
     content: languageToUse.metaKeywords
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     rel: "canonical",
-    href: _content_intake__WEBPACK_IMPORTED_MODULE_9__["default"].domainName
+    href: _content_intake__WEBPACK_IMPORTED_MODULE_8__["default"].domainName
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-placeholder"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero2__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -238,17 +248,22 @@ const ServicesPage = function (props) {
   }, languageToUse.servicesTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
-    alt: ""
+    src: _images_service1_square_jpg__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: "",
+    className: "service-image-left",
+    id: "service-image-1"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "service-text-container"
+    className: "service-text-container-left service-text-container",
+    id: "serviceText1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service1Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service1Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service1Text2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/bootfitting"
   }, languageToUse.service1Link)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
-    alt: ""
+    src: _images_service2_square_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
+    alt: "",
+    className: "service-image-right",
+    id: "service-image-2"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text2)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -256,23 +271,25 @@ const ServicesPage = function (props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
-    alt: ""
+    src: _images_service3_square_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
+    alt: "",
+    className: "service-image-left",
+    id: "service-image-3"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service3Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service3Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_13__["default"],
-    alt: ""
+    src: _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
+    alt: "",
+    className: "service-image-right",
+    id: "service-image-4"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service-text-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service4Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank"
-  }, languageToUse.service4Link)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "banner"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Partenaires__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+  }, languageToUse.service4Link)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Partenaires__WEBPACK_IMPORTED_MODULE_6__["default"], null));
 };
 
 ServicesPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"];
@@ -283,16 +300,6 @@ ServicesPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"]
 /***/ "./src/styles/Hero2.css":
 /*!******************************!*\
   !*** ./src/styles/Hero2.css ***!
-  \******************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./src/styles/Insta.css":
-/*!******************************!*\
-  !*** ./src/styles/Insta.css ***!
   \******************************/
 /***/ (() => {
 

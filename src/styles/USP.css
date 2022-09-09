@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  padding-top: 20px;
+  padding: 40px 0;
 }
 
 .usp-intro {
@@ -62,7 +62,7 @@ a:visited {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 100px;
+    padding: 100px;
   }
 
   .usp-intro {
@@ -74,7 +74,7 @@ a:visited {
     transition: transform 250ms linear;
   }
   .usp-intro-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 250ms linear;
   }
 }

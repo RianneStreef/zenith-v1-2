@@ -2,7 +2,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .contact-text {
@@ -87,7 +87,8 @@
   }
 
   .contact-text {
-    font-size: 35px;
+    font-size: var(--font-size-desktop);
+    line-height: var(--line-height-desktop);
   }
 
   .contact-blocks {

@@ -1,5 +1,5 @@
 .explanation {
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .explanation-text {
@@ -15,7 +15,8 @@
   }
 
   .explanation-text {
-    font-size: 35px;
+    font-size: var(--font-size-desktop);
+    line-height: var(--line-height-desktop);
     color: var(--color-text-gray);
   }
 }

@@ -7,7 +7,9 @@
   --color-background-light: rgb(59, 58, 58);
 
   --font-size-mobile: 20px;
+  --font-size-desktop: 35px;
   --line-height-mobile: 30px;
+  --line-height-desktop: 40px;
 }
 
 /* Futura for p 
@@ -71,7 +73,7 @@ main {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 30px;
   font-weight: 700;
   margin: 0;
   font-family: "IBM Plex Mono Bold";
@@ -82,7 +84,7 @@ h2 {
   margin: 0;
   font-family: "IBM Plex Mono Bold";
   color: var(--color-highlight);
-  font-size: 22px;
+  font-size: 28px;
 }
 
 h4 {
@@ -196,13 +198,20 @@ ul {
   span {
     font-size: 25px;
     color: var(--color-text-gray);
-    line-height: 40px;
+    line-height: var(--line-height-desktop);
   }
 
+  /* .book-link {
+    right: 75px;
+  } */
+}
+
+@media only screen and (min-width: 1024px) {
   .button-location-en-ligne {
     width: 100%;
   }
   .book-link {
-    right: 75px;
+    bottom: 50px;
+    right: 50px;
   }
 }

@@ -15,18 +15,40 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     const button = document.getElementById("location-en-ligne");
+
     setPathname(window.location.href);
 
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
       const windowHeight = window.innerHeight;
-      if (currentScroll > windowHeight) {
-        button.classList.remove("transparent");
-        return;
+      const windowWidth = window.innerWidth;
+
+      if (windowWidth < 769) {
+        if (pathname === "http://localhost:8000/") {
+          if (currentScroll > windowHeight) {
+            button.classList.remove("transparent");
+            return;
+          }
+          if (currentScroll < windowHeight) {
+            button.classList.add("transparent");
+            return;
+          }
+        } else {
+          if (currentScroll > windowHeight * 0.25) {
+            button.classList.remove("transparent");
+            return;
+          }
+          if (currentScroll < windowHeight * 0.25) {
+            button.classList.add("transparent");
+            return;
+          }
+        }
       }
-      if (currentScroll < windowHeight) {
-        button.classList.add("transparent");
-        return;
+      if (windowWidth > 769) {
+        if (currentScroll > 2) {
+          button.classList.remove("transparent");
+          return;
+        }
       }
     });
   });
