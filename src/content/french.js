@@ -138,7 +138,7 @@ export const french = {
   bootfittingUnderTitle:
     "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
 
-  serviceMetaTitle: "Les services - Zenith Ski Shop",
+  serviceMetaTitle: "Le service - Zenith Ski Shop",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
 
   service1Title: "SERVICE CHAUSSURES",

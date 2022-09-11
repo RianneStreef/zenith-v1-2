@@ -78,6 +78,7 @@ export const english = {
 
   bootfittingTitle: "BOOTFITTING IS OUR SPECIALTY",
 
+  bootfittingMetaTitle: "Bootfitting - Zenith Ski Shop",
   bootfittingIntro1:
     "We have all different feet, naturally or by accident, and ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing.",
 
@@ -134,7 +135,7 @@ export const english = {
   bootfittingUnderTitle:
     "These problems are the most common, but there are many others. We know them and have a specific solution for each of them.",
 
-  serviceMetaTitle: "ZENITH SKI SHOP Services",
+  serviceMetaTitle: "Services - Zenith Ski Shop",
   servicesTitle: "ZENITH SKI SHOP Services",
 
   service1Title: "BOOTS SERVICE",
