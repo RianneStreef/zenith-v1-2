@@ -188,42 +188,38 @@ const ServicesPage = function (props) {
     let serviceImage2 = document.getElementById("service-image-2");
     let serviceImage3 = document.getElementById("service-image-3");
     let serviceImage4 = document.getElementById("service-image-4");
+    let serviceText1 = document.getElementById("serviceText1");
+    let serviceText2 = document.getElementById("serviceText2");
+    let serviceText3 = document.getElementById("serviceText3");
+    let serviceText4 = document.getElementById("serviceText4");
 
     function scrollImages() {
-      let position1 = serviceImage1.getBoundingClientRect();
-      let position2 = serviceImage2.getBoundingClientRect();
-      let position3 = serviceImage3.getBoundingClientRect();
-      let position4 = serviceImage4.getBoundingClientRect();
+      let positionImage1 = serviceImage1.getBoundingClientRect();
+      let positionImage2 = serviceImage2.getBoundingClientRect();
+      let positionImage3 = serviceImage3.getBoundingClientRect();
+      let positionImage4 = serviceImage4.getBoundingClientRect();
       let scrollY = window.innerHeight;
-      console.log("position1.y");
-      console.log(position1.y);
-      console.log("scrollY");
-      console.log(scrollY);
 
-      if (position1.y < scrollY) {
+      if (positionImage1.y < scrollY) {
         serviceImage1.classList.add("slide-from-left");
+        serviceText1.classList.add("remove-margin-left");
       }
 
-      if (position2.y < scrollY) {
-        serviceImage2.classList.add("slide-from-left");
+      if (positionImage2.y < scrollY) {
+        serviceImage2.classList.add("slide-from-right");
+        serviceText2.classList.add("remove-margin-right");
       }
 
-      if (position3.y < scrollY) {
+      if (positionImage3.y < scrollY) {
         serviceImage3.classList.add("slide-from-left");
+        serviceText3.classList.add("remove-margin-left");
       }
 
-      if (position4.y < scrollY) {
-        serviceImage4.classList.add("slide-from-left");
+      if (positionImage4.y < scrollY) {
+        serviceImage4.classList.add("slide-from-right");
+        serviceText4.classList.add("remove-margin-right");
       }
-    } // setTimeout(() => {
-    //   document
-    //     .getElementById("service-image-1")
-    //     .classList.add("slide-from-left");
-    //   document
-    //     .getElementById("serviceText1")
-    //     .classList.add("remove-margin-left");
-    // }, 2000);
-
+    }
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.serviceMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "robots",
@@ -253,7 +249,7 @@ const ServicesPage = function (props) {
     className: "service-image-left",
     id: "service-image-1"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "service-text-container-left service-text-container",
+    className: "service-text-container-right service-text-container",
     id: "serviceText1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service1Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service1Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service1Text2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/bootfitting"
@@ -265,8 +261,9 @@ const ServicesPage = function (props) {
     className: "service-image-right",
     id: "service-image-2"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "service-text-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text2)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "service-text-container-left service-text-container",
+    id: "serviceText2"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service2Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service2Text2)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-container services-container-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-1"
@@ -276,8 +273,9 @@ const ServicesPage = function (props) {
     className: "service-image-left",
     id: "service-image-3"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "service-text-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service3Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service3Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "service-text-container-right service-text-container",
+    id: "serviceText3"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service3Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service3Text))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "service service-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _images_service4_square_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
@@ -285,8 +283,9 @@ const ServicesPage = function (props) {
     className: "service-image-right",
     id: "service-image-4"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "service-text-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service4Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "service-text-container-left service-text-container",
+    id: "serviceText4"
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, languageToUse.service4Title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.service4Text2, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank"
   }, languageToUse.service4Link)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Partenaires__WEBPACK_IMPORTED_MODULE_6__["default"], null));

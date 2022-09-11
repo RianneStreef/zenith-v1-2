@@ -24,7 +24,10 @@ const Layout = ({ children }) => {
       const windowWidth = window.innerWidth;
 
       if (windowWidth < 769) {
-        if (pathname === "http://localhost:8000/") {
+        if (
+          pathname === "https://zenith-vt.netlify.app/" ||
+          pathname === "https://zenith-skishop.com/"
+        ) {
           if (currentScroll > windowHeight) {
             button.classList.remove("transparent");
             return;

@@ -287,9 +287,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 /* harmony import */ var _styles_USP_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/USP.css */ "./src/styles/USP.css");
 /* harmony import */ var _styles_USP_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_USP_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/bootfittingIntroImage.jpg */ "./src/images/bootfittingIntroImage.jpg");
-/* harmony import */ var _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/modjoIntroImage.jpg */ "./src/images/modjoIntroImage.jpg");
-/* harmony import */ var _images_serviceIntro_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/serviceIntro.jpg */ "./src/images/serviceIntro.jpg");
+/* harmony import */ var _images_USP_BOOT_FR_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/USP-BOOT-FR.jpg */ "./src/images/USP-BOOT-FR.jpg");
+/* harmony import */ var _images_USP_MOJO_FR_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images//USP-MOJO-FR.jpg */ "./src/images/USP-MOJO-FR.jpg");
+/* harmony import */ var _images_USP_SERVICE_FR_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images//USP-SERVICE-FR.jpg */ "./src/images/USP-SERVICE-FR.jpg");
+/* harmony import */ var _images_USP_BOOT_EN_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/USP-BOOT-EN.jpg */ "./src/images/USP-BOOT-EN.jpg");
+/* harmony import */ var _images_USP_MOJO_EN_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images//USP-MOJO-EN.jpg */ "./src/images/USP-MOJO-EN.jpg");
+/* harmony import */ var _images_USP_SERVICE_EN_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images//USP-SERVICE-EN.jpg */ "./src/images/USP-SERVICE-EN.jpg");
+
+
+
 
 
 
@@ -316,11 +322,11 @@ const USP = props => {
     to: "/bootfitting",
     className: "usp-link-container"
   }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _images_USP_BOOT_EN_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
     alt: "bootfitting",
     className: "usp-intro-image"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_bootfittingIntroImage_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _images_USP_BOOT_FR_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "bootfitting",
     className: "usp-intro-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
@@ -334,11 +340,11 @@ const USP = props => {
     className: "usp-link-container",
     onClick: () => setPathname("/mojo")
   }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    src: _images_USP_MOJO_EN_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
     alt: "ski mojo",
     className: "usp-intro-image"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    src: _images_USP_MOJO_FR_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
     alt: "ski mojo",
     className: "usp-intro-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
@@ -351,11 +357,11 @@ const USP = props => {
     to: "/services",
     className: "usp-link-container"
   }, language === "english" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_serviceIntro_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    src: _images_USP_SERVICE_EN_jpg__WEBPACK_IMPORTED_MODULE_9__["default"],
     alt: "",
     className: "usp-intro-image"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_serviceIntro_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    src: _images_USP_SERVICE_FR_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
     alt: "",
     className: "usp-intro-image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
@@ -554,6 +560,96 @@ IndexPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"];
 
 /***/ }),
 
+/***/ "./src/images/USP-BOOT-EN.jpg":
+/*!************************************!*\
+  !*** ./src/images/USP-BOOT-EN.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-BOOT-EN-26ca9f2e7f05fc497200839d1e94616c.jpg");
+
+/***/ }),
+
+/***/ "./src/images/USP-BOOT-FR.jpg":
+/*!************************************!*\
+  !*** ./src/images/USP-BOOT-FR.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-BOOT-FR-494fbd8fe54a0381b4e66726091c9789.jpg");
+
+/***/ }),
+
+/***/ "./src/images/USP-MOJO-EN.jpg":
+/*!************************************!*\
+  !*** ./src/images/USP-MOJO-EN.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-MOJO-EN-c4db441628f2d9ed28b2e1acd8c07135.jpg");
+
+/***/ }),
+
+/***/ "./src/images/USP-MOJO-FR.jpg":
+/*!************************************!*\
+  !*** ./src/images/USP-MOJO-FR.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-MOJO-FR-714f55ac537983e2c57810642de4e6f3.jpg");
+
+/***/ }),
+
+/***/ "./src/images/USP-SERVICE-EN.jpg":
+/*!***************************************!*\
+  !*** ./src/images/USP-SERVICE-EN.jpg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-SERVICE-EN-607c3d3e6983b60f9855f86578f66b5d.jpg");
+
+/***/ }),
+
+/***/ "./src/images/USP-SERVICE-FR.jpg":
+/*!***************************************!*\
+  !*** ./src/images/USP-SERVICE-FR.jpg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/USP-SERVICE-FR-ab80e616ba2f3a395223a313d0bc8167.jpg");
+
+/***/ }),
+
 /***/ "./src/images/at.svg":
 /*!***************************!*\
   !*** ./src/images/at.svg ***!
@@ -566,21 +662,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNi41LjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FscXVlXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0MS43IDE0MS43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojMjIxRjIwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNOTEuNCw1MS44bC04LTFsLTAuNywzLjdjLTIuNC0yLjUtNi4xLTQuNy0xMS42LTQuN2MtMTAuNCwwLTIxLjksOS42LTIxLjksMjMuM2MwLDkuOCw3LjQsMTcuMiwxNy4xLDE3LjINCgljNi41LDAsMTEtMy4xLDE0LjEtNi4zYzIuNCw0LDYuNyw2LjMsMTIuMiw2LjNjOC41LDAsMTcuNi03LjEsMTcuNi0yMi44YzAtOS4zLTQuMi0xOC40LTExLjQtMjUuMmMtNy40LTYuOS0xNy4zLTEwLjctMjcuOS0xMC43DQoJYy0yMS44LDAtMzkuNCwxNy43LTM5LjQsMzkuNGMwLDIyLDE3LjYsMzkuMyw0MC4xLDM5LjNjOC43LDAsMTYuMi0yLjEsMjMuNy02LjdsMS43LTFsLTMuMy01LjVsLTEuNywxYy02LjcsMy45LTEyLjYsNS41LTIwLjQsNS41DQoJYy0xOSwwLTMzLjMtMTQtMzMuMy0zMi42YzAtMTguNCwxNC4zLTMyLjcsMzIuNi0zMi43YzguNywwLDE3LDMuMywyMy4yLDkuMmM1LjgsNS41LDkuMiwxMi44LDkuMiwyMGMwLDcuOC0zLjIsMTUuNy0xMC4zLDE1LjcNCgljLTMuOCwwLTUuNy0xLjgtNS43LTUuNWMwLTAuNCwwLjEtMS44LDAuNy01LjhMOTEuNCw1MS44eiBNNjcsODIuM2MtNS44LDAtOS40LTMuNy05LjQtOS42YzAtOC44LDcuMS0xNC45LDEzLjUtMTQuOQ0KCWM1LjQsMCw5LjMsNC4yLDkuMyw5LjlDODAuNCw3NS4zLDczLjksODIuMyw2Nyw4Mi4zeiIvPg0KPC9zdmc+DQo=");
-
-/***/ }),
-
-/***/ "./src/images/bootfittingIntroImage.jpg":
-/*!**********************************************!*\
-  !*** ./src/images/bootfittingIntroImage.jpg ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/bootfittingIntroImage-26ca9f2e7f05fc497200839d1e94616c.jpg");
 
 /***/ }),
 
@@ -614,21 +695,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/images/modjoIntroImage.jpg":
-/*!****************************************!*\
-  !*** ./src/images/modjoIntroImage.jpg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/modjoIntroImage-714f55ac537983e2c57810642de4e6f3.jpg");
-
-/***/ }),
-
 /***/ "./src/images/phone.svg":
 /*!******************************!*\
   !*** ./src/images/phone.svg ***!
@@ -641,21 +707,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNi41LjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FscXVlXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0MS43IDE0MS43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojMjIxRjFGO30NCjwvc3R5bGU+DQo8Zz4NCgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNzEuNSwzNy4xYy0zNCwwLTQ1LjgsMTkuMy00NS44LDE5LjN2Ny4yYzAsMi4yLDEuOCw0LDQsNGgxNS43YzIuMiwwLDQtMS44LDQtNHYtNy4yYzAsMCw3LjEtNy4zLDIyLjEtNy4zDQoJCVM5Miw1Ni40LDkyLDU2LjR2Ny4yYzAsMi4yLDEuOCw0LDQsNGgxNS43YzIuMiwwLDQtMS44LDQtNHYtNy4yQzExNS44LDU2LjQsMTA1LjUsMzcuMSw3MS41LDM3LjF6Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTk5LjMsNzEuMkw5OS4zLDcxLjJoLTMuMWMtNS4xLDAtOS4zLTQuMi05LjMtOS4zdi00YzAtMC40LTAuMS0wLjgtMC40LTFjLTAuMS0wLjEtMC4zLTAuMy0wLjUtMC4zDQoJCWMtMS4zLTAuNy03LjItMy40LTE1LjMtMy40cy0xNCwyLjgtMTUuMywzLjRjLTAuMiwwLjEtMC4zLDAuMi0wLjUsMC4zYy0wLjMsMC4zLTAuNCwwLjctMC40LDF2NGMwLDUuMS00LjIsOS4zLTkuMyw5LjNoLTMuMWwwLDANCgkJTDMwLjcsODkuNWMtMC4yLDAuMi0wLjIsMC41LTAuMiwwLjh2MTMuMWMwLDAuOSwwLjcsMS42LDEuNiwxLjZoMzguNmgzOC42YzAuOSwwLDEuNi0wLjcsMS42LTEuNlY5MC4zYzAtMC4zLTAuMS0wLjYtMC4yLTAuOA0KCQlMOTkuMyw3MS4yeiBNNzAuNyw5Ni40Yy03LjcsMC0xNC02LjMtMTQtMTRzNi4zLTE0LDE0LTE0czE0LDYuMywxNCwxNEM4NC44LDkwLjEsNzguNSw5Ni40LDcwLjcsOTYuNHoiLz4NCgk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI3MC43IiBjeT0iODIuNiIgcj0iMTAuMSIvPg0KPC9nPg0KPC9zdmc+DQo=");
-
-/***/ }),
-
-/***/ "./src/images/serviceIntro.jpg":
-/*!*************************************!*\
-  !*** ./src/images/serviceIntro.jpg ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/serviceIntro-ab80e616ba2f3a395223a313d0bc8167.jpg");
 
 /***/ })
 

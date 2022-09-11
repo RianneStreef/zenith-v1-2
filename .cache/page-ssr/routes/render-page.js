@@ -6564,25 +6564,35 @@ const Layout = ({
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
       const windowHeight = window.innerHeight;
+      const windowWidth = window.innerWidth;
 
-      if (pathname === "http://localhost:8001/") {
-        if (currentScroll > windowHeight) {
+      if (windowWidth < 769) {
+        if (pathname === "http://localhost:8000/") {
+          if (currentScroll > windowHeight) {
+            button.classList.remove("transparent");
+            return;
+          }
+
+          if (currentScroll < windowHeight) {
+            button.classList.add("transparent");
+            return;
+          }
+        } else {
+          if (currentScroll > windowHeight * 0.25) {
+            button.classList.remove("transparent");
+            return;
+          }
+
+          if (currentScroll < windowHeight * 0.25) {
+            button.classList.add("transparent");
+            return;
+          }
+        }
+      }
+
+      if (windowWidth > 769) {
+        if (currentScroll > 2) {
           button.classList.remove("transparent");
-          return;
-        }
-
-        if (currentScroll < windowHeight) {
-          button.classList.add("transparent");
-          return;
-        }
-      } else {
-        if (currentScroll > windowHeight * 0.25) {
-          button.classList.remove("transparent");
-          return;
-        }
-
-        if (currentScroll < windowHeight * 0.25) {
-          button.classList.add("transparent");
           return;
         }
       }
@@ -6951,6 +6961,7 @@ const french = {
   explanationText4: "Vous pouvez changer de glisse pendant votre séjour et si vous résidez loin des pistes, nous pouvons garder vos skis le soir après votre journée de glisse. ",
   explanationText5: "Pour faciliter toujours plus votre séjour et ne pas gaspiller de temps lors de votre arrivée à Val Thorens, nous vous offrons la possibilité d’effectuer la location de votre matériel en ligne. ",
   explanationText6: "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
+  bootfittingMetaTitle: "Bootfitting - Zenith Ski Shop",
   bootfittingTitle: "LE BOOTFITTING, C’EST NOTRE SPÉCIALITÉ",
   bootfittingIntro1: "Nous avons tous les pieds différents, naturellement ou par accident, or les chaussures de ski sont fabriquées en paires identiques et selon les critères de chaque marque. Il est logique de devoir les aménager pour obtenir le meilleur confort en skiant.",
   bootfittingIntro2: "Tout d’abord nous vous aidons à acheter vos chaussures de ski en fonction de l’anatomie de vos pieds que nous savons analyser : pieds longs et fins, courts et trapus, plats ou cambrés, d’inactif, de footballeur, de danseuse, de coureur. Ensuite, après les premières descentes vous nous donnez vos impressions et nous affinons les réglages ensemble.",
@@ -6979,7 +6990,7 @@ const french = {
   bootfittingProblem9Title: "Métatarses douloureux",
   bootfittingProblem9Text: "La pression constante sur l’avant du pied, et/ou une chaussure trop étroite peuvent être la cause de ces douleurs. Nos solutions apportées en magasin vous soulageront.",
   bootfittingUnderTitle: "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
-  serviceMetaTitle: "LES SERVICES ZENITH SKI SHOP",
+  serviceMetaTitle: "Les services - Zenith Ski Shop",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
   service1Title: "SERVICE CHAUSSURES",
   service1Text1: "Vos pieds évoluent, et d'un hiver à l'autre vos chaussures deviennent de plus en plus inconfortables. Nos chausseurs peuvent les modifier, les aménager et les adapter. Vous retrouverez ainsi le plaisir de glisser dans le meilleur confort.",
