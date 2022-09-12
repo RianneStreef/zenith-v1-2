@@ -206,9 +206,9 @@ ul {
     line-height: var(--line-height-desktop);
   }
 
-  /* .book-link {
-    right: 75px;
-  } */
+  .book-link {
+    top: 70px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
