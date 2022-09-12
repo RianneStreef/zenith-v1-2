@@ -15,7 +15,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <p>
-        © Zenith Ski Shop - 2022. {languageToUse.rights}{" "}
+        © Zenith Ski Shop - 2022. {languageToUse.rights} -{" "}
         <Link to="/legal">{languageToUse.legal}</Link>{" "}
         <a href="https://vts-webdesign.com" target="_blank">
           - VTS Webdesign

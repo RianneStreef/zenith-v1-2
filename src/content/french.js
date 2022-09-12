@@ -203,6 +203,6 @@ export const french = {
   savoie: "Tourisme en Savoie",
   pasChere: "Montagne pas cher",
 
-  rights: "Tous droits réservés.",
+  rights: "Tous droits réservés",
   legal: "Mentions légales",
 };
