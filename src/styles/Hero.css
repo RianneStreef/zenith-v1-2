@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
   background-image: url("../images/hero.jpg");
   background-size: cover;
@@ -9,14 +9,14 @@
   background-repeat: none;
   width: 100vw;
   overflow: hidden;
-  height: 95vh;
+  min-height: 90vh;
 }
 .hero-content-container {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   align-items: flex-start;
-  height: 80vh;
+  min-height: 75vh;
   width: 100%;
 }
 

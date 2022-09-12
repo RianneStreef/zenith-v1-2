@@ -6415,7 +6415,7 @@ const Footer = props => {
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.french;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 Zenith Ski Shop.", languageToUse.rights, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 Zenith Ski Shop - 2022. ", languageToUse.rights, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/legal"
   }, languageToUse.legal), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://vts-webdesign.com",
@@ -6478,16 +6478,16 @@ const Header = props => {
     className: "links hidden-mobile"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
-    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/" ? "active" : ""}`
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/" || pathname === "https://zenith-skishop.com/" ? "active" : ""}`
   }, languageToUse.home), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/bootfitting",
-    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/bootfitting" ? "active" : ""}`
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/bootfitting" || pathname === "https://zenith-skishop.com/bootfitting" ? "active" : ""}`
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/services",
-    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/services" ? "active" : ""}`
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/services" || pathname === "https://zenith-skishop.com/services" ? "active" : ""}`
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/#contact",
-    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/#contact" ? "active" : ""}`
+    className: `nav-link ${pathname === "https://zenith-vt.netlify.app/#contact" || pathname === "https://zenith-skishop.com/#contact" ? "active" : ""}`
   }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
@@ -6567,7 +6567,7 @@ const Layout = ({
       const windowWidth = window.innerWidth;
 
       if (windowWidth < 769) {
-        if (pathname === "http://localhost:8000/") {
+        if (pathname === "https://zenith-vt.netlify.app/" || pathname === "https://zenith-skishop.com/") {
           if (currentScroll > windowHeight) {
             button.classList.remove("transparent");
             return;
@@ -6832,6 +6832,7 @@ const english = {
   explanationText5: "To make your stay even easier and not waste time when you arrive in Val Thorens, we offer the possibility to rent your equipment online. ",
   explanationText6: "You can choose, online, the equipment that suits you according to your level (beginner, intermediate and expert).",
   bootfittingTitle: "BOOTFITTING IS OUR SPECIALTY",
+  bootfittingMetaTitle: "Bootfitting - Zenith Ski Shop",
   bootfittingIntro1: "We have all different feet, naturally or by accident, and ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing.",
   bootfittingIntro2: "First we help you to buy your ski boots based on the anatomy of your feet which we know how to analyze: long and thin, short and stocky, flat or arched, inactive, footballer, dancer or runner. Then, after the first ride you give us your impressions and we refine the settings together.",
   bootfittingIntro3: " To avoid suffering in your shoes it is important to bring together the following elements:",
@@ -6859,7 +6860,7 @@ const english = {
   bootfittingProblem9Title: "Painful metatarsal heads",
   bootfittingProblem9Text: "The constant pressure on the front of the foot, or a narrower shoe can be the cause of such pain. Our solutions in store will relieve you.",
   bootfittingUnderTitle: "These problems are the most common, but there are many others. We know them and have a specific solution for each of them.",
-  serviceMetaTitle: "ZENITH SKI SHOP Services",
+  serviceMetaTitle: "Services - Zenith Ski Shop",
   servicesTitle: "ZENITH SKI SHOP Services",
   service1Title: "BOOTS SERVICE",
   service1Text1: "Your feet are evolving, and one winter to another your boots become more and more uncomfortable. Our bootfitters can modify them, develop them and adapt them. You will thus find the best comfort. ",
@@ -6990,7 +6991,7 @@ const french = {
   bootfittingProblem9Title: "Métatarses douloureux",
   bootfittingProblem9Text: "La pression constante sur l’avant du pied, et/ou une chaussure trop étroite peuvent être la cause de ces douleurs. Nos solutions apportées en magasin vous soulageront.",
   bootfittingUnderTitle: "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
-  serviceMetaTitle: "Les services - Zenith Ski Shop",
+  serviceMetaTitle: "Le service - Zenith Ski Shop",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
   service1Title: "SERVICE CHAUSSURES",
   service1Text1: "Vos pieds évoluent, et d'un hiver à l'autre vos chaussures deviennent de plus en plus inconfortables. Nos chausseurs peuvent les modifier, les aménager et les adapter. Vous retrouverez ainsi le plaisir de glisser dans le meilleur confort.",
