@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.service {
+  overflow: hidden;
+}
+
 .services-container-2 {
   background-color: #fff;
   color: #000;
