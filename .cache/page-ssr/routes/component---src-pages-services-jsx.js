@@ -183,6 +183,7 @@ const ServicesPage = function (props) {
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.french;
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    let width = window.innerWidth;
     window.addEventListener("scroll", scrollImages);
     let serviceImage1 = document.getElementById("service-image-1");
     let serviceImage2 = document.getElementById("service-image-2");
@@ -193,17 +194,22 @@ const ServicesPage = function (props) {
     let serviceText3 = document.getElementById("serviceText3");
     let serviceText4 = document.getElementById("serviceText4");
 
+    if (width < 768) {
+      setTimeout(() => {
+        serviceImage1.classList.add("slide-from-left");
+      }, 500);
+    } else {
+      setTimeout(() => {
+        serviceImage1.classList.add("slide-from-left");
+        serviceText1.classList.add("remove-margin-left");
+      }, 500);
+    }
+
     function scrollImages() {
-      let positionImage1 = serviceImage1.getBoundingClientRect();
       let positionImage2 = serviceImage2.getBoundingClientRect();
       let positionImage3 = serviceImage3.getBoundingClientRect();
       let positionImage4 = serviceImage4.getBoundingClientRect();
       let scrollY = window.innerHeight;
-
-      if (positionImage1.y < scrollY) {
-        serviceImage1.classList.add("slide-from-left");
-        serviceText1.classList.add("remove-margin-left");
-      }
 
       if (positionImage2.y < scrollY) {
         serviceImage2.classList.add("slide-from-right");
