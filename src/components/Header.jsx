@@ -111,7 +111,8 @@ const Header = (props) => {
           </div>
         </li>
       </ul>
-      <div className="hidden-desktop">
+      <div className="hidden-desktop mobile-header">
+        <span className="header-name">Zenith Ski Shop</span>
         <Burger
           language={language}
           setLanguage={setLanguage}

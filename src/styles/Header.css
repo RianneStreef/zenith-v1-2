@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   background-color: var(--color-background);
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -23,6 +23,19 @@
 .header-logo {
   width: 100%;
   margin: 20px;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-name {
+  font-family: "Nobl";
+  color: #fff;
+  margin-left: 20px;
 }
 
 .nav-link {

@@ -48,6 +48,10 @@ IBM Plex Mono light Italic menu et usp
   src: local("IBM Plex Mono Bold Italic"),
     url(../fonts/ibm-plex-mono/IBMPlexMono-BoldItalic.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Nobl";
+  src: local("Nobl"), url(../fonts/NOBL____.ttf) format("truetype");
+}
 
 html {
   font-size: calc(60% + 0.8vmin);
