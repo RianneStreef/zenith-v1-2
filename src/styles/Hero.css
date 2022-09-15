@@ -57,6 +57,21 @@
     background-position: 60% 100%;
   }
 
+  .hero-content-container {
+    padding: 50px;
+    width: 90%;
+  }
+
+  .hero-logo {
+    width: 50%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .hero-title {
     font-size: 30px;
     color: #fff;
@@ -71,20 +86,9 @@
   .hero-content-container {
     flex-direction: column;
     justify-content: center;
-
-    padding: 100px;
-    width: 85%;
+    padding: 50px;
+    width: 90%;
   }
-  .hero-logo {
-    width: 50%;
-  }
-
-  .hero-text {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
   .hero-logo {
     width: 50%;
   }
