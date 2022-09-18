@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Link } from "gatsby";
 
@@ -11,6 +11,17 @@ const Footer = (props) => {
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    function handleResize() {
+      setScreenWidth(window.innerWidth);
+      console.log("screenWidth");
+      console.log(screenWidth);
+    }
+    window.addEventListener("resize", handleResize);
+  });
 
   return (
     <div className="footer">

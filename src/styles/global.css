@@ -179,6 +179,7 @@ ul {
   justify-content: flex-end;
   align-items: flex-end;
   overflow: hidden;
+  height: fit-content;
 }
 
 .button-location-en-ligne {
@@ -218,5 +219,6 @@ ul {
   .book-link {
     bottom: 50px;
     right: 50px;
+    top: auto;
   }
 }

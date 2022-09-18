@@ -232,7 +232,7 @@ const ServicesPage = function (props) {
     content: "index, follow"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "description",
-    content: languageToUse.metaDescription
+    content: languageToUse.metaDescriptionServices
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "keywords",
     content: languageToUse.metaKeywords

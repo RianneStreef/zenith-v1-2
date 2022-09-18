@@ -130,7 +130,7 @@ const BootfittingPage = function (props) {
     content: "index, follow"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "description",
-    content: languageToUse.metaDescription
+    content: languageToUse.metaDescriptionBootfitting
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "keywords",
     content: languageToUse.metaKeywords
