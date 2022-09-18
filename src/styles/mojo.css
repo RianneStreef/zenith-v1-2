@@ -99,6 +99,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .mojo-hero-logo {
+    width: 80%;
+  }
   .mojo-icon h2 {
     font-size: 30px;
   }
