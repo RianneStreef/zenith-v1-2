@@ -19,8 +19,6 @@ const Footer = (props) => {
     function handleResize() {
       const newSize = window.innerWidth;
       setScreenWidth(newSize);
-      console.log("screenWidth");
-      console.log(newSize);
     }
     window.addEventListener("resize", handleResize);
   }, [screenWidth]);
