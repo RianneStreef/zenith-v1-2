@@ -12,9 +12,10 @@ const Footer = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(0);
 
   useEffect(() => {
+    setScreenWidth(window.innerWidth);
     function handleResize() {
       const newSize = window.innerWidth;
       setScreenWidth(newSize);
