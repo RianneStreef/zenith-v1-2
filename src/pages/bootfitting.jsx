@@ -33,7 +33,10 @@ const BootfittingPage = function (props) {
       <Helmet>
         <title>{languageToUse.bootfittingMetaTitle}</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content={languageToUse.metaDescription} />
+        <meta
+          name="description"
+          content={languageToUse.metaDescriptionBootfitting}
+        />
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>

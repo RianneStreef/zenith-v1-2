@@ -79,6 +79,8 @@ export const english = {
   bootfittingTitle: "BOOTFITTING IS OUR SPECIALTY",
 
   bootfittingMetaTitle: "Bootfitting - Zenith Ski Shop",
+  metaDescriptionBootfitting:
+    "Bootfitting is our speciality! Feet are all different. It is normal to have to customize ski boots to get the best comfort while skiing.",
   bootfittingIntro1:
     "We have all different feet, naturally or by accident, and ski boots are made in identical pairs and according to the criteria of each brand. It is logical to have to customize them to obtain the best comfort while skiing.",
 
@@ -138,6 +140,9 @@ export const english = {
   serviceMetaTitle: "Services - Zenith Ski Shop",
   servicesTitle: "ZENITH SKI SHOP Services",
 
+  metaDescriptionServices:
+    "Adaptation of your shoes, skis and snowboard maintenance, comfort solutions (heated soles and gloves, polarized lenses, etc.",
+
   service1Title: "BOOTS SERVICE",
   service1Text1:
     "Your feet are evolving, and one winter to another your boots become more and more uncomfortable. Our bootfitters can modify them, develop them and adapt them. You will thus find the best comfort. ",
@@ -164,6 +169,9 @@ export const english = {
 
   mojoTitle:
     "Enjoy the pleasure of Augmented Skiing with the Ski~Mojo exoskeleton",
+
+  metaDescriptionMojo:
+    "The bionic knee brace dedicated to skiing had arrived. Forget joint pain and fatigue. Ski effortlessly with the exoskeleton.",
 
   mojoIcon1: "Pleasure",
   mojoIcon2: "Endurance",

@@ -79,6 +79,8 @@ export const french = {
     "Vous pourrez choisir, en ligne, le matériel qui vous correspond en fonction de votre niveau (débutant, intermédiaire et expert).",
 
   bootfittingMetaTitle: "Bootfitting - Zenith Ski Shop",
+  metaDescriptionBootfitting:
+    "Le bootfitting c’est notre spécialité! Les pieds sont tous différents, il est normal de devoir aménager les chaussures pour un confort optimal en skiant.",
   bootfittingTitle: "LE BOOTFITTING, C’EST NOTRE SPÉCIALITÉ",
 
   bootfittingIntro1:
@@ -139,6 +141,8 @@ export const french = {
     "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
 
   serviceMetaTitle: "Le service - Zenith Ski Shop",
+  metaDescriptionServices:
+    "Adaptations de vos chaussures, entretien skis et snowboards, solutions de confort (semelles et gants chauffants, verres polarisés,...)",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
 
   service1Title: "SERVICE CHAUSSURES",
@@ -167,6 +171,8 @@ export const french = {
 
   mojoTitle:
     "Découvrez tous les avantages du Ski Augmenté avec l’exosquelette Ski~Mojo",
+  metaDescriptionMojo:
+    "La genouillère bionique dédiée à la pratique du ski est arrivée. Oubliez vos douleurs articulaires et la fatigue. Skiez sans effort avec l'exosquelette.",
 
   mojoIcon1: "Plaisir",
   mojoIcon2: "Endurance",

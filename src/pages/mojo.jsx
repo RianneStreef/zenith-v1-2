@@ -31,7 +31,7 @@ const BootfittingPage = function (props) {
       <Helmet>
         <title>{languageToUse.mojoTitle}</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content={languageToUse.metaDescription} />
+        <meta name="description" content={languageToUse.metaDescriptionMojo} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
