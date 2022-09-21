@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import Layout from "../components/Layout";
 
 import intakeInfo from "../content/intake";
@@ -8,6 +10,13 @@ import "../styles/legal.css";
 const LegalPage = () => {
   return (
     <>
+      <Helmet>
+        <title>{languageToUse.indexTitle}</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content={languageToUse.metaDescription} />
+        <meta name="keywords" content={languageToUse.metaKeywords} />
+        <link rel="canonical" href={intakeInfo.domainName} />
+      </Helmet>
       <div className="header-placeholder" />
       <div className="legal">
         <h2>Informations légales</h2>

@@ -1,7 +1,7 @@
 const intakeInfo = {
   companyName: "Zenith",
   companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
-  domainName: "zenith-skishop.com",
+  domainName: "www.zenith-skishop.com",
   contactEmail: "zenith-skishop@wanadoo.fr",
 
   siteName: "Zenith Ski Shop",
