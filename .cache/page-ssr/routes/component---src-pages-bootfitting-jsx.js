@@ -63,7 +63,7 @@ const intakeInfo = {
   contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
-  taxNumber: "1313"
+  taxNumber: "38848588000016"
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (intakeInfo);
 

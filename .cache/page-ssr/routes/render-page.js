@@ -4205,8 +4205,7 @@ exports.components = {
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx */ "./src/pages/index.jsx")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx */ "./src/pages/legal.jsx")),
   "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsx */ "component---src-pages-mojo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx */ "./src/pages/mojo.jsx")),
-  "component---src-pages-services-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-services-jsx */ "component---src-pages-services-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/services.jsx */ "./src/pages/services.jsx")),
-  "component---src-pages-success-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-success-jsx */ "component---src-pages-success-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/success.jsx */ "./src/pages/success.jsx"))
+  "component---src-pages-services-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-services-jsx */ "component---src-pages-services-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/services.jsx */ "./src/pages/services.jsx"))
 };
 
 /***/ }),
@@ -6413,9 +6412,23 @@ const Footer = props => {
     languageToUse
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_3__.content.french;
+  const {
+    0: screenWidth,
+    1: setScreenWidth
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    setScreenWidth(window.innerWidth);
+
+    function handleResize() {
+      const newSize = window.innerWidth;
+      setScreenWidth(newSize);
+    }
+
+    window.addEventListener("resize", handleResize);
+  }, [screenWidth]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 Zenith Ski Shop - 2022. ", languageToUse.rights, " -", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 Zenith Ski Shop - 2022. ", languageToUse.rights, screenWidth < 768 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null) : "-", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/legal"
   }, languageToUse.legal), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://vts-webdesign.com",

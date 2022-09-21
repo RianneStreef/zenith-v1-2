@@ -48,5 +48,17 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["gatsby-remark-check-links"],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/",
+      },
+    },
   ],
 };
