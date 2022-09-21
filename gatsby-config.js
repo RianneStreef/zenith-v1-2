@@ -48,6 +48,5 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    `gatsby-plugin-sitemap`,
   ],
 };
