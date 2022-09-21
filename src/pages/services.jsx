@@ -83,7 +83,7 @@ const ServicesPage = function (props) {
           content={languageToUse.metaDescriptionServices}
         />
         <meta name="keywords" content={languageToUse.metaKeywords} />
-        <link rel="canonical" href={intakeInfo.domainName} />
+        <link rel="canonical" href={`${intakeInfo.domainName}/services`} />
       </Helmet>
       <div className="header-placeholder" />
       <Hero2 />

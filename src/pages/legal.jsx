@@ -2,12 +2,18 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
+import { content } from "../content/languages";
 
 import intakeInfo from "../content/intake";
 
 import "../styles/legal.css";
 
-const LegalPage = () => {
+const LegalPage = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <>
       <Helmet>
@@ -15,7 +21,7 @@ const LegalPage = () => {
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescription} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
-        <link rel="canonical" href={intakeInfo.domainName} />
+        <link rel="canonical" href={`${intakeInfo.domainName}/legal`} />
       </Helmet>
       <div className="header-placeholder" />
       <div className="legal">
