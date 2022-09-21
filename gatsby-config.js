@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `new`,
+    title: `Zenith Ski Shop`,
     siteUrl: `https://www.zenith-skishop.com`,
   },
   plugins: [
