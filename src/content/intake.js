@@ -7,7 +7,7 @@ const intakeInfo = {
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
 
-  taxNumber: "1313",
+  taxNumber: "38848588000016",
 };
 
 export default intakeInfo;
