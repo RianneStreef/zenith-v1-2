@@ -31,7 +31,7 @@ const Header = (props) => {
             to="/"
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/" ||
-              pathname === "https://zenith-skishop.com/"
+              pathname === "https://www.zenith-skishop.com/"
                 ? "active"
                 : ""
             }`}
@@ -42,7 +42,7 @@ const Header = (props) => {
             to="/bootfitting"
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/bootfitting" ||
-              pathname === "https://zenith-skishop.com/bootfitting"
+              pathname === "https://www.zenith-skishop.com/bootfitting"
                 ? "active"
                 : ""
             }`}
@@ -53,7 +53,7 @@ const Header = (props) => {
             to="/services"
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/services" ||
-              pathname === "https://zenith-skishop.com/services"
+              pathname === "https://www.zenith-skishop.com/services"
                 ? "active"
                 : ""
             }`}
