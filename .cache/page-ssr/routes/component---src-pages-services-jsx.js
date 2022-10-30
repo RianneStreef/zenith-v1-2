@@ -126,7 +126,7 @@ __webpack_require__.r(__webpack_exports__);
 const intakeInfo = {
   companyName: "Zenith",
   companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
-  domainName: "zenith-skishop.com",
+  domainName: "https://www.zenith-skishop.com",
   contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",
@@ -238,7 +238,7 @@ const ServicesPage = function (props) {
     content: languageToUse.metaKeywords
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     rel: "canonical",
-    href: _content_intake__WEBPACK_IMPORTED_MODULE_8__["default"].domainName
+    href: `${_content_intake__WEBPACK_IMPORTED_MODULE_8__["default"].domainName}/services`
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-placeholder"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero2__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {

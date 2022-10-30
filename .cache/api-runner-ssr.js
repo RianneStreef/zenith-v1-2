@@ -18,6 +18,10 @@ var plugins = [{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"7a0519d8cc75a5be550a07416407d3de"},
+    },{
+      name: 'gatsby-plugin-sitemap',
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-sitemap/gatsby-ssr.js'),
+      options: {"plugins":[],"output":"/","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

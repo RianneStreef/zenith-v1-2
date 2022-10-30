@@ -110,6 +110,7 @@ const Navbar = (props) => {
           <div className="nav-item-language">
             <img
               src={flagEn}
+              alt="english"
               onClick={() => handleSetLanguage("english")}
               className={`flag ${
                 languageToUse.language === "english" ? "opaque" : "fade"
@@ -117,6 +118,7 @@ const Navbar = (props) => {
             />
             <img
               src={flagFr}
+              alt="français"
               onClick={() => handleSetLanguage("french")}
               className={`flag ${
                 languageToUse.language === "french" ? "opaque" : "fade"

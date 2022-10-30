@@ -88,6 +88,7 @@ const Layout = ({ children }) => {
           src={buttonLocationEnLigne}
           className="button-location-en-ligne transparent"
           id="location-en-ligne"
+          alt="reservation en ligne"
         />
       </a>
       <Footer language={language} languageToUse={languageToUse} />

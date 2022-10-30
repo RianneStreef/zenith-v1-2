@@ -389,7 +389,7 @@ __webpack_require__.r(__webpack_exports__);
 const intakeInfo = {
   companyName: "Zenith",
   companyAddress: "Immeuble Le Zénith, Place Caron Val Thorens",
-  domainName: "zenith-skishop.com",
+  domainName: "https://www.zenith-skishop.com",
   contactEmail: "zenith-skishop@wanadoo.fr",
   siteName: "Zenith Ski Shop",
   highlightColor: "#ff00ff",

@@ -49,22 +49,22 @@ const BootfittingPage = function (props) {
       <h1 className="mojo-title">{languageToUse.mojoTitle}</h1>
       <div className="mojo-icons">
         <div className="mojo-icon">
-          <img src={mojoIcon1} />
+          <img src={mojoIcon1} alt="" />
           <h2>{languageToUse.mojoIcon1}</h2>
           <p>{languageToUse.mojoExplanation1}</p>
         </div>
         <div className="mojo-icon">
-          <img src={mojoIcon2} />
+          <img src={mojoIcon2} alt="" />
           <h2>{languageToUse.mojoIcon2}</h2>
           <p>{languageToUse.mojoExplanation2}</p>
         </div>
         <div className="mojo-icon">
-          <img src={mojoIcon3} />
+          <img src={mojoIcon3} alt="" />
           <h2>{languageToUse.mojoIcon3}</h2>
           <p>{languageToUse.mojoExplanation3}</p>
         </div>
         <div className="mojo-icon">
-          <img src={mojoIcon4} />
+          <img src={mojoIcon4} alt="" />
           <h2>{languageToUse.mojoIcon4}</h2>
           <p>{languageToUse.mojoExplanation4}</p>
         </div>
