@@ -3,10 +3,10 @@ exports.id = "component---src-pages-404-jsx";
 exports.ids = ["component---src-pages-404-jsx"];
 exports.modules = {
 
-/***/ "./src/pages/404.jsx":
-/*!***************************!*\
-  !*** ./src/pages/404.jsx ***!
-  \***************************/
+/***/ "./src/pages/404.jsx?export=default":
+/*!******************************************!*\
+  !*** ./src/pages/404.jsx?export=default ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17,8 +17,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 
- // styles
 
+
+// styles
 const pageStyles = {
   color: "#232129",
   padding: "96px",
@@ -38,8 +39,9 @@ const codeStyles = {
   backgroundColor: "#FFF4DB",
   fontSize: "1.25rem",
   borderRadius: 4
-}; // markup
+};
 
+// markup
 const NotFoundPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     style: pageStyles
@@ -56,7 +58,6 @@ const NotFoundPage = () => {
     to: "/"
   }, "Go home"), "."));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
 
 /***/ })

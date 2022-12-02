@@ -23,7 +23,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const Hero2 = props => {
   let {
     language,
@@ -40,7 +39,6 @@ const Hero2 = props => {
     className: "hero-logo-2"
   }));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero2);
 
 /***/ }),
@@ -61,7 +59,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 /* harmony import */ var _styles_Partenaires_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Partenaires.css */ "./src/styles/Partenaires.css");
 /* harmony import */ var _styles_Partenaires_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Partenaires_css__WEBPACK_IMPORTED_MODULE_2__);
-
 
 
 
@@ -107,7 +104,6 @@ const Partenaires = props => {
     className: "partner-link"
   }, "www.montagnepascher.com"))));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Partenaires);
 
 /***/ }),
@@ -136,10 +132,10 @@ const intakeInfo = {
 
 /***/ }),
 
-/***/ "./src/pages/services.jsx":
-/*!********************************!*\
-  !*** ./src/pages/services.jsx ***!
-  \********************************/
+/***/ "./src/pages/services.jsx?export=default":
+/*!***********************************************!*\
+  !*** ./src/pages/services.jsx?export=default ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -175,7 +171,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const ServicesPage = function (props) {
   let {
     language,
@@ -193,7 +188,6 @@ const ServicesPage = function (props) {
     let serviceText2 = document.getElementById("serviceText2");
     let serviceText3 = document.getElementById("serviceText3");
     let serviceText4 = document.getElementById("serviceText4");
-
     if (width < 768) {
       setTimeout(() => {
         serviceImage1.classList.add("slide-from-left");
@@ -204,23 +198,19 @@ const ServicesPage = function (props) {
         serviceText1.classList.add("remove-margin-left");
       }, 500);
     }
-
     function scrollImages() {
       let positionImage2 = serviceImage2.getBoundingClientRect();
       let positionImage3 = serviceImage3.getBoundingClientRect();
       let positionImage4 = serviceImage4.getBoundingClientRect();
       let scrollY = window.innerHeight;
-
       if (positionImage2.y < scrollY) {
         serviceImage2.classList.add("slide-from-right");
         serviceText2.classList.add("remove-margin-right");
       }
-
       if (positionImage3.y < scrollY) {
         serviceImage3.classList.add("slide-from-left");
         serviceText3.classList.add("remove-margin-left");
       }
-
       if (positionImage4.y < scrollY) {
         serviceImage4.classList.add("slide-from-right");
         serviceText4.classList.add("remove-margin-right");
@@ -296,7 +286,6 @@ const ServicesPage = function (props) {
     target: "blank"
   }, languageToUse.service4Link)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Partenaires__WEBPACK_IMPORTED_MODULE_6__["default"], null));
 };
-
 ServicesPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ServicesPage);
 

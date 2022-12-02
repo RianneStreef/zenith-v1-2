@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { content } from "../content/languages";
 
 import buttonLocationEnLigne from "../images/location-en-ligne.svg";
+import buttonOnlineRental from "../images/online-rental.svg";
 
 const Layout = ({ children }) => {
   let [language, setLanguage] = useState("french");
@@ -79,18 +80,34 @@ const Layout = ({ children }) => {
         setPathname={setPathname}
       />
       <section className="main">{childrenWithProps}</section>
-      <a
-        href="https://zenith-skishop.notresphere.com/location-materiel"
-        target="blank"
-        className="book-link"
-      >
-        <img
-          src={buttonLocationEnLigne}
-          className="button-location-en-ligne transparent"
-          id="location-en-ligne"
-          alt="reservation en ligne"
-        />
-      </a>
+
+      {language === "french" ? (
+        <a
+          href="https://zenith-skishop.notresphere.com/location-materiel"
+          target="blank"
+          className="book-link"
+        >
+          <img
+            src={buttonLocationEnLigne}
+            className="button-location-en-ligne transparent"
+            id="location-en-ligne"
+            alt="reservation en ligne"
+          />
+        </a>
+      ) : (
+        <a
+          href=" https://zenith-skishop.notresphere.com/en-gb/rental-gear"
+          target="blank"
+          className="book-link"
+        >
+          <img
+            src={buttonOnlineRental}
+            className="button-location-en-ligne transparent"
+            id="location-en-ligne"
+            alt="online rental"
+          />
+        </a>
+      )}
       <Footer language={language} languageToUse={languageToUse} />
     </div>
   );

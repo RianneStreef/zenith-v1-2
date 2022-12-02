@@ -11,13 +11,13 @@ exports.modules = {
 
 
 var token = '%[a-f0-9]{2}';
-var singleMatcher = new RegExp(token, 'gi');
+var singleMatcher = new RegExp('(' + token + ')|([^%]+?)', 'gi');
 var multiMatcher = new RegExp('(' + token + ')+', 'gi');
 
 function decodeComponents(components, split) {
 	try {
 		// Try to decode the entire string first
-		return decodeURIComponent(components.join(''));
+		return [decodeURIComponent(components.join(''))];
 	} catch (err) {
 		// Do nothing
 	}
@@ -39,12 +39,12 @@ function decode(input) {
 	try {
 		return decodeURIComponent(input);
 	} catch (err) {
-		var tokens = input.match(singleMatcher);
+		var tokens = input.match(singleMatcher) || [];
 
 		for (var i = 1; i < tokens.length; i++) {
 			input = decodeComponents(tokens, i).join('');
 
-			tokens = input.match(singleMatcher);
+			tokens = input.match(singleMatcher) || [];
 		}
 
 		return input;
@@ -134,10 +134,10 @@ module.exports = function (obj, predicate) {
 
 /***/ }),
 
-/***/ "./.cache/dev-404-page.js":
-/*!********************************!*\
-  !*** ./.cache/dev-404-page.js ***!
-  \********************************/
+/***/ "./.cache/dev-404-page.js?export=default":
+/*!***********************************************!*\
+  !*** ./.cache/dev-404-page.js?export=default ***!
+  \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -150,7 +150,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
-
 
 
 
@@ -176,19 +175,16 @@ class Dev404Page extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component
     this.handlePagePathSearch = this.handlePagePathSearch.bind(this);
     this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
   }
-
   componentDidMount() {
     this.setState({
       hasMounted: true
     });
   }
-
   showCustom404() {
     this.setState({
       showCustom404: true
     });
   }
-
   handleSearchTermChange(event) {
     const searchValue = event.target.value;
     this.setSearchUrl(searchValue);
@@ -196,7 +192,6 @@ class Dev404Page extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component
       pagePathSearchTerms: searchValue
     });
   }
-
   handlePagePathSearch(event) {
     event.preventDefault();
     const allPagePaths = [...this.state.initPagePaths];
@@ -204,12 +199,10 @@ class Dev404Page extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component
       pagePaths: this.getFilteredPagePaths(allPagePaths, this.state.pagePathSearchTerms)
     });
   }
-
   getFilteredPagePaths(allPagePaths, pagePathSearchTerms) {
     const searchTerm = new RegExp(`${pagePathSearchTerms}`);
     return allPagePaths.filter(pagePath => searchTerm.test(pagePath));
   }
-
   setSearchUrl(searchValue) {
     const {
       location: {
@@ -220,25 +213,21 @@ class Dev404Page extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component
     const searchMap = query_string__WEBPACK_IMPORTED_MODULE_2__.parse(search);
     searchMap.filter = searchValue;
     const newSearch = query_string__WEBPACK_IMPORTED_MODULE_2__.stringify(searchMap);
-
     if (search !== `?${newSearch}`) {
       (0,gatsby__WEBPACK_IMPORTED_MODULE_1__.navigate)(`${pathname}?${newSearch}`, {
         replace: true
       });
     }
   }
-
   render() {
     if (!this.state.hasMounted) {
       return null;
     }
-
     const {
       pathname
     } = this.props.location;
     let newFilePath;
     let newAPIPath;
-
     if (pathname === `/`) {
       newFilePath = `src/pages/index.js`;
     } else if (pathname.slice(0, 4) === `/api`) {
@@ -248,7 +237,6 @@ class Dev404Page extends (react__WEBPACK_IMPORTED_MODULE_0___default().Component
     } else {
       newFilePath = `src/pages${pathname}.js`;
     }
-
     return this.state.showCustom404 ? this.props.custom404 : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Gatsby.js development 404 page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "There's not a page or function yet at", ` `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, pathname)), this.props.custom404 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
       onClick: this.showCustom404
     }, "Preview custom 404 page")) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, `A custom 404 page wasn't detected - if you would like to add one, create a component in your site directory at `, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "src/pages/404.js"), "."), newFilePath && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Create a page at this url"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Create a React.js component like the following in your site directory at", ` `, "\"", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, newFilePath), "\"", ` `, "and then refresh to show the new page component you created."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", {
@@ -308,18 +296,16 @@ export default function API (req, res) {
       }
     }, "... and ", this.state.pagePaths.length - 100, " more."))));
   }
-
 }
-
 Dev404Page.propTypes = {
   data: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object),
   custom404: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().element),
   location: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object)
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dev404Page); // ESLint is complaining about the backslash in regex
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dev404Page);
 
+// ESLint is complaining about the backslash in regex
 /* eslint-disable */
-
 const pagesQuery = "1700995071";
 /* eslint-enable */
 

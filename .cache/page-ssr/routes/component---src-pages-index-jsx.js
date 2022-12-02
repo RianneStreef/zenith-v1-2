@@ -27,7 +27,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const Contact = props => {
   let {
     language,
@@ -77,7 +76,6 @@ const Contact = props => {
     href: "mailto:zenith-skishop@wanadoo.fr"
   }, "zenith-skishop@wanadoo.fr")))));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);
 
 /***/ }),
@@ -98,7 +96,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 /* harmony import */ var _styles_Explanation_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Explanation.css */ "./src/styles/Explanation.css");
 /* harmony import */ var _styles_Explanation_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Explanation_css__WEBPACK_IMPORTED_MODULE_2__);
-
 
 
 
@@ -128,7 +125,6 @@ const Explanation = props => {
     className: "explanation-text"
   }, languageToUse.explanationText6)));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Explanation);
 
 /***/ }),
@@ -150,7 +146,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_Hero_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Hero.css */ "./src/styles/Hero.css");
 /* harmony import */ var _styles_Hero_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Hero_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _images_logo_hero_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/logo-hero.svg */ "./src/images/logo-hero.svg");
-
 
 
 
@@ -179,7 +174,6 @@ const Hero = props => {
     className: "hero-logo"
   })));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
 
 /***/ }),
@@ -201,7 +195,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_Insta_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Insta_css__WEBPACK_IMPORTED_MODULE_1__);
 
 
-
 const Insta = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "insta"
@@ -210,7 +203,6 @@ const Insta = () => {
     "data-mc-src": "b5424409-4089-4d37-8b5e-1a01f0e8caba#null"
   }));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Insta);
 
 /***/ }),
@@ -231,7 +223,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_languages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../content/languages */ "./src/content/languages.js");
 /* harmony import */ var _styles_Intro_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Intro.css */ "./src/styles/Intro.css");
 /* harmony import */ var _styles_Intro_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Intro_css__WEBPACK_IMPORTED_MODULE_2__);
-
 
 
 
@@ -265,7 +256,6 @@ const Intro = props => {
     className: "intro-text-p bold"
   }, languageToUse.introText6)));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Intro);
 
 /***/ }),
@@ -293,7 +283,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_USP_BOOT_EN_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/USP-BOOT-EN.jpg */ "./src/images/USP-BOOT-EN.jpg");
 /* harmony import */ var _images_USP_MOJO_EN_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images//USP-MOJO-EN.jpg */ "./src/images/USP-MOJO-EN.jpg");
 /* harmony import */ var _images_USP_SERVICE_EN_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images//USP-SERVICE-EN.jpg */ "./src/images/USP-SERVICE-EN.jpg");
-
 
 
 
@@ -370,7 +359,6 @@ const USP = props => {
     className: "usp-intro-text"
   }, languageToUse.Usp3Text)));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (USP);
 
 /***/ }),
@@ -399,10 +387,10 @@ const intakeInfo = {
 
 /***/ }),
 
-/***/ "./src/pages/index.jsx":
-/*!*****************************!*\
-  !*** ./src/pages/index.jsx ***!
-  \*****************************/
+/***/ "./src/pages/index.jsx?export=default":
+/*!********************************************!*\
+  !*** ./src/pages/index.jsx?export=default ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -424,7 +412,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Insta__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Insta */ "./src/components/Insta.jsx");
 /* harmony import */ var _components_Explanation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Explanation */ "./src/components/Explanation.jsx");
 /* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Contact */ "./src/components/Contact.jsx");
-
 
 
 
@@ -484,7 +471,6 @@ const IndexPage = function (props) {
     languageToUse: languageToUse
   }));
 };
-
 IndexPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 

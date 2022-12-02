@@ -23,7 +23,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const Hero2 = props => {
   let {
     language,
@@ -40,7 +39,6 @@ const Hero2 = props => {
     className: "hero-logo-2"
   }));
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero2);
 
 /***/ }),
@@ -69,10 +67,10 @@ const intakeInfo = {
 
 /***/ }),
 
-/***/ "./src/pages/bootfitting.jsx":
-/*!***********************************!*\
-  !*** ./src/pages/bootfitting.jsx ***!
-  \***********************************/
+/***/ "./src/pages/bootfitting.jsx?export=default":
+/*!**************************************************!*\
+  !*** ./src/pages/bootfitting.jsx?export=default ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -99,7 +97,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_bootfitting_hallux_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../images/bootfitting/hallux.svg */ "./src/images/bootfitting/hallux.svg");
 /* harmony import */ var _images_bootfitting_malleole_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../images/bootfitting/malleole.svg */ "./src/images/bootfitting/malleole.svg");
 /* harmony import */ var _images_bootfitting_meta_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../images/bootfitting/meta.svg */ "./src/images/bootfitting/meta.svg");
-
 
 
 
@@ -251,7 +248,6 @@ const BootfittingPage = function (props) {
     className: "bootfitting-under-title"
   }, languageToUse.bootfittingUnderTitle)));
 };
-
 BootfittingPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BootfittingPage);
 

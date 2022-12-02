@@ -26,10 +26,10 @@ const intakeInfo = {
 
 /***/ }),
 
-/***/ "./src/pages/mojo.jsx":
-/*!****************************!*\
-  !*** ./src/pages/mojo.jsx ***!
-  \****************************/
+/***/ "./src/pages/mojo.jsx?export=default":
+/*!*******************************************!*\
+  !*** ./src/pages/mojo.jsx?export=default ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -52,7 +52,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_mojo_icon_4_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/mojo-icon-4.svg */ "./src/images/mojo-icon-4.svg");
 /* harmony import */ var _images_modjoIntroImage_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/modjoIntroImage.jpg */ "./src/images/modjoIntroImage.jpg");
 /* harmony import */ var _images_logo_hero_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/logo-hero.svg */ "./src/images/logo-hero.svg");
-
 
 
 
@@ -106,19 +105,23 @@ const BootfittingPage = function (props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_mojo_icon_1_svg__WEBPACK_IMPORTED_MODULE_7__["default"]
+    src: _images_mojo_icon_1_svg__WEBPACK_IMPORTED_MODULE_7__["default"],
+    alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.mojoIcon1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.mojoExplanation1)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_mojo_icon_2_svg__WEBPACK_IMPORTED_MODULE_8__["default"]
+    src: _images_mojo_icon_2_svg__WEBPACK_IMPORTED_MODULE_8__["default"],
+    alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.mojoIcon2), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.mojoExplanation2)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_mojo_icon_3_svg__WEBPACK_IMPORTED_MODULE_9__["default"]
+    src: _images_mojo_icon_3_svg__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.mojoIcon3), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.mojoExplanation3)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_mojo_icon_4_svg__WEBPACK_IMPORTED_MODULE_10__["default"]
+    src: _images_mojo_icon_4_svg__WEBPACK_IMPORTED_MODULE_10__["default"],
+    alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, languageToUse.mojoIcon4), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, languageToUse.mojoExplanation4))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -136,7 +139,6 @@ const BootfittingPage = function (props) {
     className: "bootfitting-under-title"
   }, languageToUse.mojoUnderTitle));
 };
-
 BootfittingPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BootfittingPage);
 

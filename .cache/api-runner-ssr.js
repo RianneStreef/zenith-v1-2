@@ -22,6 +22,10 @@ var plugins = [{
       name: 'gatsby-plugin-sitemap',
       plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby-plugin-sitemap/gatsby-ssr.js'),
       options: {"plugins":[],"output":"/","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
+    },{
+      name: 'partytown',
+      plugin: require('/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      options: {"plugins":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

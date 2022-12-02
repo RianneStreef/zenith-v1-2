@@ -26,10 +26,10 @@ const intakeInfo = {
 
 /***/ }),
 
-/***/ "./src/pages/legal.jsx":
-/*!*****************************!*\
-  !*** ./src/pages/legal.jsx ***!
-  \*****************************/
+/***/ "./src/pages/legal.jsx?export=default":
+/*!********************************************!*\
+  !*** ./src/pages/legal.jsx?export=default ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -45,7 +45,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_intake__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/intake */ "./src/content/intake.js");
 /* harmony import */ var _styles_legal_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/legal.css */ "./src/styles/legal.css");
 /* harmony import */ var _styles_legal_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_legal_css__WEBPACK_IMPORTED_MODULE_5__);
-
 
 
 
@@ -115,7 +114,6 @@ const LegalPage = props => {
     href: _content_intake__WEBPACK_IMPORTED_MODULE_4__["default"].domainName
   }, _content_intake__WEBPACK_IMPORTED_MODULE_4__["default"].domainName), " est soumis au droit fran\xE7ais. Il est fait attribution exclusive de juridiction aux tribunaux comp\xE9tents de Paris."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "10. Les principales lois concern\xE9es."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Loi n\xB0 78-17 du 6 janvier 1978, notamment modifi\xE9e par la loi n\xB0 2004-801 du 6 ao\xFBt 2004 relative \xE0 l'informatique, aux fichiers et aux libert\xE9s."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, " ", "Loi n\xB0 2004-575 du 21 juin 2004 pour la confiance dans l'\xE9conomie num\xE9rique."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "11. Lexique."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Utilisateur : Internaute se connectant, utilisant le site susnomm\xE9."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Informations personnelles : \xAB les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent \xBB (article 4 de la loi n\xB0 78-17 du 6 janvier 1978).")));
 };
-
 LegalPage.Layout = _components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LegalPage);
 
