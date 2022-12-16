@@ -6194,7 +6194,7 @@ const Layout = ({
     setPathname: setPathname
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "main"
-  }, childrenWithProps), languageToUse === "french" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, childrenWithProps), language === "french" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
     className: "book-link"
