@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { Helmet } from "react-helmet";
 
@@ -22,6 +22,34 @@ const IndexPage = function (props) {
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
 
+  useEffect(() => {
+    if (window.navigator.language === "fr") {
+      window.location.href = "./blocked";
+    }
+
+    function block() {
+      window.location.href = "./blocked";
+    }
+
+    var requestOptions = {
+      method: "GET",
+    };
+
+    fetch(
+      "https://api.geoapify.com/v1/ipinfo?&apiKey=fc83c402de874a349d862264c7e3701a",
+      requestOptions
+    )
+      .then((response) => response.json())
+      .then((result) => console.log(result.country.iso_code))
+      .then((result) => console.log(result))
+      .then((result) => (countryCode = result.country.iso_code))
+      .then((result) => {
+        if (countryCode === "FR") {
+          block();
+        }
+      })
+      .catch((error) => console.log("error", error));
+  }, []);
   return (
     <div>
       <Helmet>
