@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { Helmet } from "react-helmet";
 
@@ -21,6 +21,13 @@ const IndexPage = function (props) {
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
   language === "dutch" ? (languageToUse = content.dutch) : null;
+
+  useEffect(() => {
+    console.log(window.navigator.language);
+    if (window.navigator.language === "fr") {
+      window.location.href = "./blank";
+    }
+  });
 
   return (
     <div>

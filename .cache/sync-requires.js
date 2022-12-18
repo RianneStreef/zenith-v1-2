@@ -6,6 +6,7 @@ const preferDefault = m => (m && m.default) || m
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/404.jsx")),
+  "component---src-pages-blank-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/blank.jsx")),
   "component---src-pages-bootfitting-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/bootfitting.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/index.jsx")),
   "component---src-pages-legal-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/legal.jsx")),
