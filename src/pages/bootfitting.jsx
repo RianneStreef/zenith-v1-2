@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import "../styles/bootfitting.css";
@@ -27,6 +27,13 @@ const BootfittingPage = function (props) {
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  useEffect(() => {
+    console.log(window.navigator.language);
+    if (window.navigator.language === "fr") {
+      window.location.href = "./blank";
+    }
+  });
 
   return (
     <div className="bootfitting">
