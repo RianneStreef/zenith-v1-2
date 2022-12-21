@@ -24,13 +24,15 @@ import bootfittingProblem9Image from "../images/bootfitting/meta.svg";
 const BootfittingPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
+  languageToUse = content.french;
 
   return (
     <div className="bootfitting">
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.bootfittingMetaTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta
