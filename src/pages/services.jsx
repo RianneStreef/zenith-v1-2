@@ -26,6 +26,11 @@ const ServicesPage = function (props) {
     : (languageToUse = content.french);
 
   useEffect(() => {
+    console.log(window.navigator.language);
+    if (window.navigator.language === "fr") {
+      window.location.href = "./blank";
+    }
+
     let width = window.innerWidth;
 
     window.addEventListener("scroll", scrollImages);
