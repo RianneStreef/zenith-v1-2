@@ -147,7 +147,7 @@ ul {
 
 .flag {
   width: 25px;
-  margin: 5px;
+  margin: 0 10px;
 }
 
 .opaque {
@@ -162,7 +162,7 @@ ul {
   border: none;
   background-color: transparent;
   width: 20px;
-  margin: 10px;
+  margin: auto 10px;
 }
 
 .header-placeholder {
@@ -209,6 +209,10 @@ ul {
 
   .book-link {
     top: 70px;
+  }
+
+  .flag {
+    margin: 0;
   }
 }
 

@@ -22,13 +22,15 @@ import logoHero from "../images/logo-hero.svg";
 const BootfittingPage = function (props) {
   let { language, languageToUse, pathname, setPathname } = props;
 
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
+  languageToUse = content.french;
 
   return (
     <div className="mojo">
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.mojoTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescriptionMojo} />

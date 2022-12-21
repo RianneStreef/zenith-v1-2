@@ -72,38 +72,54 @@ const Navbar = (props) => {
     <div className="nav-bar">
       <Ul open={open}>
         <li>
-          <Link to="/" className="nav-link" onClick={() => setOpen(!open)}>
+          <Link
+            to={language === "french" ? "/" : "/en/"}
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
             Zenith Ski Shop
           </Link>
           <Link
-            to="/bootfitting"
+            to={language === "french" ? "/bootfitting" : "/en/bootfitting"}
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
             {languageToUse.bootfitting}
           </Link>
           <Link
-            to="/services"
+            to={language === "french" ? "/services" : "/en/services"}
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
             {languageToUse.services}
           </Link>
           <Link
-            to="/#contact"
+            to={language === "french" ? "/#contact" : "/en/#contact"}
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
             {languageToUse.contact}
           </Link>
-          <a
-            href="https://zenith-skishop.notresphere.com/location-materiel"
-            target="blank"
-            className="nav-link"
-            onClick={() => setOpen(!open)}
-          >
-            {languageToUse.book}
-          </a>
+
+          {language === "french" ? (
+            <a
+              href="https://zenith-skishop.notresphere.com/location-materiel"
+              target="blank"
+              className="nav-link nav-link-yellow"
+              onClick={() => setOpen(!open)}
+            >
+              {languageToUse.book}
+            </a>
+          ) : (
+            <a
+              href=" https://zenith-skishop.notresphere.com/en-gb/rental-gear"
+              target="blank"
+              className="nav-link nav-link-yellow"
+              onClick={() => setOpen(!open)}
+            >
+              {languageToUse.book}
+            </a>
+          )}
         </li>
 
         <li className="social-links-header">
