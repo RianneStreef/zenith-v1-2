@@ -18,7 +18,7 @@ const LegalPage = (props) => {
     <>
       <Helmet>
         <title>{languageToUse.indexTitle}</title>
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex" />
         <meta name="description" content={languageToUse.metaDescription} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={`${intakeInfo.domainName}/legal`} />
