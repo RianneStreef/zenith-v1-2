@@ -27,7 +27,29 @@ const IndexPage = function (props) {
     if (window.navigator.language === "fr") {
       window.location.href = "./blank";
     }
-  });
+
+    function redirect() {
+      window.location.href = "./blank";
+    }
+
+    var requestOptions = {
+      method: "GET",
+    };
+
+    fetch(
+      "https://api.geoapify.com/v1/ipinfo?&apiKey=fc83c402de874a349d862264c7e3701a",
+      requestOptions
+    )
+      .then((response) => response.json())
+      .then((result) => (countryCode = result.country.iso_code))
+      .then(() => console.log(countryCode))
+      .then(() => {
+        if (countryCode === "FR") {
+          redirect();
+        }
+      })
+      .catch((error) => console.log("error", error));
+  }, []);
 
   return (
     <div>
