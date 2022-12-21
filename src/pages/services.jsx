@@ -21,9 +21,7 @@ import service4Image from "../images/service4-square.jpg";
 const ServicesPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english"
-    ? (languageToUse = content.english)
-    : (languageToUse = content.french);
+  languageToUse = content.french;
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -75,7 +73,11 @@ const ServicesPage = function (props) {
 
   return (
     <div>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.serviceMetaTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta

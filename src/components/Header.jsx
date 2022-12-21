@@ -28,7 +28,7 @@ const Header = (props) => {
       <ul className="links hidden-mobile">
         <li>
           <Link
-            to="/"
+            to={language === "french" ? "/" : "/en/"}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/" ||
               pathname === "https://www.zenith-skishop.com/"
@@ -39,7 +39,7 @@ const Header = (props) => {
             {languageToUse.home}
           </Link>
           <Link
-            to="/bootfitting"
+            to={language === "french" ? "/bootfitting" : "/en/bootfitting"}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/bootfitting" ||
               pathname === "https://www.zenith-skishop.com/bootfitting"
@@ -50,7 +50,7 @@ const Header = (props) => {
             {languageToUse.bootfitting}
           </Link>
           <Link
-            to="/services"
+            to={language === "french" ? "/services" : "/en/services"}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/services" ||
               pathname === "https://www.zenith-skishop.com/services"
@@ -61,7 +61,7 @@ const Header = (props) => {
             {languageToUse.services}
           </Link>
           <Link
-            to="/#contact"
+            to={language === "french" ? "/#contact" : "/en/#contact"}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/#contact" ||
               pathname === "https://zenith-skishop.com/#contact"
@@ -71,18 +71,30 @@ const Header = (props) => {
           >
             {languageToUse.contact}
           </Link>
-          <a
-            href="https://zenith-skishop.notresphere.com/location-materiel"
-            target="blank"
-            className="nav-link nav-link-yellow"
-          >
-            {languageToUse.book}
-          </a>
+
+          {language === "french" ? (
+            <a
+              href="https://zenith-skishop.notresphere.com/location-materiel"
+              target="blank"
+              className="nav-link nav-link-yellow"
+            >
+              {languageToUse.book}
+            </a>
+          ) : (
+            <a
+              href=" https://zenith-skishop.notresphere.com/en-gb/rental-gear"
+              target="blank"
+              className="nav-link nav-link-yellow"
+            >
+              {languageToUse.book}
+            </a>
+          )}
         </li>
 
         <li>
           <div className="set-language">
-            <button
+            <Link
+              to="/en/"
               onClick={() => handleSetLanguage("english")}
               onKeyPress={() => handleSetLanguage("english")}
               className="invisible-button"
@@ -94,8 +106,9 @@ const Header = (props) => {
                   languageToUse.language === "english" ? "opaque" : "fade"
                 } `}
               />
-            </button>
-            <button
+            </Link>
+            <Link
+              to="/"
               onClick={() => handleSetLanguage("french")}
               onKeyPress={() => handleSetLanguage("french")}
               className="invisible-button"
@@ -107,7 +120,7 @@ const Header = (props) => {
                   languageToUse.language === "french" ? "opaque" : "fade"
                 } `}
               />
-            </button>
+            </Link>
           </div>
         </li>
       </ul>
