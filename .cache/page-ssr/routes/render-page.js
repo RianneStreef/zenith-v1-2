@@ -3685,6 +3685,7 @@ exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsx */ "component---src-pages-404-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx?export=default */ "./src/pages/404.jsx?export=default")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx?export=default */ "./src/pages/bootfitting.jsx?export=default")),
+  "component---src-pages-home-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-home-jsx */ "component---src-pages-home-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/home.jsx?export=default */ "./src/pages/home.jsx?export=default")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx?export=default */ "./src/pages/index.jsx?export=default")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx?export=default */ "./src/pages/legal.jsx?export=default")),
   "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsx */ "component---src-pages-mojo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx?export=default */ "./src/pages/mojo.jsx?export=default")),
@@ -3695,6 +3696,7 @@ exports.head = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-jshead */ "component---cache-dev-404-page-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=head */ "./.cache/dev-404-page.js?export=head")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsxhead */ "component---src-pages-404-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx?export=head */ "./src/pages/404.jsx?export=head")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsxhead */ "component---src-pages-bootfitting-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx?export=head */ "./src/pages/bootfitting.jsx?export=head")),
+  "component---src-pages-home-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-home-jsxhead */ "component---src-pages-home-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/home.jsx?export=head */ "./src/pages/home.jsx?export=head")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsxhead */ "component---src-pages-index-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx?export=head */ "./src/pages/index.jsx?export=head")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsxhead */ "component---src-pages-legal-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx?export=head */ "./src/pages/legal.jsx?export=head")),
   "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsxhead */ "component---src-pages-mojo-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx?export=head */ "./src/pages/mojo.jsx?export=head")),
@@ -14942,6 +14944,28 @@ module.exports = require("/Users/rianne/Desktop/Zenith/zenith-v1-2/node_modules/
 
 /***/ }),
 
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -14953,6 +14977,17 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "punycode":
+/*!***************************!*\
+  !*** external "punycode" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("punycode");
+
+/***/ }),
+
 /***/ "stream":
 /*!*************************!*\
   !*** external "stream" ***!
@@ -14961,6 +14996,28 @@ module.exports = require("path");
 
 "use strict";
 module.exports = require("stream");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ }),
 

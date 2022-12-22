@@ -178,6 +178,10 @@ const ServicesPage = function (props) {
   } = props;
   language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.french;
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    console.log(window.navigator.language);
+    if (window.navigator.language === "fr") {
+      window.location.href = "./blank";
+    }
     let width = window.innerWidth;
     window.addEventListener("scroll", scrollImages);
     let serviceImage1 = document.getElementById("service-image-1");

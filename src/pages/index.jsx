@@ -17,6 +17,7 @@ import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
   let { language, languageToUse, pathname, setPathname } = props;
+  let countryCode = "unknown";
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;
@@ -25,11 +26,11 @@ const IndexPage = function (props) {
   useEffect(() => {
     console.log(window.navigator.language);
     if (window.navigator.language === "fr") {
-      window.location.href = "./blank";
+      window.location.href = "./home";
     }
 
     function redirect() {
-      window.location.href = "./blank";
+      window.location.href = "./home";
     }
 
     var requestOptions = {
@@ -42,8 +43,10 @@ const IndexPage = function (props) {
     )
       .then((response) => response.json())
       .then((result) => (countryCode = result.country.iso_code))
-      .then(() => console.log(countryCode))
-      .then(() => {
+      // .then((result) => console.log(result.country.iso_code))
+      // .then((result) => console.log(countryCode))
+      // .then((result) => console.log("checking code"))
+      .then((result) => {
         if (countryCode === "FR") {
           redirect();
         }
