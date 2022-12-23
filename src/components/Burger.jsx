@@ -36,7 +36,7 @@ const StyledBurger = styled.div`
 const Burger = (props) => {
   const [open, setOpen] = useState(false);
 
-  let { language, setLanguage, languageToUse } = props;
+  let { language, setLanguage, languageToUse, pathname } = props;
 
   return (
     <div className="hidden-desktop">
