@@ -139,6 +139,7 @@ const Header = (props) => {
           language={language}
           setLanguage={setLanguage}
           languageToUse={languageToUse}
+          pathname={pathname}
         />
       </div>
     </div>

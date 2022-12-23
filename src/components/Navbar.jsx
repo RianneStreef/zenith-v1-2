@@ -57,7 +57,7 @@ const Ul = styled.ul`
 const Navbar = (props) => {
   let { open, setOpen } = props;
 
-  let { language, setLanguage, languageToUse } = props;
+  let { language, setLanguage, languageToUse, pathname } = props;
 
   language === "english" ? (languageToUse = content.english) : null;
   language === "french" ? (languageToUse = content.french) : null;

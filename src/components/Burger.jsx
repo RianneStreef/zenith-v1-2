@@ -46,6 +46,7 @@ const Burger = (props) => {
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
+        pathname={pathname}
       />
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
