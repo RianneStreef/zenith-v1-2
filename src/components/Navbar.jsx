@@ -72,26 +72,49 @@ const Navbar = (props) => {
     <div className="nav-bar">
       <Ul open={open}>
         <li>
-          <Link to="/" className="nav-link" onClick={() => setOpen(!open)}>
+          <Link
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/"
+            }`}
+            className="nav-link"
+            onClick={() => setOpen(!open)}
+          >
             Zenith Ski Shop
           </Link>
           <Link
-            to="/bootfitting"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/bootfitting"
+            }`}
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
             {languageToUse.bootfitting}
           </Link>
           <Link
-            to="/services"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/services"
+            }`}
             className="nav-link"
             onClick={() => setOpen(!open)}
           >
             {languageToUse.services}
           </Link>
           <Link
-            to="/#contact"
-            className="nav-link"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/#contact"
+            }`}
             onClick={() => setOpen(!open)}
           >
             {languageToUse.contact}
