@@ -13,7 +13,9 @@ import "../styles/Header.css";
 const Header = (props) => {
   let { language, languageToUse, setLanguage, pathname, setPathname } = props;
 
-  useEffect(() => {}, [pathname]);
+  useEffect(() => {
+    console.log(pathname);
+  }, [pathname]);
 
   function handleSetLanguage(language) {
     setLanguage(language);
@@ -28,7 +30,12 @@ const Header = (props) => {
       <ul className="links hidden-mobile">
         <li>
           <Link
-            to="/"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/"
+            }`}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/" ||
               pathname === "https://www.zenith-skishop.com/"
@@ -39,7 +46,12 @@ const Header = (props) => {
             {languageToUse.home}
           </Link>
           <Link
-            to="/bootfitting"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/bootfitting"
+            }`}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/bootfitting" ||
               pathname === "https://www.zenith-skishop.com/bootfitting"
@@ -50,7 +62,12 @@ const Header = (props) => {
             {languageToUse.bootfitting}
           </Link>
           <Link
-            to="/services"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/services"
+            }`}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/services" ||
               pathname === "https://www.zenith-skishop.com/services"
@@ -61,7 +78,12 @@ const Header = (props) => {
             {languageToUse.services}
           </Link>
           <Link
-            to="/#contact"
+            to={`${
+              pathname === "https://www.zenith-skishop.com/home" ||
+              pathname === "https://zenith-vt.netlify.app/home"
+                ? "/home"
+                : "/contact"
+            }`}
             className={`nav-link ${
               pathname === "https://zenith-vt.netlify.app/#contact" ||
               pathname === "https://zenith-skishop.com/#contact"

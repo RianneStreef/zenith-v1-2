@@ -25,7 +25,7 @@ const IndexPage = function (props) {
 
   useEffect(() => {
     console.log(window.navigator.language);
-    if (window.navigator.language === "fr") {
+    if (window.navigator.language === "he") {
       window.location.href = "./home";
     }
 
@@ -43,11 +43,8 @@ const IndexPage = function (props) {
     )
       .then((response) => response.json())
       .then((result) => (countryCode = result.country.iso_code))
-      // .then((result) => console.log(result.country.iso_code))
-      // .then((result) => console.log(countryCode))
-      // .then((result) => console.log("checking code"))
       .then((result) => {
-        if (countryCode === "FR") {
+        if (countryCode === "IL") {
           redirect();
         }
       })
