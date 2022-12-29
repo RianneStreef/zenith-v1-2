@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { Helmet } from "react-helmet";
 
@@ -17,16 +17,43 @@ import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
   let { language, languageToUse, pathname, setPathname } = props;
+  let countryCode = "unknown";
 
-  languageToUse = content.french;
+  language === "english" ? (languageToUse = content.english) : null;
+  language === "french" ? (languageToUse = content.french) : null;
+  language === "dutch" ? (languageToUse = content.dutch) : null;
+
+  useEffect(() => {
+    console.log(window.navigator.language);
+    if (window.navigator.language === "he") {
+      window.location.href = "./home";
+    }
+
+    function redirect() {
+      window.location.href = "./home";
+    }
+
+    var requestOptions = {
+      method: "GET",
+    };
+
+    fetch(
+      "https://api.geoapify.com/v1/ipinfo?&apiKey=fc83c402de874a349d862264c7e3701a",
+      requestOptions
+    )
+      .then((response) => response.json())
+      .then((result) => (countryCode = result.country.iso_code))
+      .then((result) => {
+        if (countryCode === "IL") {
+          redirect();
+        }
+      })
+      .catch((error) => console.log("error", error));
+  }, []);
 
   return (
     <div>
-      <Helmet
-        htmlAttributes={{
-          lang: "fr",
-        }}
-      >
+      <Helmet>
         <title>{languageToUse.indexTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescription} />

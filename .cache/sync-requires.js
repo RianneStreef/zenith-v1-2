@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-en-index-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/en/index.jsx")),
   "component---src-pages-en-mojo-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/en/mojo.jsx")),
   "component---src-pages-en-services-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/en/services.jsx")),
+  "component---src-pages-home-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/home.jsx")),
   "component---src-pages-index-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/index.jsx")),
   "component---src-pages-legal-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/legal.jsx")),
   "component---src-pages-mojo-jsx": preferDefault(require("/Users/rianne/Desktop/Zenith/zenith-v1-2/src/pages/mojo.jsx")),
