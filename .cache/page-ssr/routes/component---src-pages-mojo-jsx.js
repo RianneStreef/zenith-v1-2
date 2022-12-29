@@ -72,10 +72,14 @@ const BootfittingPage = function (props) {
     pathname,
     setPathname
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.french;
+  languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_5__.content.french;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mojo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.mojoTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, {
+    htmlAttributes: {
+      lang: "fr"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.mojoTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "robots",
     content: "index, follow"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
@@ -165,7 +169,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/logo-hero-a8e697e2d15a95995d8b4b6c03c5db6f.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/logo-hero-a8e697e2d15a95995d8b4b6c03c5db6f.svg");
 
 /***/ }),
 
@@ -180,7 +184,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/modjoIntroImage-714f55ac537983e2c57810642de4e6f3.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/modjoIntroImage-714f55ac537983e2c57810642de4e6f3.jpg");
 
 /***/ }),
 

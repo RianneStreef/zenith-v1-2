@@ -176,7 +176,7 @@ const ServicesPage = function (props) {
     language,
     languageToUse
   } = props;
-  language === "english" ? languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.english : languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.french;
+  languageToUse = _content_languages__WEBPACK_IMPORTED_MODULE_7__.content.french;
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     let width = window.innerWidth;
     window.addEventListener("scroll", scrollImages);
@@ -217,7 +217,11 @@ const ServicesPage = function (props) {
       }
     }
   });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.serviceMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, {
+    htmlAttributes: {
+      lang: "fr"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, languageToUse.serviceMetaTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
     name: "robots",
     content: "index, follow"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
@@ -332,7 +336,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/logo-hero-a8e697e2d15a95995d8b4b6c03c5db6f.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/logo-hero-a8e697e2d15a95995d8b4b6c03c5db6f.svg");
 
 /***/ }),
 
@@ -347,7 +351,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service1-square-945c12ad77c729bcc2e6d0b825040f33.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/service1-square-945c12ad77c729bcc2e6d0b825040f33.jpg");
 
 /***/ }),
 
@@ -362,7 +366,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service2-square-9daee0d81f6d1f629e0766cf578b324f.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/service2-square-9daee0d81f6d1f629e0766cf578b324f.jpg");
 
 /***/ }),
 
@@ -377,7 +381,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service3-square-b17158b5f39d575921d60a615749fbe3.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/service3-square-b17158b5f39d575921d60a615749fbe3.jpg");
 
 /***/ }),
 
@@ -392,7 +396,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/service4-square-adceef6c60292336781bbf34d4e615de.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/service4-square-adceef6c60292336781bbf34d4e615de.jpg");
 
 /***/ })
 

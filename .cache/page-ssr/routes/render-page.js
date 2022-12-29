@@ -3685,6 +3685,10 @@ exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsx */ "component---src-pages-404-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx?export=default */ "./src/pages/404.jsx?export=default")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsx */ "component---src-pages-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx?export=default */ "./src/pages/bootfitting.jsx?export=default")),
+  "component---src-pages-en-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-bootfitting-jsx */ "component---src-pages-en-bootfitting-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/bootfitting.jsx?export=default */ "./src/pages/en/bootfitting.jsx?export=default")),
+  "component---src-pages-en-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-index-jsx */ "component---src-pages-en-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/index.jsx?export=default */ "./src/pages/en/index.jsx?export=default")),
+  "component---src-pages-en-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-mojo-jsx */ "component---src-pages-en-mojo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/mojo.jsx?export=default */ "./src/pages/en/mojo.jsx?export=default")),
+  "component---src-pages-en-services-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-services-jsx */ "component---src-pages-en-services-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/services.jsx?export=default */ "./src/pages/en/services.jsx?export=default")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsx */ "component---src-pages-index-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx?export=default */ "./src/pages/index.jsx?export=default")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsx */ "component---src-pages-legal-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx?export=default */ "./src/pages/legal.jsx?export=default")),
   "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsx */ "component---src-pages-mojo-jsx").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx?export=default */ "./src/pages/mojo.jsx?export=default")),
@@ -3695,6 +3699,10 @@ exports.head = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-jshead */ "component---cache-dev-404-page-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=head */ "./.cache/dev-404-page.js?export=head")),
   "component---src-pages-404-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-404-jsxhead */ "component---src-pages-404-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.jsx?export=head */ "./src/pages/404.jsx?export=head")),
   "component---src-pages-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-bootfitting-jsxhead */ "component---src-pages-bootfitting-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/bootfitting.jsx?export=head */ "./src/pages/bootfitting.jsx?export=head")),
+  "component---src-pages-en-bootfitting-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-bootfitting-jsxhead */ "component---src-pages-en-bootfitting-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/bootfitting.jsx?export=head */ "./src/pages/en/bootfitting.jsx?export=head")),
+  "component---src-pages-en-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-index-jsxhead */ "component---src-pages-en-index-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/index.jsx?export=head */ "./src/pages/en/index.jsx?export=head")),
+  "component---src-pages-en-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-mojo-jsxhead */ "component---src-pages-en-mojo-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/mojo.jsx?export=head */ "./src/pages/en/mojo.jsx?export=head")),
+  "component---src-pages-en-services-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-en-services-jsxhead */ "component---src-pages-en-services-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/en/services.jsx?export=head */ "./src/pages/en/services.jsx?export=head")),
   "component---src-pages-index-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-index-jsxhead */ "component---src-pages-index-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.jsx?export=head */ "./src/pages/index.jsx?export=head")),
   "component---src-pages-legal-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-legal-jsxhead */ "component---src-pages-legal-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/legal.jsx?export=head */ "./src/pages/legal.jsx?export=head")),
   "component---src-pages-mojo-jsx": () => __webpack_require__.e(/*! import() | component---src-pages-mojo-jsxhead */ "component---src-pages-mojo-jsxhead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/mojo.jsx?export=head */ "./src/pages/mojo.jsx?export=head")),
@@ -6055,24 +6063,29 @@ const Header = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "links hidden-mobile"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/",
+    to: language === "french" ? "/" : "/en/",
     className: `nav-link ${pathname === "https://zenith-vt.netlify.app/" || pathname === "https://www.zenith-skishop.com/" ? "active" : ""}`
   }, languageToUse.home), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/bootfitting",
+    to: language === "french" ? "/bootfitting" : "/en/bootfitting",
     className: `nav-link ${pathname === "https://zenith-vt.netlify.app/bootfitting" || pathname === "https://www.zenith-skishop.com/bootfitting" ? "active" : ""}`
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/services",
+    to: language === "french" ? "/services" : "/en/services",
     className: `nav-link ${pathname === "https://zenith-vt.netlify.app/services" || pathname === "https://www.zenith-skishop.com/services" ? "active" : ""}`
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/#contact",
+    to: language === "french" ? "/#contact" : "/en/#contact",
     className: `nav-link ${pathname === "https://zenith-vt.netlify.app/#contact" || pathname === "https://zenith-skishop.com/#contact" ? "active" : ""}`
-  }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, languageToUse.contact), language === "french" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
+    target: "blank",
+    className: "nav-link nav-link-yellow"
+  }, languageToUse.book) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: " https://zenith-skishop.notresphere.com/en-gb/rental-gear",
     target: "blank",
     className: "nav-link nav-link-yellow"
   }, languageToUse.book)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "set-language"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/en/",
     onClick: () => handleSetLanguage("english"),
     onKeyPress: () => handleSetLanguage("english"),
     className: "invisible-button"
@@ -6080,7 +6093,8 @@ const Header = props => {
     src: _images_icon_en_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "english",
     className: `flag ${languageToUse.language === "english" ? "opaque" : "fade"} `
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/",
     onClick: () => handleSetLanguage("french"),
     onKeyPress: () => handleSetLanguage("french"),
     className: "invisible-button"
@@ -6315,25 +6329,30 @@ const Navbar = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Ul, {
     open: open
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/",
+    to: language === "french" ? "/" : "/en/",
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, "Zenith Ski Shop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/bootfitting",
+    to: language === "french" ? "/bootfitting" : "/en/bootfitting",
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, languageToUse.bootfitting), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/services",
+    to: language === "french" ? "/services" : "/en/services",
     className: "nav-link",
     onClick: () => setOpen(!open)
   }, languageToUse.services), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/#contact",
+    to: language === "french" ? "/#contact" : "/en/#contact",
     className: "nav-link",
     onClick: () => setOpen(!open)
-  }, languageToUse.contact), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, languageToUse.contact), language === "french" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://zenith-skishop.notresphere.com/location-materiel",
     target: "blank",
-    className: "nav-link",
+    className: "nav-link nav-link-yellow",
+    onClick: () => setOpen(!open)
+  }, languageToUse.book) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: " https://zenith-skishop.notresphere.com/en-gb/rental-gear",
+    target: "blank",
+    className: "nav-link nav-link-yellow",
     onClick: () => setOpen(!open)
   }, languageToUse.book)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "social-links-header"
@@ -14871,7 +14890,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-en-f7867699f0aec7337bbfa26fc28e568d.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/icon-en-f7867699f0aec7337bbfa26fc28e568d.png");
 
 /***/ }),
 
@@ -14886,7 +14905,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/icon-fr-b70c7a2a5e8350cf2b0e2d40a073dede.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/icon-fr-b70c7a2a5e8350cf2b0e2d40a073dede.png");
 
 /***/ }),
 
@@ -15251,11 +15270,6 @@ module.exports = [];
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
