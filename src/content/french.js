@@ -140,7 +140,7 @@ export const french = {
   bootfittingUnderTitle:
     "Ces problèmes sont les plus récurrents mais il y en a beaucoup d’autres. Nous les connaissons et apportons une solution spécifique pour chacun d’eux.",
 
-  serviceMetaTitle: "Le service - Zenith Ski Shop",
+  serviceMetaTitle: "Le Service - Zenith Ski Shop",
   metaDescriptionServices:
     "Adaptations de vos chaussures, entretien skis et snowboards, solutions de confort (semelles et gants chauffants, verres polarisés,...)",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
