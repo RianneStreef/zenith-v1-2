@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_template_react_18=self.webpackChunkgatsby_template_react_18||[]).push([[634],{8334:function(e,t,a){a.r(t);var c=a(7294);t.default=function(){return c.createElement("div",{className:"home"})}}}]);
+//# sourceMappingURL=component---src-pages-home-jsx-ffeaed311f252dfa9cce.js.map
